@@ -2,7 +2,7 @@ baseURL = 'https://azurestaticapps.net'
 title = 'Stef & Laz - BodaPest 2027'
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [params]
     weddingDate = "2027-06-25T18:00:00"
