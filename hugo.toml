@@ -6,3 +6,8 @@ title = 'Stef & Laz - BodaPest 2027'
     weddingDate = "2027-06-25T18:00:00"
     venueName = "Európa Hajó, Budapest"
     contactEmail = "stef.laz.wedding@gmail.com"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
