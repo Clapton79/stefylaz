@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Stef &amp; Laz - BodaPest 2027</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on Stef &amp; Laz - BodaPest 2027</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 06 Oct 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Kindly Reply (RSVP)</title>
+				<link>http://localhost:1313/rsvp/</link>
+				<pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/rsvp/</guid>
+				<description>&lt;p&gt;Please let us know if you can make it to our special day by &lt;strong&gt;May 1st, 2027&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;pre&gt;&lt;code&gt;&amp;lt;div style=&amp;quot;margin-bottom: 15px;&amp;quot;&amp;gt;&#xA;    &amp;lt;label for=&amp;quot;attending&amp;quot; style=&amp;quot;display:block; font-weight:bold;&amp;quot;&amp;gt;Will you attend?&amp;lt;/label&amp;gt;&#xA;    &amp;lt;select id=&amp;quot;attending&amp;quot; required style=&amp;quot;width:100%; padding:8px; border:1px solid #ccc; border-radius:4px;&amp;quot;&amp;gt;&#xA;        &amp;lt;option value=&amp;quot;true&amp;quot;&amp;gt;✅ Joyfully Accept&amp;lt;/option&amp;gt;&#xA;        &amp;lt;option value=&amp;quot;false&amp;quot;&amp;gt;❌ Regretfully Decline&amp;lt;/option&amp;gt;&#xA;    &amp;lt;/select&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&#xA;&amp;lt;div style=&amp;quot;margin-bottom: 15px;&amp;quot;&amp;gt;&#xA;    &amp;lt;label for=&amp;quot;dietary&amp;quot; style=&amp;quot;display:block; font-weight:bold;&amp;quot;&amp;gt;Dietary Restrictions / Notes:&amp;lt;/label&amp;gt;&#xA;    &amp;lt;textarea id=&amp;quot;dietary&amp;quot; placeholder=&amp;quot;e.g., Vegetarian, Allergies...&amp;quot; style=&amp;quot;width:100%; padding:8px; border:1px solid #ccc; border-radius:4px; height:8px; min-height:60px;&amp;quot;&amp;gt;&amp;lt;/textarea&amp;gt;&#xA;&amp;lt;/div&amp;gt;&#xA;&#xA;&amp;lt;button type=&amp;quot;submit&amp;quot; style=&amp;quot;background:#4A5568; color:white; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;&amp;quot;&amp;gt;Submit RSVP&amp;lt;/button&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+			</item>
+	</channel>
+</rss>
