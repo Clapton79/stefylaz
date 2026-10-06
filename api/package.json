@@ -1,0 +1,8 @@
+{
+  "name": "wedding-api",
+  "version": "1.0.0",
+  "description": "Azure function backend for processing wedding site RSVPs",
+  "dependencies": {
+    "@azure/communication-email": "^1.0.0"
+  }
+}
