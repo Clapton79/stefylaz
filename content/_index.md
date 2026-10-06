@@ -1,6 +1,6 @@
 ---
 title: "Estefanía and László - Wedding"
-date: 25th June, 2027
+date: 2027-06-25
 ---
 
 We are so excited to celebrate our special day with you! 
