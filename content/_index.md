@@ -1,9 +1,13 @@
 ---
-title: "Estefanía and László - Wedding"
+title: "The Grand Voyage Ahead"
 date: 2027-06-25
 ---
 
-We are so excited to celebrate our special day with you! 
+We are incredibly excited to welcome you aboard to celebrate our special day together! 
 
-* **When:** 25 June, 2027
-* **Where:** Európa Hajó, Budapest, Hungary
+Prepare your finest attire for an enchanting evening along the Danube.
+
+* **Departure Time:** 25 June, 2027 at 18:00
+* **The Vessel:** Európa Hajó, Budapest, Hungary
+
+Please venture over to the **RSVP** tab above to secure your passage in our guest registry by **May 1st, 2027**.
