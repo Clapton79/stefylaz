@@ -1,72 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories | Stef &amp; Laz - BodaPest 2027</title>
     <style>
+        :root {
+            --charcoal: #1E1C1A;
+            --brass: #B78743;
+            --copper: #C36241;
+            --parchment: #F2E7D5;
+            --dark-gold: #8C6227;
+        }
+
         body {
             font-family: 'Georgia', serif;
-            line-height: 1.6;
-            color: #2D3748;
-            max-width: 800px;
+            line-height: 1.7;
+            color: var(--parchment);
+            max-width: 850px;
             margin: 0 auto;
-            padding: 20px;
-            background-color: #FFFDFB;
+            padding: 30px 20px;
+            background-color: var(--charcoal);
             text-align: center;
         }
 
-        nav {
+        header {
+            border: 2px solid var(--dark-gold);
+            padding: 30px;
+            background: rgba(43, 39, 35, 0.85);
+            border-radius: 4px;
             margin-bottom: 40px;
-            border-bottom: 1px solid #E2E8F0;
-            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--brass);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        nav {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px double var(--dark-gold);
         }
 
         nav a {
-            margin: 0 15px;
+            margin: 0 20px;
             text-decoration: none;
-            color: #4A5568;
+            color: var(--parchment);
+            text-transform: uppercase;
             font-weight: bold;
         }
 
-        h1,
+        nav a:hover {
+            color: var(--copper);
+        }
+
+        main {
+            background: rgba(35, 32, 29, 0.9);
+            padding: 40px;
+            border: 1px solid rgba(138, 98, 39, 0.3);
+            border-radius: 4px;
+        }
+
         h2 {
-            color: #1A202C;
-            font-weight: normal;
+            color: var(--copper);
+            border-bottom: 1px solid var(--dark-gold);
+            padding-bottom: 10px;
         }
 
         footer {
             margin-top: 60px;
-            font-size: 0.9em;
-            color: #718096;
-            border-top: 1px solid #E2E8F0;
-            padding-top: 20px;
+            color: #8C8275;
+            border-top: 1px double var(--dark-gold);
+            padding-top: 25px;
         }
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Stef &amp; Laz - BodaPest 2027</h1>
-        <nav>
-            <a href="/">Home</a>
-            <a href="/rsvp/">RSVP</a>
-        </nav>
-    </header>
-    <main>
+        
+        <div style="display: flex; justify-content: center; gap: 15px; margin-bottom: 25px;">
+            
+            
+            <a href="http://localhost:1313/categories/" title="Switch to UK"
+                style="display: inline-block; width: 35px; height: 25px; border: 2px solid var(--copper); border-radius: 3px; overflow: hidden; transition: transform 0.2s ease;">
 
-        <h2>Categories</h2>
-        <div>Venue</div>
-        <div>Budapest sightseeing</div>
-        <div>Food &amp; Drinks</div>
-        <div>Activities</div>
+                
+                <svg xmlns="http://w3.org" viewBox="0 0 60 30" width="100%" height="100%">
+                    <rect width="60" height="30" fill="#012169" />
+                    <path d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6" />
+                    <path d="M0 0l60 30M60 0L0 30" stroke="#C8102E" stroke-width="4" />
+                    <path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10" />
+                    <path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6" />
+                </svg>
+                
+            </a>
+            
+            <a href="http://localhost:1313/es/categories/" title="Switch to Spain"
+                style="display: inline-block; width: 35px; height: 25px; border: 2px solid var(--dark-gold); border-radius: 3px; overflow: hidden; transition: transform 0.2s ease;">
+
+                
+                <svg xmlns="http://w3.org" viewBox="0 0 3 2" width="100%" height="100%">
+                    <path fill="#c8102e" d="M0 0h3v2H0z" />
+                    <path fill="#f1bf00" d="M0 .5h3v1H0z" />
+                </svg>
+                
+            </a>
+            
+            <a href="http://localhost:1313/de/categories/" title="Switch to Germany"
+                style="display: inline-block; width: 35px; height: 25px; border: 2px solid var(--dark-gold); border-radius: 3px; overflow: hidden; transition: transform 0.2s ease;">
+
+                
+                <svg xmlns="http://w3.org" viewBox="0 0 5 3" width="100%" height="100%">
+                    <path fill="#000" d="M0 0h5v3H0z" />
+                    <path fill="#D00" d="M0 1h5v2H0z" />
+                    <path fill="#FFCE00" d="M0 2h5v1H0z" />
+                </svg>
+                
+            </a>
+            
+            <a href="http://localhost:1313/hu/categories/" title="Switch to Hungary"
+                style="display: inline-block; width: 35px; height: 25px; border: 2px solid var(--dark-gold); border-radius: 3px; overflow: hidden; transition: transform 0.2s ease;">
+
+                
+                <svg xmlns="http://w3.org" viewBox="0 0 6 3" width="100%" height="100%">
+                    <path fill="#436F4D" d="M0 0h6v3H0z" />
+                    <path fill="#FFF" d="M0 0h6v2H0z" />
+                    <path fill="#CD2A3E" d="M0 0h6v1H0z" />
+                </svg>
+                
+            </a>
+            
         </div>
 
+        <h1>Stef &amp; Laz - BodaPest 2027</h1>
+
+        
+        <nav>
+            
+            <a href="/">Home</a>
+            
+        </nav>
+    </header>
+
+    <main>
+        
+    <h2>Categories</h2>
+    <div></div>
+
     </main>
+
     <footer>
-        <p>❤️ Built with love ❤️</p>
+        <p>⚙️ Stef & Laz 2027 ⚙️</p>
     </footer>
 </body>
 

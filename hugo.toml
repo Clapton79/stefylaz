@@ -1,11 +1,54 @@
 baseURL = 'https://azurestaticapps.net'
-languageCode = 'en-us'
 title = 'Stef & Laz - BodaPest 2027'
+
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 
 [params]
     weddingDate = "2027-06-25T18:00:00"
     venueName = "Európa Hajó, Budapest"
     contactEmail = "stef.laz.wedding@gmail.com"
+
+[languages]
+  [languages.en]
+    locale = 'en-GB'
+    languageName = 'UK'
+    weight = 1
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+  [languages.es]
+    locale = 'es-ES'
+    languageName = 'Spain'
+    weight = 2
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        name = "Inicio"
+        url = "/"
+        weight = 1
+
+  [languages.de]
+    locale = 'de-DE'
+    languageName = 'Germany'
+    weight = 3
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        name = "Startseite"
+        url = "/"
+        weight = 1
+
+  [languages.hu]
+    locale = 'hu-HU'
+    languageName = 'Hungary'
+    weight = 4
+    [languages.hu.menu]
+      [[languages.hu.menu.main]]
+        name = "Főoldal"
+        url = "/"
+        weight = 1
 
 [markup]
   [markup.goldmark]
