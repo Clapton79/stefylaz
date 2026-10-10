@@ -4,6 +4,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -13,8 +15,9 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f2f6f1">
+    <meta name="theme-color" content="#f5ecda">
     <title>À la découverte de Budapest | Stef &amp; Laz - BodaPest 2027</title>
+    
     <style>
         :root {
             color-scheme: light;
@@ -22,8 +25,8 @@
             --forest: #315c4a;
             --leaf: #66836b;
             --rose: #b65459;
-            --paper: #fffefd;
-            --mist: #f2f6f1;
+            --paper: #fff9ed;
+            --mist: #f5ecda;
             --line: #d8e2d8;
         }
 
@@ -79,6 +82,11 @@
         .language-link.is-current {
             border-color: var(--forest);
             outline-color: var(--forest);
+        }
+
+        .language-link.is-current {
+            color: var(--paper);
+            background: var(--forest);
         }
 
         .flag {
@@ -155,6 +163,151 @@
             line-height: 1.2;
         }
 
+        .home-page .page-copy {
+            display: flex;
+            min-height: 1260px;
+            max-width: 1840px;
+            flex-direction: column;
+            justify-content: center;
+            padding: 64px clamp(32px, 8vw, 100px);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .home-page main {
+            width: min(100% - 40px, 1840px);
+        }
+
+        .home-page .brand h1,
+        .home-page .page-copy h2 {
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+        }
+
+        .attraction-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: 18px;
+            margin-block: 28px;
+        }
+
+        .attraction {
+            min-width: 0;
+            margin: 0;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            background: var(--paper);
+        }
+
+        .attraction img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+        }
+
+        .attraction-caption {
+            padding: 14px 16px 16px;
+        }
+
+        .attraction-caption h3 {
+            margin: 0 0 8px;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.3;
+        }
+
+        .attraction-caption p {
+            margin: 0 0 10px;
+        }
+
+        .attraction-caption .photo-credit {
+            margin: 0;
+            color: var(--leaf);
+            font-size: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .photo-credit a {
+            color: inherit;
+        }
+
+        .tripadvisor-panel {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 26px;
+            padding: 20px 24px;
+            border-block: 1px solid var(--line);
+            background: rgba(255, 249, 237, 0.72);
+        }
+
+        .tripadvisor-panel p {
+            margin: 0;
+        }
+
+        .tripadvisor-link {
+            display: inline-flex;
+            min-width: 180px;
+            min-height: 52px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 16px;
+            border: 1px solid var(--line);
+            background: var(--paper);
+        }
+
+        .tripadvisor-link img {
+            display: block;
+            width: min(100%, 220px);
+            max-height: 48px;
+            object-fit: contain;
+        }
+
+        .walking-routes {
+            margin-top: 42px;
+        }
+
+        .walking-routes h3 {
+            margin: 0 0 18px;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.7rem;
+            font-weight: 400;
+        }
+
+        .walking-route-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: 14px;
+        }
+
+        .walking-route {
+            padding: 18px;
+            border-inline-start: 3px solid var(--rose);
+            background: var(--paper);
+        }
+
+        .walking-route h4 {
+            margin: 0 0 8px;
+            color: var(--forest);
+            font-size: 1rem;
+        }
+
+        .walking-route p {
+            margin: 0 0 12px;
+            font-size: 0.9rem;
+        }
+
+        .walking-route a {
+            color: var(--rose);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
         .prose> :first-child {
             margin-top: 0;
         }
@@ -211,6 +364,23 @@
             .page-copy {
                 padding: 28px 22px;
             }
+
+            .home-page .page-copy {
+                min-height: 1020px;
+                max-width: 1840px;
+                padding: 40px 26px;
+                font-size: 1.08rem;
+            }
+
+            .home-page main {
+                width: min(100% - 28px, 1840px);
+            }
+
+            .tripadvisor-panel {
+                align-items: flex-start;
+                flex-direction: column;
+                padding-inline: 16px;
+            }
         }
     </style>
 </head>
@@ -239,8 +409,7 @@
                 <span>Magyar</span>
             </a>
             
-            <a class="language-link is-current" href="/fr/" lang="fr" title="Français" 
-                aria-current="page" >
+            <a class="language-link is-current" href="/fr/" lang="fr" title="Français"  aria-current="page" >
                 <span class="flag" aria-hidden="true">🇫🇷</span>
                 <span>Français</span>
             </a>
@@ -279,18 +448,70 @@
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
             <h2>À la découverte de Budapest</h2>
             <div class="prose"><p>Si vous êtes en ville pour notre mariage-croisière, nous vous recommandons ces lieux emblématiques :</p>
-<ul>
-<li><strong>Le Parlement hongrois :</strong> un chef-d&rsquo;œuvre architectural que l&rsquo;on peut admirer depuis le Danube.</li>
-<li><strong>Le château de Buda et le Bastion des pêcheurs :</strong> prenez de la hauteur pour profiter d&rsquo;une vue panoramique sur toute la ville.</li>
-<li><strong>Les thermes Széchenyi :</strong> l&rsquo;endroit idéal pour vous détendre avant les festivités.</li>
-</ul>
+<div class="attraction-grid">
+<p><figure class="attraction">
+    <img src="/images/parliament.jpg" alt="Le Parlement hongrois reflété dans le Danube" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3>Le Parlement hongrois</h3>
+        <p>Un chef-d&#39;œuvre architectural que l&#39;on peut admirer depuis le Danube.</p>
+        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg" target="_blank" rel="noopener">Photo: Pierre Blaché
+                (CC0)</a></p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/fishermans-bastion-pinterest.jpg" alt="Le Bastion des pêcheurs surplombant le Danube et Budapest" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3>Le château de Buda et le Bastion des pêcheurs</h3>
+        <p>Prenez de la hauteur pour profiter d&#39;une vue panoramique sur toute la ville.</p>
+        <p class="photo-credit"><a href="https://ph.pinterest.com/pin/641059328208145770/" target="_blank" rel="noopener">Photo: Pinterest pin
+                (Source)</a></p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/szechenyi-baths.jpg" alt="Les bassins extérieurs des thermes Széchenyi" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3>Les thermes Széchenyi</h3>
+        <p>L&#39;endroit idéal pour vous détendre avant les festivités.</p>
+        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg" target="_blank" rel="noopener">Photo: Slyronit
+                (CC BY-SA 4.0)</a></p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/veli-bej-historic.jpg" alt="Vue historique du complexe thermal Császár, associé à Veli Bej" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3>Les bains Veli Bej</h3>
+        <p>Un bain ottoman du XVIe siècle restauré, situé dans l&#39;historique complexe thermal Császár.</p>
+        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_%28%C3%9Ajlaki_rakpart%29,_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg" target="_blank" rel="noopener">Photo: Fortepan 28832
+                (CC BY-SA 3.0)</a></p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/rudas-baths.jpg" alt="Les bains Rudas et la colline Gellért à Budapest" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3>Les bains Rudas</h3>
+        <p>Un bain turc historique avec un bassin sous coupole et une vue sur le Danube.</p>
+        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg" target="_blank" rel="noopener">Photo: Globetrotter19
+                (CC BY-SA 3.0)</a></p>
+    </figcaption>
+</figure></p>
 </div>
+<section class="tripadvisor-panel" aria-label="Autres attractions de Budapest">
+<p>Envie d’autres idées ? Découvrez les lieux préférés des voyageurs sur TripAdvisor.</p>
+<a class="tripadvisor-link" href="https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html" target="_blank" rel="noopener noreferrer"><img src="/images/tripadvisor-logo.svg" alt="Tripadvisor"></a>
+</section>
+<section class="walking-routes">
+<h3>Itinéraires à pied</h3>
+<div class="walking-route-list">
+<article class="walking-route"><h4>Promenade du Danube et Pest historique</h4><p>Depuis le Parlement, longez le fleuve jusqu’au mémorial des Chaussures au bord du Danube, puis rejoignez la basilique Saint-Étienne.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian+Parliament+Building,+Budapest&amp;destination=St.+Stephen%27s+Basilica,+Budapest&amp;waypoints=Shoes+on+the+Danube+Bank,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
+<article class="walking-route"><h4>Quartier du château de Buda</h4><p>Traversez le pont des Chaînes, montez au château de Buda, puis continuez vers l’église Matthias et le Bastion des pêcheurs.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Sz%C3%A9chenyi+Chain+Bridge,+Budapest&amp;destination=Fisherman%27s+Bastion,+Budapest&amp;waypoints=Buda+Castle,+Budapest|Matthias+Church,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
+<article class="walking-route"><h4>Parc municipal et bains thermaux</h4><p>Découvrez la place des Héros et le château de Vajdahunyad avant de vous détendre aux thermes Széchenyi.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27+Square,+Budapest&amp;destination=Sz%C3%A9chenyi+Thermal+Bath,+Budapest&amp;waypoints=Vajdahunyad+Castle,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
+</div>
+</section></div>
         </article>
     </main>
     <footer>
-        <p>We can't wait to
-            celebrate with you in Budapest.</p>
+        <p>Nous avons hâte de célébrer avec vous à Budapest.</p>
     </footer>
-</body>
+    </body>
 
 </html>

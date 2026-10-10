@@ -4,6 +4,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
@@ -13,8 +14,9 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f2f6f1">
+    <meta name="theme-color" content="#f5ecda">
     <title>Categories | Stef &amp; Laz - BodaPest 2027</title>
+    
     <style>
         :root {
             color-scheme: light;
@@ -22,8 +24,8 @@
             --forest: #315c4a;
             --leaf: #66836b;
             --rose: #b65459;
-            --paper: #fffefd;
-            --mist: #f2f6f1;
+            --paper: #fff9ed;
+            --mist: #f5ecda;
             --line: #d8e2d8;
         }
 
@@ -79,6 +81,11 @@
         .language-link.is-current {
             border-color: var(--forest);
             outline-color: var(--forest);
+        }
+
+        .language-link.is-current {
+            color: var(--paper);
+            background: var(--forest);
         }
 
         .flag {
@@ -155,6 +162,73 @@
             line-height: 1.2;
         }
 
+        .home-page .page-copy {
+            display: flex;
+            min-height: 420px;
+            max-width: 920px;
+            flex-direction: column;
+            justify-content: center;
+            padding: 64px clamp(32px, 8vw, 100px);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .home-page .brand h1,
+        .home-page .page-copy h2 {
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+        }
+
+        .attraction-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            gap: 18px;
+            margin-block: 28px;
+        }
+
+        .attraction {
+            min-width: 0;
+            margin: 0;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            background: var(--paper);
+        }
+
+        .attraction img {
+            display: block;
+            width: 100%;
+            aspect-ratio: 3 / 2;
+            object-fit: cover;
+        }
+
+        .attraction-caption {
+            padding: 14px 16px 16px;
+        }
+
+        .attraction-caption h3 {
+            margin: 0 0 8px;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.3;
+        }
+
+        .attraction-caption p {
+            margin: 0 0 10px;
+        }
+
+        .attraction-caption .photo-credit {
+            margin: 0;
+            color: var(--leaf);
+            font-size: 0.75rem;
+            line-height: 1.4;
+        }
+
+        .photo-credit a {
+            color: inherit;
+        }
+
         .prose> :first-child {
             margin-top: 0;
         }
@@ -211,6 +285,12 @@
             .page-copy {
                 padding: 28px 22px;
             }
+
+            .home-page .page-copy {
+                min-height: 340px;
+                padding: 40px 26px;
+                font-size: 1.08rem;
+            }
         }
     </style>
 </head>
@@ -224,8 +304,7 @@
                 <span>English</span>
             </a>
             
-            <a class="language-link is-current" href="/es/" lang="es" title="Español" 
-                aria-current="page" >
+            <a class="language-link is-current" href="/es/" lang="es" title="Español"  aria-current="page" >
                 <span class="flag" aria-hidden="true">🇪🇸</span>
                 <span>Español</span>
             </a>
@@ -285,6 +364,6 @@
         <p>We can't wait to
             celebrate with you in Budapest.</p>
     </footer>
-</body>
+    </body>
 
 </html>

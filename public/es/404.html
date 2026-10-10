@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5ecda">
+    <title>404 | Stef &amp; Laz - BodaPest 2027</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --ink: #20372f;
+            --forest: #315c4a;
+            --leaf: #66836b;
+            --rose: #b65459;
+            --paper: #fff9ed;
+            --mist: #f5ecda;
+            --line: #d8e2d8;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            color: var(--ink);
+            background-color: var(--mist);
+            background-image: repeating-linear-gradient(135deg, transparent 0 34px, rgba(49, 92, 74, 0.035) 34px 35px);
+            font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+            line-height: 1.7;
+        }
+
+        .site-header,
+        main,
+        footer {
+            width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        .site-header {
+            padding-top: 22px;
+        }
+
+        .language-switcher {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding-bottom: 20px;
+        }
+
+        .language-link {
+            min-height: 40px;
+            padding: 5px 10px;
+            border: 1px solid var(--line);
+            border-radius: 3px;
+            color: var(--ink);
+            background: var(--paper);
+            font-size: 0.85rem;
+            text-decoration: none;
+        }
+
+        .language-link:hover,
+        .language-link:focus-visible,
+        .language-link.is-current {
+            border-color: var(--forest);
+        }
+
+        .language-link.is-current {
+            color: var(--paper);
+            background: var(--forest);
+        }
+
+        .brand {
+            padding: 28px 12px 22px;
+            border-top: 1px solid var(--line);
+            text-align: center;
+        }
+
+        .brand h1 {
+            margin: 0;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        main {
+            padding: 24px 0 48px;
+        }
+
+        .not-found {
+            max-width: 920px;
+            min-height: 550px;
+            margin-inline: auto;
+            padding: 42px clamp(22px, 6vw, 68px);
+            border-top: 3px solid var(--leaf);
+            border-bottom: 1px solid var(--line);
+            background: var(--paper);
+            text-align: center;
+        }
+
+        .error-code {
+            margin: 0 0 4px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .not-found h2 {
+            margin: 0 0 10px;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 400;
+            line-height: 1.2;
+        }
+
+        .not-found-message {
+            max-width: 560px;
+            margin: 0 auto;
+        }
+
+        .picture-frame {
+            width: min(100%, 540px);
+            aspect-ratio: 16 / 9;
+            margin: 28px auto 24px;
+            padding: 12px;
+            border: 8px double var(--forest);
+            background: #eadbc0;
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .picture-frame-inner {
+            display: grid;
+            width: 100%;
+            height: 100%;
+            place-items: center;
+            border: 1px dashed var(--leaf);
+            background: repeating-linear-gradient(135deg, transparent 0 18px, rgba(49, 92, 74, 0.04) 18px 19px);
+            color: var(--leaf);
+            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.2rem;
+        }
+
+        .home-link {
+            display: inline-flex;
+            min-height: 44px;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 18px;
+            border: 1px solid var(--forest);
+            color: var(--paper);
+            background: var(--forest);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .home-link:hover,
+        .home-link:focus-visible {
+            border-color: var(--rose);
+            background: var(--rose);
+        }
+
+        footer {
+            padding: 18px 0 30px;
+            border-top: 1px solid var(--line);
+            color: var(--leaf);
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        @media (max-width: 540px) {
+
+            .site-header,
+            main,
+            footer {
+                width: min(100% - 28px, 980px);
+            }
+
+            .language-switcher {
+                justify-content: center;
+            }
+
+            .language-link {
+                min-height: 38px;
+                padding-inline: 8px;
+            }
+
+            main {
+                padding-top: 10px;
+            }
+
+            .not-found {
+                min-height: 480px;
+                padding: 34px 20px;
+            }
+
+            .picture-frame {
+                padding: 8px;
+                border-width: 6px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="language-switcher" aria-label="Language">
+            
+            <a class="language-link" href="/en/" lang="en"
+                data-language="en">English</a>
+            
+            <a class="language-link" href="/es/" lang="es"
+                data-language="es">Español</a>
+            
+            <a class="language-link" href="/de/" lang="de"
+                data-language="de">Deutsch</a>
+            
+            <a class="language-link" href="/hu/" lang="hu"
+                data-language="hu">Magyar</a>
+            
+            <a class="language-link" href="/fr/" lang="fr"
+                data-language="fr">Français</a>
+            
+            <a class="language-link" href="/it/" lang="it"
+                data-language="it">Italiano</a>
+            
+            <a class="language-link" href="/ar/" lang="ar"
+                data-language="ar">العربية</a>
+            
+            <a class="language-link" href="/hi/" lang="hi"
+                data-language="hi">हिन्दी</a>
+            
+        </nav>
+        <div class="brand">
+            <h1>Stef &amp; Laz - BodaPest 2027</h1>
+        </div>
+    </header>
+    <main id="main-content">
+        <article class="not-found">
+            <p class="error-code">404</p>
+            <h2 id="error-title">Page not found</h2>
+            <p class="not-found-message" id="error-message">We couldn't find that page. Let's get you back to the
+                wedding details.</p>
+            <figure class="picture-frame" role="img" aria-labelledby="frame-label">
+                <div class="picture-frame-inner"><span id="frame-label">Your photo goes here</span></div>
+            </figure>
+            <a class="home-link" id="home-link" href="/">Back to home</a>
+        </article>
+    </main>
+    <footer>Stef &amp; Laz - BodaPest 2027</footer>
+    <script>
+        const translations = {"ar":{"frame":"ستكون صورتكم هنا","home":"العودة إلى الصفحة الرئيسية","label":"العربية","message":"لم نعثر على هذه الصفحة. عودوا إلى تفاصيل الزفاف.","title":"الصفحة غير موجودة"},"de":{"frame":"Hier kommt euer Foto hin","home":"Zur Startseite","label":"Deutsch","message":"Diese Seite gibt es nicht. Zurück zu den Hochzeitsinfos.","title":"Seite nicht gefunden"},"en":{"frame":"Your photo will go here","home":"Back to home","label":"English","message":"We couldn't find this page. Return to the wedding details.","title":"Page not found"},"es":{"frame":"Aquí irá tu foto","home":"Volver al inicio","label":"Español","message":"No encontramos esta página. Vuelve a los detalles de la boda.","title":"Página no encontrada"},"fr":{"frame":"Votre photo ira ici","home":"Retour à l’accueil","label":"Français","message":"Cette page est introuvable. Retour aux détails du mariage.","title":"Page introuvable"},"hi":{"frame":"आपकी तस्वीर यहाँ होगी","home":"मुखपृष्ठ पर वापस जाएँ","label":"हिन्दी","message":"यह पृष्ठ नहीं मिला। शादी की जानकारी पर वापस जाएँ।","title":"पृष्ठ नहीं मिला"},"hu":{"frame":"Ide kerül majd a képetek","home":"Vissza a főoldalra","label":"Magyar","message":"Ez az oldal nem található. Vissza az esküvő részleteihez.","title":"Az oldal nem található"},"it":{"frame":"Qui andrà la vostra foto","home":"Torna alla home","label":"Italiano","message":"Questa pagina non esiste. Torna ai dettagli del matrimonio.","title":"Pagina non trovata"}};
+        const pathLanguage = window.location.pathname.split("/")[1];
+        const language = Object.hasOwn(translations, pathLanguage) ? pathLanguage : "en";
+        const text = translations[language];
+
+        document.documentElement.lang = language;
+        document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+        document.title = `${text.title} | Stef \u0026 Laz - BodaPest 2027`;
+        document.getElementById("error-title").textContent = text.title;
+        document.getElementById("error-message").textContent = text.message;
+        document.getElementById("frame-label").textContent = text.frame;
+        const homeLink = document.getElementById("home-link");
+        homeLink.textContent = text.home;
+        homeLink.href = language === "en" ? "/" : `/${language}/`;
+        document.querySelector(`[data-language="${language}"]`)?.classList.add("is-current");
+    </script>
+</body>
+
+</html>
