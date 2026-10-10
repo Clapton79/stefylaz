@@ -8,9 +8,9 @@ Festeggeremo il nostro matrimonio a bordo dell’**Európa Hajó**, un’imbarca
 
 | Orario | Programma |
 | --- | --- |
-| 17:30 | Arrivo e accoglienza. Se possibile, proietteremo un video di benvenuto e offriremo un drink al bar prima di invitare gli ospiti sul ponte. |
-| 17:45 | Cerimonia e discorsi sul ponte superiore. La navigazione potrà iniziare verso la fine della cerimonia. |
-| 18:15 | Crociera e foto, con jamón spagnolo, formaggi, gildas, banderillas e bevande. |
+| 17:30 | Arrivo e accoglienza. |
+| 17:45 | Cerimonia e discorsi. |
+| 18:15 | Crociera e foto. |
 | 20:00 | Cena a buffet, discorsi e giochi. |
-| 22:00 | Musica dal vivo con la band. |
-| 23:30 | Cena di mezzanotte e si continua a ballare. |
+| 22:00 | Musica dal vivo. |
+| 23:30 | Cena di mezzanotte e ballo. |
