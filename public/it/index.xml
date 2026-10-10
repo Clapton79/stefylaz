@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>La grande traversata on Stef &amp; Laz - BodaPest 2027</title>
+		<link>http://localhost:1313/it/</link>
+		<description>Recent content in La grande traversata on Stef &amp; Laz - BodaPest 2027</description>
+		<generator>Hugo</generator>
+		<language>it-IT</language>
+		
+		
+		
+		
+			<atom:link href="http://localhost:1313/it/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Alla scoperta di Budapest</title>
+				<link>http://localhost:1313/it/sightseeing/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/it/sightseeing/</guid>
+				<description>&lt;p&gt;Se siete in città per il nostro matrimonio in crociera, vi consigliamo di visitare questi luoghi iconici:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Il Parlamento ungherese:&lt;/strong&gt; un capolavoro architettonico visibile direttamente dal Danubio.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Il Castello di Buda e il Bastione dei Pescatori:&lt;/strong&gt; salite sulla collina per ammirare una splendida vista panoramica sulla città.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Le Terme Széchenyi:&lt;/strong&gt; il luogo ideale per rilassarvi prima dei festeggiamenti.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+	</channel>
+</rss>

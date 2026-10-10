@@ -2,7 +2,7 @@ baseURL = 'https://azurestaticapps.net'
 title = 'Stef & Laz - BodaPest 2027'
 
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false
 
 [params]
     weddingDate = "2027-06-25T18:00:00"
@@ -12,43 +12,115 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
     locale = 'en-GB'
-    languageName = 'UK'
+    label = 'English'
     weight = 1
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "Home"
         url = "/"
         weight = 1
+      [[languages.en.menu.main]]
+        name = "Sightseeing in Budapest"
+        url = "/sightseeing/"
+        weight = 2
 
   [languages.es]
     locale = 'es-ES'
-    languageName = 'Spain'
+    label = 'Español'
     weight = 2
     [languages.es.menu]
       [[languages.es.menu.main]]
         name = "Inicio"
         url = "/"
         weight = 1
+      [[languages.es.menu.main]]
+        name = "Qué ver en Budapest"
+        url = "/sightseeing/"
+        weight = 2
 
   [languages.de]
     locale = 'de-DE'
-    languageName = 'Germany'
+    label = 'Deutsch'
     weight = 3
     [languages.de.menu]
       [[languages.de.menu.main]]
         name = "Startseite"
         url = "/"
         weight = 1
+      [[languages.de.menu.main]]
+        name = "Sehenswürdigkeiten in Budapest"
+        url = "/sightseeing/"
+        weight = 2
 
   [languages.hu]
     locale = 'hu-HU'
-    languageName = 'Hungary'
+    label = 'Magyar'
     weight = 4
     [languages.hu.menu]
       [[languages.hu.menu.main]]
         name = "Főoldal"
         url = "/"
         weight = 1
+      [[languages.hu.menu.main]]
+        name = "Budapesti látnivalók"
+        url = "/sightseeing/"
+        weight = 2
+
+  [languages.fr]
+    locale = 'fr-FR'
+    label = 'Français'
+    weight = 5
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        name = "Accueil"
+        url = "/"
+        weight = 1
+      [[languages.fr.menu.main]]
+        name = "Visiter Budapest"
+        url = "/sightseeing/"
+        weight = 2
+
+  [languages.it]
+    locale = 'it-IT'
+    label = 'Italiano'
+    weight = 6
+    [languages.it.menu]
+      [[languages.it.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.it.menu.main]]
+        name = "Alla scoperta di Budapest"
+        url = "/sightseeing/"
+        weight = 2
+
+  [languages.ar]
+    locale = 'ar'
+    label = 'العربية'
+    weight = 7
+    [languages.ar.menu]
+      [[languages.ar.menu.main]]
+        name = "الرئيسية"
+        url = "/"
+        weight = 1
+      [[languages.ar.menu.main]]
+        name = "معالم بودابست"
+        url = "/sightseeing/"
+        weight = 2
+
+  [languages.hi]
+    locale = 'hi-IN'
+    label = 'हिन्दी'
+    weight = 8
+    [languages.hi.menu]
+      [[languages.hi.menu.main]]
+        name = "मुखपृष्ठ"
+        url = "/"
+        weight = 1
+      [[languages.hi.menu.main]]
+        name = "बुडापेस्ट के दर्शनीय स्थल"
+        url = "/sightseeing/"
+        weight = 2
 
 [markup]
   [markup.goldmark]

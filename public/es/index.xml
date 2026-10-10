@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Stef &amp; Laz - BodaPest 2027</title>
+		<title>Bodapest 2027 on Stef &amp; Laz - BodaPest 2027</title>
 		<link>http://localhost:1313/es/</link>
-		<description>Recent content on Stef &amp; Laz - BodaPest 2027</description>
+		<description>Recent content in Bodapest 2027 on Stef &amp; Laz - BodaPest 2027</description>
 		<generator>Hugo</generator>
 		<language>es-ES</language>
 		
@@ -11,5 +11,12 @@
 		
 		
 			<atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Explorando BodaPest</title>
+				<link>http://localhost:1313/es/sightseeing/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/es/sightseeing/</guid>
+				<description>&lt;p&gt;Mientras se encuentran aquí para nuestra boda, les recomendamos encarecidamente poner rumbo a estos lugares emblemáticos de la ciudad:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;El Parlamento de Budapest:&lt;/strong&gt; Una maravilla arquitectónica visible directamente desde el Danubio.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;El Castillo de Buda y el Bastión de los Pescadores:&lt;/strong&gt; Suban a la colina para disfrutar de una vista panorámica espectacular de toda la ciudad.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Baños Termales Széchenyi:&lt;/strong&gt; El lugar definitivo para relajarse y desconectar antes de la gran celebración.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 	</channel>
 </rss>

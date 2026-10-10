@@ -1,6 +1,5 @@
 ---
 title: "Explorando BodaPest"
-date: 2027-06-25
 ---
 
 Mientras se encuentran aquí para nuestra boda, les recomendamos encarecidamente poner rumbo a estos lugares emblemáticos de la ciudad:

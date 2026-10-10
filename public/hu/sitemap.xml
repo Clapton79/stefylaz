@@ -2,11 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/hu/sightseeing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/sightseeing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/sightseeing/"
+                />
+  </url><url>
     <loc>http://localhost:1313/hu/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -23,12 +65,74 @@
                 hreflang="hu-HU"
                 href="http://localhost:1313/hu/categories/"
                 />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hu/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/"
+                />
   </url><url>
     <loc>http://localhost:1313/hu/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="http://localhost:1313/en/tags/"
+                href="http://localhost:1313/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -44,6 +148,26 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="http://localhost:1313/hu/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/tags/"
                 />
   </url>
 </urlset>

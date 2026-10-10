@@ -1,6 +1,5 @@
 ---
 title: "Bodapest 2027"
-date: 2027-06-25
 ---
 
 * **Hora de salida:** 25 de junio de 2027, 18:00

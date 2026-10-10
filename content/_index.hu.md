@@ -1,6 +1,5 @@
 ---
 title: "Esküvő"
-date: 2027-06-25
 ---
 
 Hatalmas örömmel köszöntünk a fedélzeten, hogy együtt ünnepelhessük meg ezt a különleges napot!

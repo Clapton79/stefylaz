@@ -1,6 +1,5 @@
 ---
 title: "Erkundung von BodaPest"
-date: 2027-06-25
 ---
 
 Während ihr für unsere Hochzeit an Bord seid, empfehlen wir euch wärmstens, diese ikonischen Orte in der Stadt anzusteuern:

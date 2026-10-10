@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Stef &amp; Laz - BodaPest 2027</title>
+		<title>Esküvő on Stef &amp; Laz - BodaPest 2027</title>
 		<link>http://localhost:1313/hu/</link>
-		<description>Recent content on Stef &amp; Laz - BodaPest 2027</description>
+		<description>Recent content in Esküvő on Stef &amp; Laz - BodaPest 2027</description>
 		<generator>Hugo</generator>
 		<language>hu-HU</language>
 		
@@ -11,5 +11,12 @@
 		
 		
 			<atom:link href="http://localhost:1313/hu/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Budapesti Városnézés</title>
+				<link>http://localhost:1313/hu/sightseeing/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/hu/sightseeing/</guid>
+				<description>&lt;p&gt;Míg itt vagytok a hajós esküvőnk alkalmából, szívből ajánljuk, hogy látogassátok meg ezeket az ikonikus helyszíneket a városban:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Országház (Parlament):&lt;/strong&gt; Egy építészeti remekmű, amely közvetlenül a Dunáról is megcsodálható.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Budai Vár &amp;amp; Halászbástya:&lt;/strong&gt; Sétáljatok fel a várba a lenyűgöző panorámáért.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Széchenyi Gyógyfürdő:&lt;/strong&gt; A tökéletes helyszín a feltöltődésre és a lazításra a nagy ünneplés előtt.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
 	</channel>
 </rss>

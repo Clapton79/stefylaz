@@ -1,6 +1,5 @@
 ---
 title: "Exploring BodaPest"
-date: 2027-06-25
 ---
 
 While you are here for our cruise wedding, we highly recommend setting coordinates for these iconic locations around town:

@@ -1,6 +1,5 @@
 ---
 title: "The Grand Voyage Ahead"
-date: 2027-06-25
 ---
 
 We are incredibly excited to welcome you aboard to celebrate our special day together! 

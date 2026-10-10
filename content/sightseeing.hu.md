@@ -1,6 +1,5 @@
 ---
 title: "Budapesti Városnézés"
-date: 2027-06-25
 ---
 
 Míg itt vagytok a hajós esküvőnk alkalmából, szívből ajánljuk, hogy látogassátok meg ezeket az ikonikus helyszíneket a városban:
