@@ -6,6 +6,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="hi" dir="ltr">
 
@@ -45,9 +46,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -146,7 +151,8 @@
         }
 
         .page-copy {
-            max-width: 720px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin: 0 auto;
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -165,18 +171,12 @@
 
         .home-page .page-copy {
             display: flex;
-            min-height: 1260px;
-            max-width: 1840px;
             flex-direction: column;
             justify-content: center;
             padding: 64px clamp(32px, 8vw, 100px);
             font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.2rem;
             line-height: 1.8;
-        }
-
-        .home-page main {
-            width: min(100% - 40px, 1840px);
         }
 
         .home-page .brand h1,
@@ -286,9 +286,46 @@
         }
 
         .walking-route {
+            min-width: 0;
+            overflow: hidden;
             padding: 18px;
             border-inline-start: 3px solid var(--rose);
             background: var(--paper);
+        }
+
+        .walking-map-preview {
+            position: relative;
+            display: block;
+            height: 148px;
+            margin: -18px -18px 14px;
+            overflow: hidden;
+            background: #e5e8df;
+        }
+
+        .walking-map-preview iframe {
+            display: block;
+            width: 100%;
+            height: 190px;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .walking-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .walking-route .walking-duration {
+            margin: 0 0 8px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
         }
 
         .walking-route h4 {
@@ -336,12 +373,24 @@
             margin: 0;
         }
 
+        footer p+p {
+            margin-top: 6px;
+        }
+
+        footer a {
+            color: inherit;
+            text-underline-offset: 3px;
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -362,18 +411,13 @@
             }
 
             .page-copy {
+                min-height: 1020px;
                 padding: 28px 22px;
             }
 
             .home-page .page-copy {
-                min-height: 1020px;
-                max-width: 1840px;
                 padding: 40px 26px;
                 font-size: 1.08rem;
-            }
-
-            .home-page main {
-                width: min(100% - 28px, 1840px);
             }
 
             .tripadvisor-panel {
@@ -441,39 +485,37 @@
             
             <a href="/hi/sightseeing/">बुडापेस्ट के दर्शनीय स्थल</a>
             
+            <a href="/hi/venue/">कार्यक्रम स्थल</a>
+            
+            <a href="/hi/menu/">भोज-सूची</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
             <h2>बुडापेस्ट की सैर</h2>
-            <div class="prose"><p>हमारी क्रूज़ शादी के लिए बुडापेस्ट आने पर, शहर की इन मशहूर जगहों को देखना न भूलें:</p>
+            <div class="prose"><p>हमारी शादी के लिए बुडापेस्ट आएँ, तो शहर की इन मशहूर जगहों को देखना न भूलें:</p>
 <div class="attraction-grid">
 <p><figure class="attraction">
     <img src="/images/parliament.jpg" alt="डेन्यूब में प्रतिबिंबित हंगरी की संसद" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>हंगरी की संसद</h3>
-        <p>डेन्यूब नदी से दिखाई देने वाली एक शानदार वास्तुकला-कृति।</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg" target="_blank" rel="noopener">Photo: Pierre Blaché
-                (CC0)</a></p>
+        <p>डेन्यूब के किनारे स्थित शानदार नव-गॉथिक इमारत।</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/fishermans-bastion-pinterest.jpg" alt="डेन्यूब और बुडापेस्ट के नज़ारे वाला फिशरमैन्स बैस्टियन" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>बुडा किला और फिशरमैन्स बैस्टियन</h3>
-        <p>पहाड़ी पर चढ़कर पूरे शहर का मनोरम दृश्य देखें।</p>
-        <p class="photo-credit"><a href="https://ph.pinterest.com/pin/641059328208145770/" target="_blank" rel="noopener">Photo: Pinterest pin
-                (Source)</a></p>
+        <p>कैसल हिल पर चढ़ें और शहर का मनोरम दृश्य देखें।</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/szechenyi-baths.jpg" alt="सेचेनी थर्मल बाथ के खुले पूल" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>सेचेनी थर्मल बाथ</h3>
-        <p>बड़े उत्सव से पहले आराम करने के लिए एक बेहतरीन जगह।</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg" target="_blank" rel="noopener">Photo: Slyronit
-                (CC BY-SA 4.0)</a></p>
+        <p>उत्सव से पहले बुडापेस्ट के मशहूर गर्म पानी के कुंडों में आराम करें।</p>
     </figcaption>
 </figure>
 <figure class="attraction">
@@ -481,36 +523,67 @@
     <figcaption class="attraction-caption">
         <h3>वेली बेय थर्मल बाथ</h3>
         <p>ऐतिहासिक क्सासार स्नान परिसर में स्थित 16वीं सदी का पुनर्स्थापित उस्मानी स्नानघर।</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_%28%C3%9Ajlaki_rakpart%29,_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg" target="_blank" rel="noopener">Photo: Fortepan 28832
-                (CC BY-SA 3.0)</a></p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/rudas-baths.jpg" alt="बुडापेस्ट में रुदाश बाथ और गेलर्ट पहाड़ी" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>रुदाश थर्मल बाथ</h3>
-        <p>गुंबददार पूल और डेन्यूब के नज़ारे वाला ऐतिहासिक तुर्की स्नानघर।</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg" target="_blank" rel="noopener">Photo: Globetrotter19
-                (CC BY-SA 3.0)</a></p>
+        <p>गुंबददार पूल और डेन्यूब के नज़ारों वाला ऐतिहासिक उस्मानी स्नानघर।</p>
     </figcaption>
 </figure></p>
 </div>
 <section class="tripadvisor-panel" aria-label="बुडापेस्ट के और आकर्षण">
-<p>और सुझाव चाहिए? TripAdvisor पर यात्रियों की पसंदीदा जगहें देखें।</p>
+<p>और जगहें देखना चाहते हैं? TripAdvisor पर बुडापेस्ट के लोकप्रिय दर्शनीय स्थल देखें।</p>
 <a class="tripadvisor-link" href="https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html" target="_blank" rel="noopener noreferrer"><img src="/images/tripadvisor-logo.svg" alt="Tripadvisor"></a>
 </section>
 <section class="walking-routes">
-<h3>पैदल घूमने के रास्ते</h3>
-<div class="walking-route-list">
-<article class="walking-route"><h4>डेन्यूब किनारा और पेस्ट के दर्शनीय स्थल</h4><p>संसद भवन से नदी के किनारे चलते हुए डेन्यूब तट के जूतों के स्मारक तक जाएँ और फिर सेंट स्टीफ़न बेसिलिका पहुँचें।</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian+Parliament+Building,+Budapest&amp;destination=St.+Stephen%27s+Basilica,+Budapest&amp;waypoints=Shoes+on+the+Danube+Bank,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Google Maps में पैदल रास्ता खोलें</a></article>
-<article class="walking-route"><h4>बुडा कैसल ज़िला</h4><p>चेन ब्रिज पार करके बुडा किले तक जाएँ, फिर मैथियास चर्च और फिशरमैन्स बैस्टियन तक पैदल चलें।</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Sz%C3%A9chenyi+Chain+Bridge,+Budapest&amp;destination=Fisherman%27s+Bastion,+Budapest&amp;waypoints=Buda+Castle,+Budapest|Matthias+Church,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Google Maps में पैदल रास्ता खोलें</a></article>
-<article class="walking-route"><h4>सिटी पार्क और थर्मल बाथ</h4><p>हीरोज़ स्क्वायर और वायडाहुन्याद कैसल घूमकर सेचेनी थर्मल बाथ में आराम करें।</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27+Square,+Budapest&amp;destination=Sz%C3%A9chenyi+Thermal+Bath,+Budapest&amp;waypoints=Vajdahunyad+Castle,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Google Maps में पैदल रास्ता खोलें</a></article>
+    <h3>सुझाए गए पैदल दौरे</h3>
+    <div class="walking-route-list">
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Google Maps में रास्ता खोलें: बुडा कैसल इलाका">
+                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="बुडा कैसल इलाका" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Google Maps में रास्ता खोलें</span>
+            </a>
+            <h4>बुडा कैसल इलाका</h4>
+            <p class="walking-duration">लगभग 1.5–2 घंटे</p>
+            <p>बुडा किला, मैथियास चर्च और फिशरमैन्स बैस्टियन देखें.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Google Maps में रास्ता खोलें: बुडापेस्ट शहर और संसद">
+                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="बुडापेस्ट शहर और संसद" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Google Maps में रास्ता खोलें</span>
+            </a>
+            <h4>बुडापेस्ट शहर और संसद</h4>
+            <p class="walking-duration">लगभग 1.5–2 घंटे</p>
+            <p>संसद से डेन्यूब किनारे चलते हुए बेसिलिका और सेंट्रल मार्केट जाएँ.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Google Maps में रास्ता खोलें: वरोशलिगेट और पैलेस क्वार्टर">
+                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="वरोशलिगेट और पैलेस क्वार्टर" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Google Maps में रास्ता खोलें</span>
+            </a>
+            <h4>वरोशलिगेट और पैलेस क्वार्टर</h4>
+            <p class="walking-duration">लगभग 2 घंटे</p>
+            <p>हीरोज़ स्क्वायर, वायडाहुन्याद कैसल और सेचेनी बाथ देखें.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Google Maps में रास्ता खोलें: यहूदी क्वार्टर">
+                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="यहूदी क्वार्टर" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Google Maps में रास्ता खोलें</span>
+            </a>
+            <h4>यहूदी क्वार्टर</h4>
+            <p class="walking-duration">लगभग 1.5 घंटे</p>
+            <p>तीन ऐतिहासिक सिनेगॉग, गोझदू कोर्टयार्ड और सिम्पला केर्ट जाएँ.</p>
+        </article>
+    </div>
+</section>
 </div>
-</section></div>
         </article>
     </main>
     <footer>
         <p>हम बुडापेस्ट में आपके साथ जश्न मनाने के लिए उत्सुक हैं।</p>
+        <p><a href="/hi/%20/photo-credits/">फ़ोटो श्रेय</a></p>
     </footer>
     </body>
 

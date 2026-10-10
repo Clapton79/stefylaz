@@ -1,0 +1,21 @@
+{{- $routeData := index hugo.Data "walking-routes" -}}
+{{- $copy := index $routeData.translations site.Language.Lang -}}
+<section class="walking-routes">
+    <h3>{{ $copy.heading }}</h3>
+    <div class="walking-route-list">
+        {{- range $index, $tour := $copy.tours }}
+        {{- $map := index $routeData.maps $index }}
+        <article class="walking-route">
+            <a class="walking-map-preview" href="{{ $map.route }}" target="_blank" rel="noopener noreferrer"
+                aria-label="{{ $copy.mapLabel }}: {{ $tour.title }}">
+                <iframe src="{{ $map.embed }}" title="{{ $tour.title }}" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>{{ $copy.mapLabel }}</span>
+            </a>
+            <h4>{{ $tour.title }}</h4>
+            <p class="walking-duration">{{ $tour.duration }}</p>
+            <p>{{ $tour.description }}</p>
+        </article>
+        {{- end }}
+    </div>
+</section>

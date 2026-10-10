@@ -1,11 +1,13 @@
 ---
-title: "The Grand Voyage Ahead"
+title: "Unsere Hochzeit in Budapest"
 ---
 
-Wir freuen uns riesig, Sie an Bord begrüßen zu dürfen, um gemeinsam unseren besonderen Tag zu feiern!
+Wir freuen uns riesig darauf, mit euch an Bord unseren Hochzeitstag zu feiern!
 
-Werfen Sie sich in Schale für einen zauberhaften Abend an der Donau.
+Freut euch auf einen unvergesslichen Abend auf der Donau.
 
-* **Abfahrtszeit:** 25. Juni 2027, 18:00 Uhr
-* **Das Schiff:** Budapest, Europa-Schiff
+* **Abfahrt:** 25. Juni 2027 um 18:00 Uhr
+* **Schiff:** Európa Hajó, Budapest, Ungarn
+
+Bitte gebt uns bis zum **1. Mai 2027** Bescheid, ob ihr dabei seid.
 

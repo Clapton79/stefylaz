@@ -128,6 +128,90 @@
                 href="http://localhost:1313/hi/"
                 />
   </url><url>
+    <loc>http://localhost:1313/hi/venue/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/venue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/venue/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/photo-credits/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/photo-credits/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/photo-credits/"
+                />
+  </url><url>
     <loc>http://localhost:1313/hi/sightseeing/</loc>
     <xhtml:link
                 rel="alternate"
@@ -168,6 +252,48 @@
                 rel="alternate"
                 hreflang="hi-IN"
                 href="http://localhost:1313/hi/sightseeing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hi/menu/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/menu/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/menu/"
                 />
   </url>
 </urlset>

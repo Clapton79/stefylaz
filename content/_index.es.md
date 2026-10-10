@@ -1,10 +1,12 @@
 ---
-title: "Bodapest 2027"
+title: "¡Nos casamos en Budapest!"
 ---
 
-* **Hora de salida:** 25 de junio de 2027, 18:00
-* **El Barco:** Budapest, Európa Hajó (Barco Europa)
+¡Nos hace mucha ilusión celebrar nuestro día especial con ustedes a bordo!
 
-¡Estamos encantados de darles la bienvenida a bordo para celebrar juntos nuestro día especial!
+Prepárense para una velada inolvidable en el Danubio.
 
-Preparen sus mejores galas para una velada mágica a orillas del Danubio.
+* **Salida:** 25 de junio de 2027 a las 18:00
+* **Barco:** Európa Hajó, Budapest, Hungría
+
+Por favor, confirmen su asistencia antes del **1 de mayo de 2027**.

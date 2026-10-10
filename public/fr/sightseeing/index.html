@@ -6,6 +6,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -16,7 +17,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
-    <title>À la découverte de Budapest | Stef &amp; Laz - BodaPest 2027</title>
+    <title>Découvrir Budapest | Stef &amp; Laz - BodaPest 2027</title>
     
     <style>
         :root {
@@ -45,9 +46,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -146,7 +151,8 @@
         }
 
         .page-copy {
-            max-width: 720px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin: 0 auto;
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -165,18 +171,12 @@
 
         .home-page .page-copy {
             display: flex;
-            min-height: 1260px;
-            max-width: 1840px;
             flex-direction: column;
             justify-content: center;
             padding: 64px clamp(32px, 8vw, 100px);
             font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.2rem;
             line-height: 1.8;
-        }
-
-        .home-page main {
-            width: min(100% - 40px, 1840px);
         }
 
         .home-page .brand h1,
@@ -286,9 +286,46 @@
         }
 
         .walking-route {
+            min-width: 0;
+            overflow: hidden;
             padding: 18px;
             border-inline-start: 3px solid var(--rose);
             background: var(--paper);
+        }
+
+        .walking-map-preview {
+            position: relative;
+            display: block;
+            height: 148px;
+            margin: -18px -18px 14px;
+            overflow: hidden;
+            background: #e5e8df;
+        }
+
+        .walking-map-preview iframe {
+            display: block;
+            width: 100%;
+            height: 190px;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .walking-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .walking-route .walking-duration {
+            margin: 0 0 8px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
         }
 
         .walking-route h4 {
@@ -336,12 +373,24 @@
             margin: 0;
         }
 
+        footer p+p {
+            margin-top: 6px;
+        }
+
+        footer a {
+            color: inherit;
+            text-underline-offset: 3px;
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -362,18 +411,13 @@
             }
 
             .page-copy {
+                min-height: 1020px;
                 padding: 28px 22px;
             }
 
             .home-page .page-copy {
-                min-height: 1020px;
-                max-width: 1840px;
                 padding: 40px 26px;
                 font-size: 1.08rem;
-            }
-
-            .home-page main {
-                width: min(100% - 28px, 1840px);
             }
 
             .tripadvisor-panel {
@@ -441,76 +485,105 @@
             
             <a href="/fr/sightseeing/">Visiter Budapest</a>
             
+            <a href="/fr/venue/">Le lieu</a>
+            
+            <a href="/fr/menu/">Le menu</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
-            <h2>À la découverte de Budapest</h2>
-            <div class="prose"><p>Si vous êtes en ville pour notre mariage-croisière, nous vous recommandons ces lieux emblématiques :</p>
+            <h2>Découvrir Budapest</h2>
+            <div class="prose"><p>Si vous profitez de votre séjour à Budapest pour notre mariage, voici quelques incontournables de la ville :</p>
 <div class="attraction-grid">
 <p><figure class="attraction">
-    <img src="/images/parliament.jpg" alt="Le Parlement hongrois reflété dans le Danube" loading="lazy" decoding="async">
+    <img src="/images/parliament.jpg" alt="Le Parlement hongrois se reflétant dans le Danube" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Le Parlement hongrois</h3>
-        <p>Un chef-d&#39;œuvre architectural que l&#39;on peut admirer depuis le Danube.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg" target="_blank" rel="noopener">Photo: Pierre Blaché
-                (CC0)</a></p>
+        <p>Un remarquable édifice néogothique au bord du Danube.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/fishermans-bastion-pinterest.jpg" alt="Le Bastion des pêcheurs surplombant le Danube et Budapest" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Le château de Buda et le Bastion des pêcheurs</h3>
-        <p>Prenez de la hauteur pour profiter d&#39;une vue panoramique sur toute la ville.</p>
-        <p class="photo-credit"><a href="https://ph.pinterest.com/pin/641059328208145770/" target="_blank" rel="noopener">Photo: Pinterest pin
-                (Source)</a></p>
+        <p>Prenez de la hauteur sur la colline du château et admirez le panorama sur la ville.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/szechenyi-baths.jpg" alt="Les bassins extérieurs des thermes Széchenyi" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Les thermes Széchenyi</h3>
-        <p>L&#39;endroit idéal pour vous détendre avant les festivités.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg" target="_blank" rel="noopener">Photo: Slyronit
-                (CC BY-SA 4.0)</a></p>
+        <p>Détendez-vous dans les célèbres eaux thermales de Budapest avant les festivités.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/veli-bej-historic.jpg" alt="Vue historique du complexe thermal Császár, associé à Veli Bej" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Les bains Veli Bej</h3>
-        <p>Un bain ottoman du XVIe siècle restauré, situé dans l&#39;historique complexe thermal Császár.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_%28%C3%9Ajlaki_rakpart%29,_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg" target="_blank" rel="noopener">Photo: Fortepan 28832
-                (CC BY-SA 3.0)</a></p>
+        <p>Un bain ottoman du XVIe siècle restauré, au cœur de l’ancien complexe thermal Császár.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/rudas-baths.jpg" alt="Les bains Rudas et la colline Gellért à Budapest" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Les bains Rudas</h3>
-        <p>Un bain turc historique avec un bassin sous coupole et une vue sur le Danube.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg" target="_blank" rel="noopener">Photo: Globetrotter19
-                (CC BY-SA 3.0)</a></p>
+        <p>Découvrez ce bain ottoman historique, célèbre pour son bassin sous coupole et sa vue sur le Danube.</p>
     </figcaption>
 </figure></p>
 </div>
 <section class="tripadvisor-panel" aria-label="Autres attractions de Budapest">
-<p>Envie d’autres idées ? Découvrez les lieux préférés des voyageurs sur TripAdvisor.</p>
+<p>Envie d’autres idées ? Retrouvez sur TripAdvisor les sites les plus appréciés de Budapest.</p>
 <a class="tripadvisor-link" href="https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html" target="_blank" rel="noopener noreferrer"><img src="/images/tripadvisor-logo.svg" alt="Tripadvisor"></a>
 </section>
 <section class="walking-routes">
-<h3>Itinéraires à pied</h3>
-<div class="walking-route-list">
-<article class="walking-route"><h4>Promenade du Danube et Pest historique</h4><p>Depuis le Parlement, longez le fleuve jusqu’au mémorial des Chaussures au bord du Danube, puis rejoignez la basilique Saint-Étienne.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian+Parliament+Building,+Budapest&amp;destination=St.+Stephen%27s+Basilica,+Budapest&amp;waypoints=Shoes+on+the+Danube+Bank,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
-<article class="walking-route"><h4>Quartier du château de Buda</h4><p>Traversez le pont des Chaînes, montez au château de Buda, puis continuez vers l’église Matthias et le Bastion des pêcheurs.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Sz%C3%A9chenyi+Chain+Bridge,+Budapest&amp;destination=Fisherman%27s+Bastion,+Budapest&amp;waypoints=Buda+Castle,+Budapest|Matthias+Church,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
-<article class="walking-route"><h4>Parc municipal et bains thermaux</h4><p>Découvrez la place des Héros et le château de Vajdahunyad avant de vous détendre aux thermes Széchenyi.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27+Square,+Budapest&amp;destination=Sz%C3%A9chenyi+Thermal+Bath,+Budapest&amp;waypoints=Vajdahunyad+Castle,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Ouvrir l’itinéraire à pied dans Google Maps</a></article>
+    <h3>Promenades suggérées</h3>
+    <div class="walking-route-list">
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l’itinéraire dans Google Maps: Quartier du château de Buda">
+                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Quartier du château de Buda" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Ouvrir l’itinéraire dans Google Maps</span>
+            </a>
+            <h4>Quartier du château de Buda</h4>
+            <p class="walking-duration">Environ 1 h 30 à 2 h</p>
+            <p>Découvrez le château, l’église Matthias, le Bastion et les ruelles du quartier.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l’itinéraire dans Google Maps: Centre-ville et Parlement">
+                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Centre-ville et Parlement" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Ouvrir l’itinéraire dans Google Maps</span>
+            </a>
+            <h4>Centre-ville et Parlement</h4>
+            <p class="walking-duration">Environ 1 h 30 à 2 h</p>
+            <p>Suivez le Danube depuis le Parlement jusqu’à la basilique et au Grand Marché.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l’itinéraire dans Google Maps: Városliget et quartier des palais">
+                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Városliget et quartier des palais" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Ouvrir l’itinéraire dans Google Maps</span>
+            </a>
+            <h4>Városliget et quartier des palais</h4>
+            <p class="walking-duration">Environ 2 h</p>
+            <p>Visitez la place des Héros, Vajdahunyad et les thermes Széchenyi.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir l’itinéraire dans Google Maps: Quartier juif">
+                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Quartier juif" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Ouvrir l’itinéraire dans Google Maps</span>
+            </a>
+            <h4>Quartier juif</h4>
+            <p class="walking-duration">Environ 1 h 30</p>
+            <p>Découvrez trois synagogues, la cour Gozsdu et le Szimpla Kert.</p>
+        </article>
+    </div>
+</section>
 </div>
-</section></div>
         </article>
     </main>
     <footer>
         <p>Nous avons hâte de célébrer avec vous à Budapest.</p>
+        <p><a href="/fr/%20/photo-credits/">Crédits photo</a></p>
     </footer>
     </body>
 

@@ -6,6 +6,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
@@ -45,9 +46,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -146,7 +151,8 @@
         }
 
         .page-copy {
-            max-width: 720px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin: 0 auto;
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -165,18 +171,12 @@
 
         .home-page .page-copy {
             display: flex;
-            min-height: 1260px;
-            max-width: 1840px;
             flex-direction: column;
             justify-content: center;
             padding: 64px clamp(32px, 8vw, 100px);
             font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.2rem;
             line-height: 1.8;
-        }
-
-        .home-page main {
-            width: min(100% - 40px, 1840px);
         }
 
         .home-page .brand h1,
@@ -286,9 +286,46 @@
         }
 
         .walking-route {
+            min-width: 0;
+            overflow: hidden;
             padding: 18px;
             border-inline-start: 3px solid var(--rose);
             background: var(--paper);
+        }
+
+        .walking-map-preview {
+            position: relative;
+            display: block;
+            height: 148px;
+            margin: -18px -18px 14px;
+            overflow: hidden;
+            background: #e5e8df;
+        }
+
+        .walking-map-preview iframe {
+            display: block;
+            width: 100%;
+            height: 190px;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .walking-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .walking-route .walking-duration {
+            margin: 0 0 8px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
         }
 
         .walking-route h4 {
@@ -336,12 +373,24 @@
             margin: 0;
         }
 
+        footer p+p {
+            margin-top: 6px;
+        }
+
+        footer a {
+            color: inherit;
+            text-underline-offset: 3px;
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -362,18 +411,13 @@
             }
 
             .page-copy {
+                min-height: 1020px;
                 padding: 28px 22px;
             }
 
             .home-page .page-copy {
-                min-height: 1020px;
-                max-width: 1840px;
                 padding: 40px 26px;
                 font-size: 1.08rem;
-            }
-
-            .home-page main {
-                width: min(100% - 28px, 1840px);
             }
 
             .tripadvisor-panel {
@@ -441,76 +485,105 @@
             
             <a href="/ar/sightseeing/">معالم بودابست</a>
             
+            <a href="/ar/venue/">مكان الحفل</a>
+            
+            <a href="/ar/menu/">قائمة الطعام</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
             <h2>اكتشفوا بودابست</h2>
-            <div class="prose"><p>إذا كنتم في المدينة لحضور حفل زفافنا على متن السفينة، فننصحكم بزيارة هذه المعالم الشهيرة:</p>
+            <div class="prose"><p>إذا كنتم تزورون بودابست لحضور حفل زفافنا، فإليكم بعضًا من أشهر معالم المدينة:</p>
 <div class="attraction-grid">
 <p><figure class="attraction">
     <img src="/images/parliament.jpg" alt="مبنى البرلمان المجري منعكسًا على نهر الدانوب" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>مبنى البرلمان المجري</h3>
-        <p>تحفة معمارية يمكن رؤيتها مباشرة من نهر الدانوب.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg" target="_blank" rel="noopener">Photo: Pierre Blaché
-                (CC0)</a></p>
+        <p>مبنى قوطي جديد مهيب يقع على ضفاف نهر الدانوب.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/fishermans-bastion-pinterest.jpg" alt="حصن الصيادين بإطلالة على نهر الدانوب وبودابست" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>قلعة بودا وحصن الصيادين</h3>
-        <p>اصعدوا التل للاستمتاع بإطلالة بانورامية رائعة على المدينة.</p>
-        <p class="photo-credit"><a href="https://ph.pinterest.com/pin/641059328208145770/" target="_blank" rel="noopener">Photo: Pinterest pin
-                (Source)</a></p>
+        <p>اصعدوا إلى تلة القلعة واستمتعوا بإطلالة بانورامية على المدينة.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
-    <img src="/images/szechenyi-baths.jpg" alt="المسابح الخارجية في حمامات سيتشيني" loading="lazy" decoding="async">
+    <img src="/images/szechenyi-baths.jpg" alt="المسابح الخارجية في حمّامات سيتشيني" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
-        <h3>حمامات سيتشيني الحرارية</h3>
-        <p>المكان المثالي للاسترخاء قبل الاحتفال الكبير.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg" target="_blank" rel="noopener">Photo: Slyronit
-                (CC BY-SA 4.0)</a></p>
+        <h3>حمّامات سيتشيني</h3>
+        <p>استرخوا في المياه الحرارية الشهيرة في بودابست قبل الاحتفال.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
-    <img src="/images/veli-bej-historic.jpg" alt="مشهد تاريخي لمجمّع حمامات تشاسار المرتبط بحمامات فيلي بيه" loading="lazy" decoding="async">
+    <img src="/images/veli-bej-historic.jpg" alt="مشهد تاريخي لمجمّع حمّامات تشاسار المرتبط بفيلي بيه" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
-        <h3>حمامات فيلي بيه</h3>
-        <p>حمام عثماني مُرمَّم يعود إلى القرن السادس عشر ضمن مجمّع حمامات تشاسار التاريخي.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_%28%C3%9Ajlaki_rakpart%29,_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg" target="_blank" rel="noopener">Photo: Fortepan 28832
-                (CC BY-SA 3.0)</a></p>
+        <h3>حمّامات فيلي بيه</h3>
+        <p>حمّام عثماني مُرمَّم من القرن السادس عشر، يقع ضمن مجمّع تشاسار التاريخي.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
-    <img src="/images/rudas-baths.jpg" alt="حمامات روداش وتل غيليرت في بودابست" loading="lazy" decoding="async">
+    <img src="/images/rudas-baths.jpg" alt="حمّامات روداش وتل غيليرت في بودابست" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
-        <h3>حمامات روداش</h3>
-        <p>حمام تركي تاريخي يتميز بمسبح ذي قبة وإطلالة على نهر الدانوب.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg" target="_blank" rel="noopener">Photo: Globetrotter19
-                (CC BY-SA 3.0)</a></p>
+        <h3>حمّامات روداش</h3>
+        <p>حمّام عثماني تاريخي يشتهر بمسبحه ذي القبة وإطلالته على نهر الدانوب.</p>
     </figcaption>
 </figure></p>
 </div>
 <section class="tripadvisor-panel" aria-label="مزيد من معالم بودابست">
-<p>هل تبحثون عن مزيد من الأفكار؟ اكتشفوا الأماكن المفضلة لدى الزوار على TripAdvisor.</p>
+<p>هل ترغبون في اكتشاف المزيد؟ تعرّفوا على أبرز معالم بودابست على TripAdvisor.</p>
 <a class="tripadvisor-link" href="https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html" target="_blank" rel="noopener noreferrer"><img src="/images/tripadvisor-logo.svg" alt="Tripadvisor"></a>
 </section>
 <section class="walking-routes">
-<h3>مسارات للمشي</h3>
-<div class="walking-route-list">
-<article class="walking-route"><h4>ممشى الدانوب ومعالم بيست</h4><p>ابدؤوا من مبنى البرلمان وسيروا بمحاذاة النهر مرورًا بنصب أحذية على ضفة الدانوب حتى كاتدرائية القديس إسطفان.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian+Parliament+Building,+Budapest&amp;destination=St.+Stephen%27s+Basilica,+Budapest&amp;waypoints=Shoes+on+the+Danube+Bank,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">افتحوا مسار المشي في خرائط Google</a></article>
-<article class="walking-route"><h4>حي قلعة بودا</h4><p>اعبروا جسر السلسلة، واصعدوا إلى قلعة بودا، ثم تابعوا إلى كنيسة ماتياس وحصن الصيادين.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Sz%C3%A9chenyi+Chain+Bridge,+Budapest&amp;destination=Fisherman%27s+Bastion,+Budapest&amp;waypoints=Buda+Castle,+Budapest|Matthias+Church,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">افتحوا مسار المشي في خرائط Google</a></article>
-<article class="walking-route"><h4>حديقة المدينة والحمامات الحرارية</h4><p>زوروا ساحة الأبطال وقلعة فاجداهونياد قبل الاسترخاء في حمامات سيتشيني.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27+Square,+Budapest&amp;destination=Sz%C3%A9chenyi+Thermal+Bath,+Budapest&amp;waypoints=Vajdahunyad+Castle,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">افتحوا مسار المشي في خرائط Google</a></article>
+    <h3>جولات مشي مقترحة</h3>
+    <div class="walking-route-list">
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: حي قلعة بودا">
+                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="حي قلعة بودا" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>افتحوا المسار في خرائط Google</span>
+            </a>
+            <h4>حي قلعة بودا</h4>
+            <p class="walking-duration">نحو ساعة ونصف إلى ساعتين</p>
+            <p>اكتشفوا القلعة وكنيسة ماتياس وحصن الصيادين.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: وسط بودابست ومبنى البرلمان">
+                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="وسط بودابست ومبنى البرلمان" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>افتحوا المسار في خرائط Google</span>
+            </a>
+            <h4>وسط بودابست ومبنى البرلمان</h4>
+            <p class="walking-duration">نحو ساعة ونصف إلى ساعتين</p>
+            <p>اتبعوا الدانوب من البرلمان إلى البازيليك والسوق المركزي.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: فاروشليغيت وحي القصور">
+                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="فاروشليغيت وحي القصور" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>افتحوا المسار في خرائط Google</span>
+            </a>
+            <h4>فاروشليغيت وحي القصور</h4>
+            <p class="walking-duration">نحو ساعتين</p>
+            <p>زوروا ساحة الأبطال وقلعة فاجداهونياد وحمّامات سيتشيني.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: الحي اليهودي">
+                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="الحي اليهودي" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>افتحوا المسار في خرائط Google</span>
+            </a>
+            <h4>الحي اليهودي</h4>
+            <p class="walking-duration">نحو ساعة ونصف</p>
+            <p>اكتشفوا ثلاثة معابد تاريخية وساحة غوزدو وبار سيمبلا كيرت.</p>
+        </article>
+    </div>
+</section>
 </div>
-</section></div>
         </article>
     </main>
     <footer>
         <p>نتطلع بشوق للاحتفال معكم في بودابست.</p>
+        <p><a href="/ar/%20/photo-credits/">اعتمادات الصور</a></p>
     </footer>
     </body>
 

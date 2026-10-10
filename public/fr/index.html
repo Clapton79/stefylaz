@@ -6,6 +6,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -50,9 +51,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -151,7 +156,8 @@
         }
 
         .page-copy {
-            max-width: 720px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin: 0 auto;
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -170,18 +176,12 @@
 
         .home-page .page-copy {
             display: flex;
-            min-height: 1260px;
-            max-width: 1840px;
             flex-direction: column;
             justify-content: center;
             padding: 64px clamp(32px, 8vw, 100px);
             font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.2rem;
             line-height: 1.8;
-        }
-
-        .home-page main {
-            width: min(100% - 40px, 1840px);
         }
 
         .home-page .brand h1,
@@ -291,9 +291,46 @@
         }
 
         .walking-route {
+            min-width: 0;
+            overflow: hidden;
             padding: 18px;
             border-inline-start: 3px solid var(--rose);
             background: var(--paper);
+        }
+
+        .walking-map-preview {
+            position: relative;
+            display: block;
+            height: 148px;
+            margin: -18px -18px 14px;
+            overflow: hidden;
+            background: #e5e8df;
+        }
+
+        .walking-map-preview iframe {
+            display: block;
+            width: 100%;
+            height: 190px;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .walking-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .walking-route .walking-duration {
+            margin: 0 0 8px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
         }
 
         .walking-route h4 {
@@ -341,12 +378,24 @@
             margin: 0;
         }
 
+        footer p+p {
+            margin-top: 6px;
+        }
+
+        footer a {
+            color: inherit;
+            text-underline-offset: 3px;
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -367,18 +416,13 @@
             }
 
             .page-copy {
+                min-height: 1020px;
                 padding: 28px 22px;
             }
 
             .home-page .page-copy {
-                min-height: 1020px;
-                max-width: 1840px;
                 padding: 40px 26px;
                 font-size: 1.08rem;
-            }
-
-            .home-page main {
-                width: min(100% - 28px, 1840px);
             }
 
             .tripadvisor-panel {
@@ -446,24 +490,29 @@
             
             <a href="/fr/sightseeing/">Visiter Budapest</a>
             
+            <a href="/fr/venue/">Le lieu</a>
+            
+            <a href="/fr/menu/">Le menu</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             
             <h2>La grande traversée</h2>
-            <div class="prose"><p>Nous sommes ravis de vous accueillir à bord pour célébrer ensemble cette journée si spéciale !</p>
-<p>Préparez votre plus belle tenue pour une soirée inoubliable sur le Danube.</p>
+            <div class="prose"><p>Nous sommes ravis de vous accueillir à bord pour célébrer ensemble notre mariage !</p>
+<p>Préparez-vous à passer une soirée inoubliable sur le Danube.</p>
 <ul>
-<li><strong>Embarquement :</strong> 25 juin 2027 à 18 h</li>
-<li><strong>Le bateau :</strong> Európa Hajó, Budapest, Hongrie</li>
+<li><strong>Départ :</strong> le 25 juin 2027 à 18 h</li>
+<li><strong>Bateau :</strong> Európa Hajó, Budapest, Hongrie</li>
 </ul>
-<p>Merci de confirmer votre présence avant le <strong>1er mai 2027</strong>.</p>
+<p>Merci de nous confirmer votre présence avant le <strong>1er mai 2027</strong>.</p>
 </div>
         </article>
     </main>
     <footer>
         <p>Nous avons hâte de célébrer avec vous à Budapest.</p>
+        <p><a href="/fr/%20/photo-credits/">Crédits photo</a></p>
     </footer>
     </body>
 

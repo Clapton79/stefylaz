@@ -1,0 +1,102 @@
+{
+  "maps": [
+    {
+      "embed": "https://maps.google.com/maps?saddr=Clark+Adam+Square,+Budapest&daddr=Buda+Castle,+Budapest+to:Matthias+Church,+Budapest+to:Fisherman%27s+Bastion,+Budapest+to:T%C3%B3th+%C3%81rp%C3%A1d+promenade,+Budapest&output=embed&dirflg=w",
+      "route": "https://www.google.com/maps/dir/?api=1&origin=Clark+Adam+Square,+Budapest&destination=T%C3%B3th+%C3%81rp%C3%A1d+promenade,+Budapest&waypoints=Buda+Castle,+Budapest%7CMatthias+Church,+Budapest%7CFisherman%27s+Bastion,+Budapest&travelmode=walking"
+    },
+    {
+      "embed": "https://maps.google.com/maps?saddr=Hungarian+Parliament+Building,+Budapest&daddr=Shoes+on+the+Danube+Bank,+Budapest+to:Liberty+Square,+Budapest+to:St.+Stephen%27s+Basilica,+Budapest+to:Central+Market+Hall,+Budapest&output=embed&dirflg=w",
+      "route": "https://www.google.com/maps/dir/?api=1&origin=Hungarian+Parliament+Building,+Budapest&destination=Central+Market+Hall,+Budapest&waypoints=Shoes+on+the+Danube+Bank,+Budapest%7CLiberty+Square,+Budapest%7CSt.+Stephen%27s+Basilica,+Budapest&travelmode=walking"
+    },
+    {
+      "embed": "https://maps.google.com/maps?saddr=Heroes%27+Square,+Budapest&daddr=Vajdahunyad+Castle,+Budapest+to:Sz%C3%A9chenyi+Thermal+Bath,+Budapest+to:Hungarian+State+Opera,+Budapest+to:Hungarian+National+Museum,+Budapest&output=embed&dirflg=w",
+      "route": "https://www.google.com/maps/dir/?api=1&origin=Heroes%27+Square,+Budapest&destination=Hungarian+National+Museum,+Budapest&waypoints=Vajdahunyad+Castle,+Budapest%7CSz%C3%A9chenyi+Thermal+Bath,+Budapest%7CHungarian+State+Opera,+Budapest&travelmode=walking"
+    },
+    {
+      "embed": "https://maps.google.com/maps?saddr=Doh%C3%A1ny+Street+Synagogue,+Budapest&daddr=Rumbach+Street+Synagogue,+Budapest+to:Kazinczy+Street+Synagogue,+Budapest+to:Gozsdu+Courtyard,+Budapest+to:Szimpla+Kert,+Budapest&output=embed&dirflg=w",
+      "route": "https://www.google.com/maps/dir/?api=1&origin=Doh%C3%A1ny+Street+Synagogue,+Budapest&destination=Szimpla+Kert,+Budapest&waypoints=Rumbach+Street+Synagogue,+Budapest%7CKazinczy+Street+Synagogue,+Budapest%7CGozsdu+Courtyard,+Budapest&travelmode=walking"
+    }
+  ],
+  "translations": {
+    "en": {
+      "heading": "Suggested Walking Tours",
+      "mapLabel": "Open route in Google Maps",
+      "tours": [
+        {"title": "Buda Castle District", "duration": "About 1.5–2 hours", "description": "Explore Buda Castle, Matthias Church and Fisherman's Bastion."},
+        {"title": "Downtown Budapest & Parliament", "duration": "About 1.5–2 hours", "description": "Follow the Danube from Parliament to the Central Market."},
+        {"title": "Városliget & Palace Quarter", "duration": "About 2 hours", "description": "Visit Heroes' Square, Vajdahunyad Castle and Széchenyi Bath."},
+        {"title": "Jewish Quarter", "duration": "About 1.5 hours", "description": "Visit three synagogues, Gozsdu Courtyard and Szimpla Kert."}
+      ]
+    },
+    "es": {
+      "heading": "Paseos recomendados",
+      "mapLabel": "Abrir ruta en Google Maps",
+      "tours": [
+        {"title": "Distrito del Castillo de Buda", "duration": "Aproximadamente 1,5–2 horas", "description": "Recorran el castillo, la iglesia de Matías, el Bastión y las calles históricas."},
+        {"title": "Centro de Budapest y Parlamento", "duration": "Aproximadamente 1,5–2 horas", "description": "Sigan el Danubio desde el Parlamento hasta la basílica y el Mercado Central."},
+        {"title": "Városliget y Barrio de los Palacios", "duration": "Aproximadamente 2 horas", "description": "Visiten la Plaza de los Héroes, Vajdahunyad y los baños Széchenyi."},
+        {"title": "Barrio Judío", "duration": "Aproximadamente 1,5 horas", "description": "Visiten tres sinagogas, el patio Gozsdu y Szimpla Kert."}
+      ]
+    },
+    "de": {
+      "heading": "Empfohlene Spaziergänge",
+      "mapLabel": "Route in Google Maps öffnen",
+      "tours": [
+        {"title": "Burgviertel von Buda", "duration": "Etwa 1,5–2 Stunden", "description": "Entdeckt Burg, Matthiaskirche, Fischerbastei und die Gassen des Viertels."},
+        {"title": "Innenstadt und Parlament", "duration": "Etwa 1,5–2 Stunden", "description": "Folgt der Donau vom Parlament bis zur Großen Markthalle."},
+        {"title": "Városliget und Palastviertel", "duration": "Etwa 2 Stunden", "description": "Besichtigt Heldenplatz, Vajdahunyad-Burg und das Széchenyi-Bad."},
+        {"title": "Jüdisches Viertel", "duration": "Etwa 1,5 Stunden", "description": "Besucht drei Synagogen, den Gozsdu-Hof und Szimpla Kert."}
+      ]
+    },
+    "hu": {
+      "heading": "Ajánlott séták",
+      "mapLabel": "Útvonal megnyitása a Google Térképen",
+      "tours": [
+        {"title": "Budai Várnegyed", "duration": "Körülbelül 1,5–2 óra", "description": "Fedezzétek fel a Budai Várat, a Mátyás-templomot és a Halászbástyát."},
+        {"title": "Belváros és az Országház", "duration": "Körülbelül 1,5–2 óra", "description": "Sétáljatok az Országháztól a Duna-parton át a Nagyvásárcsarnokig."},
+        {"title": "Városliget és Palotanegyed", "duration": "Körülbelül 2 óra", "description": "Keressétek fel a Hősök terét, Vajdahunyad várát és a Széchenyi fürdőt."},
+        {"title": "Zsidónegyed", "duration": "Körülbelül 1,5 óra", "description": "Fedezzetek fel három zsinagógát, a Gozsdu-udvart és a Szimpla Kertet."}
+      ]
+    },
+    "fr": {
+      "heading": "Promenades suggérées",
+      "mapLabel": "Ouvrir l’itinéraire dans Google Maps",
+      "tours": [
+        {"title": "Quartier du château de Buda", "duration": "Environ 1 h 30 à 2 h", "description": "Découvrez le château, l’église Matthias, le Bastion et les ruelles du quartier."},
+        {"title": "Centre-ville et Parlement", "duration": "Environ 1 h 30 à 2 h", "description": "Suivez le Danube depuis le Parlement jusqu’à la basilique et au Grand Marché."},
+        {"title": "Városliget et quartier des palais", "duration": "Environ 2 h", "description": "Visitez la place des Héros, Vajdahunyad et les thermes Széchenyi."},
+        {"title": "Quartier juif", "duration": "Environ 1 h 30", "description": "Découvrez trois synagogues, la cour Gozsdu et le Szimpla Kert."}
+      ]
+    },
+    "it": {
+      "heading": "Passeggiate consigliate",
+      "mapLabel": "Apri il percorso in Google Maps",
+      "tours": [
+        {"title": "Quartiere del Castello di Buda", "duration": "Circa 1,5–2 ore", "description": "Scoprite il Castello, la Chiesa di Mattia, il Bastione e i vicoli storici."},
+        {"title": "Centro e Parlamento", "duration": "Circa 1,5–2 ore", "description": "Seguite il Danubio dal Parlamento fino alla Basilica e al Mercato Centrale."},
+        {"title": "Városliget e Quartiere dei Palazzi", "duration": "Circa 2 ore", "description": "Visitate Piazza degli Eroi, il Castello Vajdahunyad e le Terme Széchenyi."},
+        {"title": "Quartiere ebraico", "duration": "Circa 1,5 ore", "description": "Scoprite tre sinagoghe, la Corte Gozsdu e lo Szimpla Kert."}
+      ]
+    },
+    "ar": {
+      "heading": "جولات مشي مقترحة",
+      "mapLabel": "افتحوا المسار في خرائط Google",
+      "tours": [
+        {"title": "حي قلعة بودا", "duration": "نحو ساعة ونصف إلى ساعتين", "description": "اكتشفوا القلعة وكنيسة ماتياس وحصن الصيادين."},
+        {"title": "وسط بودابست ومبنى البرلمان", "duration": "نحو ساعة ونصف إلى ساعتين", "description": "اتبعوا الدانوب من البرلمان إلى البازيليك والسوق المركزي."},
+        {"title": "فاروشليغيت وحي القصور", "duration": "نحو ساعتين", "description": "زوروا ساحة الأبطال وقلعة فاجداهونياد وحمّامات سيتشيني."},
+        {"title": "الحي اليهودي", "duration": "نحو ساعة ونصف", "description": "اكتشفوا ثلاثة معابد تاريخية وساحة غوزدو وبار سيمبلا كيرت."}
+      ]
+    },
+    "hi": {
+      "heading": "सुझाए गए पैदल दौरे",
+      "mapLabel": "Google Maps में रास्ता खोलें",
+      "tours": [
+        {"title": "बुडा कैसल इलाका", "duration": "लगभग 1.5–2 घंटे", "description": "बुडा किला, मैथियास चर्च और फिशरमैन्स बैस्टियन देखें."},
+        {"title": "बुडापेस्ट शहर और संसद", "duration": "लगभग 1.5–2 घंटे", "description": "संसद से डेन्यूब किनारे चलते हुए बेसिलिका और सेंट्रल मार्केट जाएँ."},
+        {"title": "वरोशलिगेट और पैलेस क्वार्टर", "duration": "लगभग 2 घंटे", "description": "हीरोज़ स्क्वायर, वायडाहुन्याद कैसल और सेचेनी बाथ देखें."},
+        {"title": "यहूदी क्वार्टर", "duration": "लगभग 1.5 घंटे", "description": "तीन ऐतिहासिक सिनेगॉग, गोझदू कोर्टयार्ड और सिम्पला केर्ट जाएँ."}
+      ]
+    }
+  }
+}

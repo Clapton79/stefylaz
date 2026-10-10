@@ -6,6 +6,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="hu" dir="ltr">
 
@@ -16,7 +18,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
-    <title>Budapesti Városnézés | Stef &amp; Laz - BodaPest 2027</title>
+    <title>Budapest felfedezése | Stef &amp; Laz - BodaPest 2027</title>
     
     <style>
         :root {
@@ -45,9 +47,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -146,7 +152,8 @@
         }
 
         .page-copy {
-            max-width: 720px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin: 0 auto;
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -165,18 +172,12 @@
 
         .home-page .page-copy {
             display: flex;
-            min-height: 1260px;
-            max-width: 1840px;
             flex-direction: column;
             justify-content: center;
             padding: 64px clamp(32px, 8vw, 100px);
             font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.2rem;
             line-height: 1.8;
-        }
-
-        .home-page main {
-            width: min(100% - 40px, 1840px);
         }
 
         .home-page .brand h1,
@@ -286,9 +287,46 @@
         }
 
         .walking-route {
+            min-width: 0;
+            overflow: hidden;
             padding: 18px;
             border-inline-start: 3px solid var(--rose);
             background: var(--paper);
+        }
+
+        .walking-map-preview {
+            position: relative;
+            display: block;
+            height: 148px;
+            margin: -18px -18px 14px;
+            overflow: hidden;
+            background: #e5e8df;
+        }
+
+        .walking-map-preview iframe {
+            display: block;
+            width: 100%;
+            height: 190px;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .walking-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+
+        .walking-route .walking-duration {
+            margin: 0 0 8px;
+            color: var(--rose);
+            font-size: 0.8rem;
+            font-weight: 700;
         }
 
         .walking-route h4 {
@@ -336,12 +374,24 @@
             margin: 0;
         }
 
+        footer p+p {
+            margin-top: 6px;
+        }
+
+        footer a {
+            color: inherit;
+            text-underline-offset: 3px;
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -362,18 +412,13 @@
             }
 
             .page-copy {
+                min-height: 1020px;
                 padding: 28px 22px;
             }
 
             .home-page .page-copy {
-                min-height: 1020px;
-                max-width: 1840px;
                 padding: 40px 26px;
                 font-size: 1.08rem;
-            }
-
-            .home-page main {
-                width: min(100% - 28px, 1840px);
             }
 
             .tripadvisor-panel {
@@ -441,77 +486,113 @@
             
             <a href="/hu/sightseeing/">Budapesti látnivalók</a>
             
+            <a href="/hu/venue/">Helyszín</a>
+            
+            <a href="/hu/menu/">Menü</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
-            <h2>Budapesti Városnézés</h2>
-            <div class="prose"><p>Míg itt vagytok a hajós esküvőnk alkalmából, szívből ajánljuk, hogy látogassátok meg ezeket az ikonikus helyszíneket a városban:</p>
+            <h2>Budapest felfedezése</h2>
+            <div class="prose"><p>Ha az esküvőnk miatt Budapestre látogattok, a város nevezetességeit is érdemes felkeresnetek:</p>
 <div class="attraction-grid">
 <p><figure class="attraction">
     <img src="/images/parliament.jpg" alt="A Dunában tükröződő Országház" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Országház</h3>
-        <p>Egy építészeti remekmű, amely közvetlenül a Dunáról is megcsodálható.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg" target="_blank" rel="noopener">Photo: Pierre Blaché
-                (CC0)</a></p>
+        <p>Budapest egyik lenyűgöző neogótikus épülete közvetlenül a Duna partján.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/fishermans-bastion-pinterest.jpg" alt="A Halászbástya kilátása a Dunára és Budapestre" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Budai Vár és Halászbástya</h3>
-        <p>Sétáljatok fel a várba a lenyűgöző panorámáért.</p>
-        <p class="photo-credit"><a href="https://ph.pinterest.com/pin/641059328208145770/" target="_blank" rel="noopener">Photo: Pinterest pin
-                (Source)</a></p>
+        <p>Sétáljatok fel a Várhegyre, és gyönyörködjetek a város panorámájában.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/szechenyi-baths.jpg" alt="A Széchenyi Gyógyfürdő szabadtéri medencéi" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Széchenyi Gyógyfürdő</h3>
-        <p>A tökéletes helyszín a feltöltődésre és a lazításra a nagy ünneplés előtt.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg" target="_blank" rel="noopener">Photo: Slyronit
-                (CC BY-SA 4.0)</a></p>
+        <p>Pihenjetek meg Budapest híres termálvizében az ünneplés előtt.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/veli-bej-historic.jpg" alt="A Veli Bejhez kapcsolódó Császár fürdőkomplexum történelmi látképe" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Veli Bej Gyógyfürdő</h3>
-        <p>Felújított, 16. századi oszmán fürdő a történelmi Császár fürdőkomplexumban.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_%28%C3%9Ajlaki_rakpart%29,_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg" target="_blank" rel="noopener">Photo: Fortepan 28832
-                (CC BY-SA 3.0)</a></p>
+        <p>A történelmi Császár fürdőkomplexum felújított, 16. századi oszmán fürdője.</p>
     </figcaption>
 </figure>
 <figure class="attraction">
     <img src="/images/rudas-baths.jpg" alt="A Rudas Gyógyfürdő és a Gellért-hegy Budapesten" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>Rudas Gyógyfürdő</h3>
-        <p>Történelmi török fürdő jellegzetes kupolás medencével és dunai kilátással.</p>
-        <p class="photo-credit"><a href="https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg" target="_blank" rel="noopener">Photo: Globetrotter19
-                (CC BY-SA 3.0)</a></p>
+        <p>Történelmi oszmán fürdő jellegzetes kupolás medencével és dunai panorámával.</p>
     </figcaption>
 </figure></p>
 </div>
 <section class="tripadvisor-panel" aria-label="További budapesti látnivalók">
-<p>További ötleteket kerestek? Nézzétek meg az utazók kedvenceit a TripAdvisoron.</p>
+<p>Szívesen felfedeznétek még több látnivalót? Nézzétek meg a budapesti utazók kedvenceit a TripAdvisoron.</p>
 <a class="tripadvisor-link" href="https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html" target="_blank" rel="noopener noreferrer"><img src="/images/tripadvisor-logo.svg" alt="Tripadvisor"></a>
 </section>
 <section class="walking-routes">
-<h3>Sétálóútvonalak</h3>
-<div class="walking-route-list">
-<article class="walking-route"><h4>Duna-part és pesti nevezetességek</h4><p>Sétáljatok a Parlamenttől a Duna-parti cipők emlékműve mellett a Szent István-bazilikáig.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian+Parliament+Building,+Budapest&amp;destination=St.+Stephen%27s+Basilica,+Budapest&amp;waypoints=Shoes+on+the+Danube+Bank,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Gyalogos útvonal megnyitása a Google Térképen</a></article>
-<article class="walking-route"><h4>Budai Várnegyed</h4><p>Sétáljatok át a Lánchídon, majd a Budai Vár érintésével a Mátyás-templomhoz és a Halászbástyához.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Sz%C3%A9chenyi+Chain+Bridge,+Budapest&amp;destination=Fisherman%27s+Bastion,+Budapest&amp;waypoints=Buda+Castle,+Budapest|Matthias+Church,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Gyalogos útvonal megnyitása a Google Térképen</a></article>
-<article class="walking-route"><h4>Városliget és gyógyfürdők</h4><p>Nézzétek meg a Hősök terét és a Vajdahunyad várát, majd pihenjetek meg a Széchenyi Gyógyfürdőben.</p><a href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27+Square,+Budapest&amp;destination=Sz%C3%A9chenyi+Thermal+Bath,+Budapest&amp;waypoints=Vajdahunyad+Castle,+Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer">Gyalogos útvonal megnyitása a Google Térképen</a></article>
-</div>
+    <h3>Ajánlott séták</h3>
+    <div class="walking-route-list">
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="Útvonal megnyitása a Google Térképen: Budai Várnegyed">
+                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Budai Várnegyed" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Útvonal megnyitása a Google Térképen</span>
+            </a>
+            <h4>Budai Várnegyed</h4>
+            <p class="walking-duration">Körülbelül 1,5–2 óra</p>
+            <p>Fedezzétek fel a Budai Várat, a Mátyás-templomot és a Halászbástyát.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="Útvonal megnyitása a Google Térképen: Belváros és az Országház">
+                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Belváros és az Országház" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Útvonal megnyitása a Google Térképen</span>
+            </a>
+            <h4>Belváros és az Országház</h4>
+            <p class="walking-duration">Körülbelül 1,5–2 óra</p>
+            <p>Sétáljatok az Országháztól a Duna-parton át a Nagyvásárcsarnokig.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="Útvonal megnyitása a Google Térképen: Városliget és Palotanegyed">
+                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Városliget és Palotanegyed" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Útvonal megnyitása a Google Térképen</span>
+            </a>
+            <h4>Városliget és Palotanegyed</h4>
+            <p class="walking-duration">Körülbelül 2 óra</p>
+            <p>Keressétek fel a Hősök terét, Vajdahunyad várát és a Széchenyi fürdőt.</p>
+        </article>
+        <article class="walking-route">
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="Útvonal megnyitása a Google Térképen: Zsidónegyed">
+                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="Zsidónegyed" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <span>Útvonal megnyitása a Google Térképen</span>
+            </a>
+            <h4>Zsidónegyed</h4>
+            <p class="walking-duration">Körülbelül 1,5 óra</p>
+            <p>Fedezzetek fel három zsinagógát, a Gozsdu-udvart és a Szimpla Kertet.</p>
+        </article>
+    </div>
 </section>
 </div>
         </article>
     </main>
     <footer>
         <p>Alig várjuk, hogy együtt ünnepelhessünk veletek Budapesten.</p>
+        <p><a href="/hu/photo-credits/">Fotóforrások</a></p>
     </footer>
     </body>
 

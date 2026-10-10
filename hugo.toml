@@ -3,6 +3,7 @@ title = 'Stef & Laz - BodaPest 2027'
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
+staticDir = ['static', 'res']
 
 [params]
     weddingDate = "2027-06-25T18:00:00"
@@ -23,6 +24,14 @@ defaultContentLanguageInSubdir = false
         name = "Sightseeing in Budapest"
         url = "/sightseeing/"
         weight = 2
+      [[languages.en.menu.main]]
+        name = "The Venue"
+        url = "/venue/"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "The Menu"
+        url = "/menu/"
+        weight = 4
 
   [languages.es]
     locale = 'es-ES'
@@ -37,6 +46,14 @@ defaultContentLanguageInSubdir = false
         name = "Qué ver en Budapest"
         url = "/sightseeing/"
         weight = 2
+      [[languages.es.menu.main]]
+        name = "El lugar"
+        url = "/venue/"
+        weight = 3
+      [[languages.es.menu.main]]
+        name = "El menú"
+        url = "/menu/"
+        weight = 4
 
   [languages.de]
     locale = 'de-DE'
@@ -51,6 +68,14 @@ defaultContentLanguageInSubdir = false
         name = "Sehenswürdigkeiten in Budapest"
         url = "/sightseeing/"
         weight = 2
+      [[languages.de.menu.main]]
+        name = "Veranstaltungsort"
+        url = "/venue/"
+        weight = 3
+      [[languages.de.menu.main]]
+        name = "Das Menü"
+        url = "/menu/"
+        weight = 4
 
   [languages.hu]
     locale = 'hu-HU'
@@ -65,6 +90,14 @@ defaultContentLanguageInSubdir = false
         name = "Budapesti látnivalók"
         url = "/sightseeing/"
         weight = 2
+      [[languages.hu.menu.main]]
+        name = "Helyszín"
+        url = "/venue/"
+        weight = 3
+      [[languages.hu.menu.main]]
+        name = "Menü"
+        url = "/menu/"
+        weight = 4
 
   [languages.fr]
     locale = 'fr-FR'
@@ -79,6 +112,14 @@ defaultContentLanguageInSubdir = false
         name = "Visiter Budapest"
         url = "/sightseeing/"
         weight = 2
+      [[languages.fr.menu.main]]
+        name = "Le lieu"
+        url = "/venue/"
+        weight = 3
+      [[languages.fr.menu.main]]
+        name = "Le menu"
+        url = "/menu/"
+        weight = 4
 
   [languages.it]
     locale = 'it-IT'
@@ -93,6 +134,14 @@ defaultContentLanguageInSubdir = false
         name = "Alla scoperta di Budapest"
         url = "/sightseeing/"
         weight = 2
+      [[languages.it.menu.main]]
+        name = "La location"
+        url = "/venue/"
+        weight = 3
+      [[languages.it.menu.main]]
+        name = "Il menu"
+        url = "/menu/"
+        weight = 4
 
   [languages.ar]
     locale = 'ar'
@@ -107,6 +156,14 @@ defaultContentLanguageInSubdir = false
         name = "معالم بودابست"
         url = "/sightseeing/"
         weight = 2
+      [[languages.ar.menu.main]]
+        name = "مكان الحفل"
+        url = "/venue/"
+        weight = 3
+      [[languages.ar.menu.main]]
+        name = "قائمة الطعام"
+        url = "/menu/"
+        weight = 4
 
   [languages.hi]
     locale = 'hi-IN'
@@ -121,6 +178,14 @@ defaultContentLanguageInSubdir = false
         name = "बुडापेस्ट के दर्शनीय स्थल"
         url = "/sightseeing/"
         weight = 2
+      [[languages.hi.menu.main]]
+        name = "कार्यक्रम स्थल"
+        url = "/venue/"
+        weight = 3
+      [[languages.hi.menu.main]]
+        name = "भोज-सूची"
+        url = "/menu/"
+        weight = 4
 
 [markup]
   [markup.goldmark]

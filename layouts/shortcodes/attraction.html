@@ -1,17 +1,4 @@
-{{- $photos := dict
-"parliament.jpg" (dict "author" "Pierre Blaché" "license" "CC0" "source"
-"https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg")
-"fishermans-bastion-pinterest.jpg" (dict "author" "Pinterest pin" "license" "Source" "source"
-"https://ph.pinterest.com/pin/641059328208145770/")
-"szechenyi-baths.jpg" (dict "author" "Slyronit" "license" "CC BY-SA 4.0" "source"
-"https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg")
-"veli-bej-historic.jpg" (dict "author" "Fortepan 28832" "license" "CC BY-SA 3.0" "source"
-"https://commons.wikimedia.org/wiki/File:Budapest_II.,_%C3%81rp%C3%A1d_fejedelem_%C3%BAtja_(%C3%9Ajlaki_rakpart),_Cs%C3%A1sz%C3%A1r_f%C3%BCrd%C5%91._Fortepan_28832.jpg")
-"rudas-baths.jpg" (dict "author" "Globetrotter19" "license" "CC BY-SA 3.0" "source"
-"https://commons.wikimedia.org/wiki/File:Rudas_Baths_central_part_and_Gellert_Hill_in_Tab%C3%A1n,_2016_Budapest.jpg")
--}}
 {{- $image := .Get "image" -}}
-{{- $photo := index $photos $image -}}
 {{- $src := printf "/images/%s" $image | relURL -}}
 {{- $alt := .Get "alt" -}}
 <figure class="attraction">
@@ -19,7 +6,5 @@
     <figcaption class="attraction-caption">
         <h3>{{ .Get "title" }}</h3>
         <p>{{ .Get "description" }}</p>
-        <p class="photo-credit"><a href="{{ $photo.source }}" target="_blank" rel="noopener">Photo: {{ $photo.author }}
-                ({{ $photo.license }})</a></p>
     </figcaption>
 </figure>

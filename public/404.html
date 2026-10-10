@@ -33,9 +33,13 @@
         }
 
         .site-header,
-        main,
         footer {
             width: min(100% - 40px, 980px);
+            margin-inline: auto;
+        }
+
+        main {
+            width: min(100% - 40px, 1840px);
             margin-inline: auto;
         }
 
@@ -93,8 +97,8 @@
         }
 
         .not-found {
-            max-width: 920px;
-            min-height: 550px;
+            max-width: 1840px;
+            min-height: 1260px;
             margin-inline: auto;
             padding: 42px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
@@ -126,8 +130,9 @@
         }
 
         .picture-frame {
+            display: grid;
             width: min(100%, 540px);
-            aspect-ratio: 16 / 9;
+            aspect-ratio: 4 / 3;
             margin: 28px auto 24px;
             padding: 12px;
             border: 8px double var(--forest);
@@ -135,16 +140,11 @@
             box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
         }
 
-        .picture-frame-inner {
-            display: grid;
+        .picture-frame img {
+            display: block;
             width: 100%;
             height: 100%;
-            place-items: center;
-            border: 1px dashed var(--leaf);
-            background: repeating-linear-gradient(135deg, transparent 0 18px, rgba(49, 92, 74, 0.04) 18px 19px);
-            color: var(--leaf);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
-            font-size: 1.2rem;
+            object-fit: cover;
         }
 
         .home-link {
@@ -177,9 +177,12 @@
         @media (max-width: 540px) {
 
             .site-header,
-            main,
             footer {
                 width: min(100% - 28px, 980px);
+            }
+
+            main {
+                width: min(100% - 28px, 1840px);
             }
 
             .language-switcher {
@@ -196,7 +199,7 @@
             }
 
             .not-found {
-                min-height: 480px;
+                min-height: 1020px;
                 padding: 34px 20px;
             }
 
@@ -212,26 +215,34 @@
     <header class="site-header">
         <nav class="language-switcher" aria-label="Language">
             
+            
             <a class="language-link" href="/en/" lang="en"
                 data-language="en">English</a>
+            
             
             <a class="language-link" href="/es/" lang="es"
                 data-language="es">Español</a>
             
+            
             <a class="language-link" href="/de/" lang="de"
                 data-language="de">Deutsch</a>
+            
             
             <a class="language-link" href="/hu/" lang="hu"
                 data-language="hu">Magyar</a>
             
+            
             <a class="language-link" href="/fr/" lang="fr"
                 data-language="fr">Français</a>
+            
             
             <a class="language-link" href="/it/" lang="it"
                 data-language="it">Italiano</a>
             
+            
             <a class="language-link" href="/ar/" lang="ar"
                 data-language="ar">العربية</a>
+            
             
             <a class="language-link" href="/hi/" lang="hi"
                 data-language="hi">हिन्दी</a>
@@ -247,15 +258,16 @@
             <h2 id="error-title">Page not found</h2>
             <p class="not-found-message" id="error-message">We couldn't find that page. Let's get you back to the
                 wedding details.</p>
-            <figure class="picture-frame" role="img" aria-labelledby="frame-label">
-                <div class="picture-frame-inner"><span id="frame-label">Your photo goes here</span></div>
+            <figure class="picture-frame">
+                <img id="frame-image" src="/images/StefBp.jpeg"
+                    alt="Stef smiling in front of the Hungarian Parliament at night">
             </figure>
             <a class="home-link" id="home-link" href="/">Back to home</a>
         </article>
     </main>
     <footer>Stef &amp; Laz - BodaPest 2027</footer>
     <script>
-        const translations = {"ar":{"frame":"ستكون صورتكم هنا","home":"العودة إلى الصفحة الرئيسية","label":"العربية","message":"لم نعثر على هذه الصفحة. عودوا إلى تفاصيل الزفاف.","title":"الصفحة غير موجودة"},"de":{"frame":"Hier kommt euer Foto hin","home":"Zur Startseite","label":"Deutsch","message":"Diese Seite gibt es nicht. Zurück zu den Hochzeitsinfos.","title":"Seite nicht gefunden"},"en":{"frame":"Your photo will go here","home":"Back to home","label":"English","message":"We couldn't find this page. Return to the wedding details.","title":"Page not found"},"es":{"frame":"Aquí irá tu foto","home":"Volver al inicio","label":"Español","message":"No encontramos esta página. Vuelve a los detalles de la boda.","title":"Página no encontrada"},"fr":{"frame":"Votre photo ira ici","home":"Retour à l’accueil","label":"Français","message":"Cette page est introuvable. Retour aux détails du mariage.","title":"Page introuvable"},"hi":{"frame":"आपकी तस्वीर यहाँ होगी","home":"मुखपृष्ठ पर वापस जाएँ","label":"हिन्दी","message":"यह पृष्ठ नहीं मिला। शादी की जानकारी पर वापस जाएँ।","title":"पृष्ठ नहीं मिला"},"hu":{"frame":"Ide kerül majd a képetek","home":"Vissza a főoldalra","label":"Magyar","message":"Ez az oldal nem található. Vissza az esküvő részleteihez.","title":"Az oldal nem található"},"it":{"frame":"Qui andrà la vostra foto","home":"Torna alla home","label":"Italiano","message":"Questa pagina non esiste. Torna ai dettagli del matrimonio.","title":"Pagina non trovata"}};
+        const translations = {"ar":{"frame":"ستيف يبتسم أمام مبنى البرلمان المجري ليلًا","home":"العودة إلى الصفحة الرئيسية","label":"العربية","message":"لم نعثر على هذه الصفحة. عودوا إلى تفاصيل الزفاف.","title":"الصفحة غير موجودة"},"de":{"frame":"Stef lächelt nachts vor dem ungarischen Parlament","home":"Zur Startseite","label":"Deutsch","message":"Diese Seite gibt es nicht. Zurück zu den Hochzeitsinfos.","title":"Seite nicht gefunden"},"en":{"frame":"Stef smiling in front of the Hungarian Parliament at night","home":"Back to home","label":"English","message":"We couldn't find this page. Return to the wedding details.","title":"Page not found"},"es":{"frame":"Stef sonríe frente al Parlamento de Hungría por la noche","home":"Volver al inicio","label":"Español","message":"No encontramos esta página. Vuelve a los detalles de la boda.","title":"Página no encontrada"},"fr":{"frame":"Stef sourit devant le Parlement hongrois de nuit","home":"Retour à l’accueil","label":"Français","message":"Cette page est introuvable. Retour aux détails du mariage.","title":"Page introuvable"},"hi":{"frame":"रात में हंगरी की संसद के सामने मुस्कुराते हुए स्टेफ़","home":"मुखपृष्ठ पर वापस जाएँ","label":"हिन्दी","message":"यह पृष्ठ नहीं मिला। शादी की जानकारी पर वापस जाएँ।","title":"पृष्ठ नहीं मिला"},"hu":{"frame":"Stef éjszaka mosolyog a magyar Parlament előtt","home":"Vissza a főoldalra","label":"Magyar","message":"Ez az oldal nem található. Vissza az esküvő részleteihez.","title":"Az oldal nem található"},"it":{"frame":"Stef sorride davanti al Parlamento ungherese di notte","home":"Torna alla home","label":"Italiano","message":"Questa pagina non esiste. Torna ai dettagli del matrimonio.","title":"Pagina non trovata"}};
         const pathLanguage = window.location.pathname.split("/")[1];
         const language = Object.hasOwn(translations, pathLanguage) ? pathLanguage : "en";
         const text = translations[language];
@@ -265,7 +277,7 @@
         document.title = `${text.title} | Stef \u0026 Laz - BodaPest 2027`;
         document.getElementById("error-title").textContent = text.title;
         document.getElementById("error-message").textContent = text.message;
-        document.getElementById("frame-label").textContent = text.frame;
+        document.getElementById("frame-image").alt = text.frame;
         const homeLink = document.getElementById("home-link");
         homeLink.textContent = text.home;
         homeLink.href = language === "en" ? "/" : `/${language}/`;

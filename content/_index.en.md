@@ -1,12 +1,12 @@
 ---
-title: "The Grand Voyage Ahead"
+title: "Our Grand Voyage"
 ---
 
-We are incredibly excited to welcome you aboard to celebrate our special day together! 
+We're delighted to welcome you aboard as we celebrate our wedding together.
 
-Prepare your finest attire for an enchanting evening along the Danube.
+Join us for an unforgettable evening on the Danube.
 
-* **Departure Time:** 25 June, 2027 at 18:00
-* **The Vessel:** Európa Hajó, Budapest, Hungary
+* **Departure:** 25 June 2027 at 18:00
+* **Vessel:** Európa Hajó, Budapest, Hungary
 
-Please venture over to the **RSVP** tab above to secure your passage in our guest registry by **May 1st, 2027**.
+Please let us know by **1 May 2027** whether you can join us.
