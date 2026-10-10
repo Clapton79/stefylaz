@@ -668,9 +668,11 @@
         <nav class="language-switcher" aria-label="{{ if eq $currentLang " ar" }}اللغة{{ else if eq $currentLang "hi"
             }}भाषा{{ else }}{{ index $languageLabels $currentLang }}{{ end }}">
             {{ range site.Languages }}
-            <a class="language-link{{ if eq .Lang $currentLang }} is-current{{ end }}" href="{{ if eq .Lang " en" }}/{{
-                else }}/{{ .Lang }}/{{ end }}" lang="{{ .Lang }}" title="{{ index $languageNames .Lang }}" {{ if eq
-                .Lang $currentLang }} aria-current="page" {{ end }}>
+            {{ $languageURL := "/" }}
+            {{ if ne .Lang "en" }}{{ $languageURL = printf "/%s/" .Lang }}{{ end }}
+            <a class="language-link{{ if eq .Lang $currentLang }} is-current{{ end }}" href="{{ $languageURL }}"
+                lang="{{ .Lang }}" title="{{ index $languageNames .Lang }}" {{ if eq .Lang $currentLang }}
+                aria-current="page" {{ end }}>
                 <span class="flag" aria-hidden="true">{{ index $flags .Lang }}</span>
                 <span>{{ index $languageNames .Lang }}</span>
             </a>
