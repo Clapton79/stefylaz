@@ -288,8 +288,8 @@
         <nav class="language-switcher" aria-label="Language">
             {{ range site.Languages }}
             {{ $languageText := index $translations .Lang }}
-            {{ $languageURL := "/" }}
-            {{ if ne .Lang "en" }}{{ $languageURL = printf "/%s/" .Lang }}{{ end }}
+            {{ $languageURL := site.BaseURL }}
+            {{ if ne .Lang "en" }}{{ $languageURL = printf "%s%s/" site.BaseURL .Lang }}{{ end }}
             <a class="language-link" href="{{ $languageURL }}" lang="{{ .Lang }}" data-language="{{ .Lang }}">{{
                 $languageText.label }}</a>
             {{ end }}

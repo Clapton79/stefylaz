@@ -668,8 +668,8 @@
         <nav class="language-switcher" aria-label="{{ if eq $currentLang " ar" }}اللغة{{ else if eq $currentLang "hi"
             }}भाषा{{ else }}{{ index $languageLabels $currentLang }}{{ end }}">
             {{ range site.Languages }}
-            {{ $languageURL := "/" }}
-            {{ if ne .Lang "en" }}{{ $languageURL = printf "/%s/" .Lang }}{{ end }}
+            {{ $languageURL := site.BaseURL }}
+            {{ if ne .Lang "en" }}{{ $languageURL = printf "%s%s/" site.BaseURL .Lang }}{{ end }}
             <a class="language-link{{ if eq .Lang $currentLang }} is-current{{ end }}" href="{{ $languageURL }}"
                 lang="{{ .Lang }}" title="{{ index $languageNames .Lang }}" {{ if eq .Lang $currentLang }}
                 aria-current="page" {{ end }}>
@@ -682,8 +682,8 @@
             <span class="visually-hidden">{{ index $languageLabels $currentLang }}</span>
             <select aria-label="{{ index $languageLabels $currentLang }}" onchange="window.location.href = this.value">
                 {{ range site.Languages }}
-                {{ $languageURL := "/" }}
-                {{ if ne .Lang "en" }}{{ $languageURL = printf "/%s/" .Lang }}{{ end }}
+                {{ $languageURL := site.BaseURL }}
+                {{ if ne .Lang "en" }}{{ $languageURL = printf "%s%s/" site.BaseURL .Lang }}{{ end }}
                 <option value="{{ $languageURL }}" lang="{{ .Lang }}" {{ if eq .Lang $currentLang }}selected{{ end }}>{{
                     index $languageNames .Lang }}</option>
                 {{ end }}
