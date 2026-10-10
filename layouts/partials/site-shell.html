@@ -1,4 +1,6 @@
 {{ $currentLang := site.Language.Lang }}
+{{ $languageNames := dict "en" "English" "es" "Español" "de" "Deutsch" "hu" "Magyar" "fr" "Français" "it" "Italiano"
+"ar" "العربية" "hi" "हिन्दी" }}
 {{ $direction := "ltr" }}
 {{ if eq $currentLang "ar" }}{{ $direction = "rtl" }}{{ end }}
 {{ $flags := dict "en" "🇬🇧" "es" "🇪🇸" "de" "🇩🇪" "hu" "🇭🇺" "fr" "🇫🇷" "it" "🇮🇹" }}
@@ -228,10 +230,10 @@
             }}भाषा{{ else }}{{ index $languageLabels $currentLang }}{{ end }}">
             {{ range site.Languages }}
             <a class="language-link{{ if eq .Lang $currentLang }} is-current{{ end }}" href="{{ if eq .Lang " en" }}/{{
-                else }}/{{ .Lang }}/{{ end }}" lang="{{ .Lang }}" title="{{ .Label }}" {{ if eq .Lang $currentLang }}
-                aria-current="page" {{ end }}>
+                else }}/{{ .Lang }}/{{ end }}" lang="{{ .Lang }}" title="{{ index $languageNames .Lang }}" {{ if eq
+                .Lang $currentLang }} aria-current="page" {{ end }}>
                 <span class="flag" aria-hidden="true">{{ index $flags .Lang }}</span>
-                <span>{{ .Label }}</span>
+                <span>{{ index $languageNames .Lang }}</span>
             </a>
             {{ end }}
         </nav>
