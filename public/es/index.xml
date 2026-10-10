@@ -12,6 +12,13 @@
 		
 			<atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>Contacto</title>
+				<link>http://localhost:1313/es/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/es/contact/</guid>
+				<description>&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;Consultas sobre la boda&lt;/h3&gt;&#xA;&lt;p&gt;¿Tienen preguntas sobre la celebración? Escríbannos a &lt;a href=&#34;mailto:stef.laz.wedding@gmail.com&#34;&gt;stef.laz.wedding@gmail.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;Compartan sus fotos&lt;/h3&gt;&#xA;&lt;p&gt;Si hacen fotos en el lugar de la celebración, podrán enviárnoslas mediante el formulario. No las compartiremos con nadie; las guardaremos como recuerdo de este día tan especial.&lt;/p&gt;&#xA;&lt;span class=&#34;pending-link&#34;&gt;Google Forms — enlace del formulario próximamente&lt;/span&gt;&#xA;&lt;/section&gt;</description>
+			</item>
+			<item>
 				<title>Créditos fotográficos</title>
 				<link>http://localhost:1313/es/photo-credits/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -38,6 +45,13 @@
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/es/menu/</guid>
 				<description>&lt;p&gt;Este es un menú provisional para la velada. Los platos y las opciones pueden cambiar cuando terminemos de organizarlo.&lt;/p&gt;&#xA;&lt;h3 id=&#34;menú-de-ejemplo&#34;&gt;Menú de ejemplo&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Aperitivos de bienvenida:&lt;/strong&gt; Quesos húngaros, embutidos y verduras frescas&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sopa:&lt;/strong&gt; Sopa tradicional de gulash&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Plato principal:&lt;/strong&gt; Pollo al pimentón con nokedli; paprikash de champiñones como opción vegetariana&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Postre:&lt;/strong&gt; Somlói galuska, un postre húngaro de bizcocho&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+			</item>
+			<item>
+				<title>Sobre nosotros</title>
+				<link>http://localhost:1313/es/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/es/about/</guid>
+				<description>&lt;h3 id=&#34;nuestra-historia&#34;&gt;Nuestra historia&lt;/h3&gt;&#xA;&lt;p&gt;Este texto es provisional. Aquí contaremos cómo empezó nuestra historia, los momentos que nos han traído hasta aquí y por qué elegimos Budapest para celebrar. Por ahora, nos hace mucha ilusión compartir ese día con ustedes.&lt;/p&gt;&#xA;&lt;figure class=&#34;story-photo&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/StefLazCouch.jpg&#34; alt=&#34;Stef y Laz descansando juntos en un sofá&#34;&gt;&#xA;&lt;/figure&gt;</description>
 			</item>
 	</channel>
 </rss>

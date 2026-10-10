@@ -39,5 +39,19 @@
 				<guid>http://localhost:1313/hi/menu/</guid>
 				<description>&lt;p&gt;यह शाम के भोजन की शुरुआती रूपरेखा है। अंतिम योजना बनाते समय व्यंजन और विकल्प बदल सकते हैं।&lt;/p&gt;&#xA;&lt;h3 id=&#34;परसतवत-भजन&#34;&gt;प्रस्तावित भोजन&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;आगमन पर हल्का नाश्ता:&lt;/strong&gt; हंगेरियन चीज़, ठंडे मीट और ताज़ी सब्ज़ियाँ&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;सूप:&lt;/strong&gt; पारंपरिक गौलाश सूप&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;मुख्य व्यंजन:&lt;/strong&gt; नोकडली के साथ चिकन पपरिकाश; शाकाहारी विकल्प के रूप में मशरूम पपरिकाश&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;मिठाई:&lt;/strong&gt; सोमलोई गलुश्का, हंगरी की स्पॉन्ज केक मिठाई&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
 			</item>
+			<item>
+				<title>संपर्क</title>
+				<link>http://localhost:1313/hi/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/hi/contact/</guid>
+				<description>&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;शादी से जुड़े सवाल&lt;/h3&gt;&#xA;&lt;p&gt;शादी की पार्टी के बारे में कोई सवाल हो, तो हमें &lt;a href=&#34;mailto:stef.laz.wedding@gmail.com&#34;&gt;stef.laz.wedding@gmail.com&lt;/a&gt; पर ईमेल करें।&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;अपनी तस्वीरें साझा करें&lt;/h3&gt;&#xA;&lt;p&gt;अगर आप कार्यक्रम स्थल पर तस्वीरें लेते हैं, तो नीचे दिए गए फ़ॉर्म से हमें भेज सकते हैं। हम उन्हें किसी के साथ साझा नहीं करेंगे; इस खूबसूरत दिन की याद के रूप में सँभालकर रखेंगे।&lt;/p&gt;&#xA;&lt;span class=&#34;pending-link&#34;&gt;Google Forms — फ़ोटो अपलोड लिंक जल्द आएगा&lt;/span&gt;&#xA;&lt;/section&gt;</description>
+			</item>
+			<item>
+				<title>हमारे बारे में</title>
+				<link>http://localhost:1313/hi/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/hi/about/</guid>
+				<description>&lt;h3 id=&#34;हमर-कहन&#34;&gt;हमारी कहानी&lt;/h3&gt;&#xA;&lt;p&gt;यह अभी एक प्रारूप है। यहाँ हम बताएँगे कि हमारी कहानी कैसे शुरू हुई, कौन-से पल हमें यहाँ तक लाए और जश्न मनाने के लिए हमने बुडापेस्ट क्यों चुना। फिलहाल, हमें आपके साथ यह दिन मनाने का बेसब्री से इंतज़ार है।&lt;/p&gt;&#xA;&lt;figure class=&#34;story-photo&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/StefLazCouch.jpg&#34; alt=&#34;सोफ़े पर साथ आराम करते स्टेफ़ और लाज़&#34;&gt;&#xA;&lt;/figure&gt;</description>
+			</item>
 	</channel>
 </rss>

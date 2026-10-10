@@ -2,6 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/about/"
+                />
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -42,6 +84,48 @@
                 rel="alternate"
                 hreflang="hi-IN"
                 href="http://localhost:1313/hi/categories/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr-FR"
+                href="http://localhost:1313/fr/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="it-IT"
+                href="http://localhost:1313/it/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost:1313/ar/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hi-IN"
+                href="http://localhost:1313/hi/contact/"
                 />
   </url><url>
     <loc>http://localhost:1313/sightseeing/</loc>

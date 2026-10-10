@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
     <title>404 | Stef &amp; Laz - BodaPest 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <style>
         :root {
             color-scheme: light;
@@ -78,15 +81,25 @@
         }
 
         .brand {
+            position: relative;
             padding: 28px 12px 22px;
-            border-top: 1px solid var(--line);
+            border-block: 1px solid var(--line);
             text-align: center;
+        }
+
+        .brand::after {
+            display: block;
+            width: 58px;
+            margin: 16px auto 0;
+            border-top: 1px solid var(--rose);
+            box-shadow: 0 3px 0 -1px var(--rose);
+            content: "";
         }
 
         .brand h1 {
             margin: 0;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(1.8rem, 5vw, 3rem);
             font-weight: 400;
             line-height: 1.2;
@@ -118,7 +131,7 @@
         .not-found h2 {
             margin: 0 0 10px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(2rem, 5vw, 3rem);
             font-weight: 400;
             line-height: 1.2;

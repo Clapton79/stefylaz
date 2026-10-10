@@ -7,6 +7,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
@@ -19,11 +21,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
     <title>Stef &amp; Laz - BodaPest 2027</title>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
-    
     <style>
         :root {
             color-scheme: light;
@@ -106,8 +106,17 @@
 
         .brand {
             padding: 32px 20px 26px;
-            border-top: 1px solid var(--line);
+            border-block: 1px solid var(--line);
             text-align: center;
+        }
+
+        .brand::after {
+            display: block;
+            width: 58px;
+            margin: 16px auto 0;
+            border-top: 1px solid var(--rose);
+            box-shadow: 0 3px 0 -1px var(--rose);
+            content: "";
         }
 
         .brand-kicker,
@@ -122,7 +131,7 @@
         .brand h1 {
             margin: 4px 0 0;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(2rem, 5vw, 3.5rem);
             font-weight: 400;
             line-height: 1.15;
@@ -168,7 +177,7 @@
         .page-copy h2 {
             margin: 0 0 20px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(1.8rem, 4vw, 2.6rem);
             font-weight: 400;
             line-height: 1.2;
@@ -350,6 +359,86 @@
             font-weight: 700;
         }
 
+        .story-photo {
+            width: min(100%, 520px);
+            margin: 30px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo {
+            width: min(100%, 920px);
+            margin: 28px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .story-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-section {
+            margin-top: 28px;
+            padding: 20px 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .contact-section h3 {
+            margin: 0 0 10px;
+            color: var(--forest);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.55rem;
+            font-weight: 400;
+        }
+
+        .contact-section p {
+            margin: 0 0 10px;
+        }
+
+        .contact-section a {
+            color: var(--rose);
+        }
+
+        .paypal-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 48px;
+            padding: 8px 14px;
+            border: 1px solid var(--line);
+            background: var(--paper);
+            color: var(--forest) !important;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .paypal-link img {
+            display: block;
+            width: 48px;
+            height: 28px;
+            object-fit: contain;
+        }
+
+        .pending-link {
+            display: inline-block;
+            padding: 7px 10px;
+            border: 1px dashed var(--leaf);
+            color: var(--leaf);
+            font-weight: 700;
+        }
+
         .prose> :first-child {
             margin-top: 0;
         }
@@ -494,12 +583,23 @@
             
             <a href="/fr/menu/">Le menu</a>
             
+            <a href="/fr/about/">À propos</a>
+            
+            <a href="/fr/contact/">Contacts</a>
+            
+            <a href="/fr/gifts/">Cadeaux</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             
             <h2>La grande traversée</h2>
+            
+            <figure class="home-photo">
+                <img src="/images/StefLazBE.jpeg" alt="Stef et Laz ensemble au bord de la mer au coucher du soleil">
+            </figure>
+            
             <div class="prose"><p>Nous sommes ravis de vous accueillir à bord pour célébrer ensemble notre mariage !</p>
 <p>Préparez-vous à passer une soirée inoubliable sur le Danube.</p>
 <ul>
@@ -512,7 +612,7 @@
     </main>
     <footer>
         <p>Nous avons hâte de célébrer avec vous à Budapest.</p>
-        <p><a href="/fr/%20/photo-credits/">Crédits photo</a></p>
+        <p><a href="/fr/photo-credits/">Crédits photo</a></p>
     </footer>
     </body>
 

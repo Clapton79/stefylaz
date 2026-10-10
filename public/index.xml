@@ -12,11 +12,32 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>About Us</title>
+				<link>http://localhost:1313/about/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/about/</guid>
+				<description>&lt;h3 id=&#34;our-story&#34;&gt;Our Story&lt;/h3&gt;&#xA;&lt;p&gt;This is a draft for our story. We’ll fill in how our journey began, the moments that brought us here, and why Budapest became the place we chose to celebrate. For now, we’re simply looking forward to sharing the day with you.&lt;/p&gt;&#xA;&lt;figure class=&#34;story-photo&#34;&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/StefLazCouch.jpg&#34; alt=&#34;Stef and Laz relaxing together on a couch&#34;&gt;&#xA;&lt;/figure&gt;</description>
+			</item>
+			<item>
+				<title>Contacts</title>
+				<link>http://localhost:1313/contact/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/contact/</guid>
+				<description>&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;Wedding questions&lt;/h3&gt;&#xA;&lt;p&gt;Do you have questions about the wedding celebration? Email us at &lt;a href=&#34;mailto:stef.laz.wedding@gmail.com&#34;&gt;stef.laz.wedding@gmail.com&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;/section&gt;&#xA;&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;h3&gt;Share your photos&lt;/h3&gt;&#xA;&lt;p&gt;If you take photos at the venue, you can submit them through the form below. We won’t share them with anyone; we’ll keep them as a remembrance of this beautiful day.&lt;/p&gt;&#xA;&lt;span class=&#34;pending-link&#34;&gt;Google Forms — upload link coming soon&lt;/span&gt;&#xA;&lt;/section&gt;</description>
+			</item>
+			<item>
 				<title>Discover Budapest</title>
 				<link>http://localhost:1313/sightseeing/</link>
 				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/sightseeing/</guid>
 				<description>&lt;p&gt;If you have time to explore Budapest while you’re here for our wedding, these favourite sights are a wonderful place to start:&lt;/p&gt;&#xA;&lt;div class=&#34;attraction-grid&#34;&gt;&#xA;&lt;p&gt;&lt;figure class=&#34;attraction&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/parliament.jpg&#34; alt=&#34;The Hungarian Parliament reflected in the Danube&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;    &lt;figcaption class=&#34;attraction-caption&#34;&gt;&#xA;        &lt;h3&gt;Hungarian Parliament Building&lt;/h3&gt;&#xA;        &lt;p&gt;A striking Gothic Revival landmark on the banks of the Danube.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;attraction&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/fishermans-bastion-pinterest.jpg&#34; alt=&#34;Fisherman&amp;#39;s Bastion overlooking the Danube and Budapest&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;    &lt;figcaption class=&#34;attraction-caption&#34;&gt;&#xA;        &lt;h3&gt;Buda Castle &amp;amp; Fisherman&amp;#39;s Bastion&lt;/h3&gt;&#xA;        &lt;p&gt;Climb Castle Hill for sweeping views across the city.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;attraction&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/szechenyi-baths.jpg&#34; alt=&#34;The outdoor pools at Széchenyi Thermal Bath&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;    &lt;figcaption class=&#34;attraction-caption&#34;&gt;&#xA;        &lt;h3&gt;Széchenyi Thermal Bath&lt;/h3&gt;&#xA;        &lt;p&gt;Unwind in Budapest&amp;#39;s famous thermal waters before the celebration.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;attraction&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/veli-bej-historic.jpg&#34; alt=&#34;Historic view of the Császár bath complex associated with Veli Bej&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;    &lt;figcaption class=&#34;attraction-caption&#34;&gt;&#xA;        &lt;h3&gt;Veli Bej Thermal Bath&lt;/h3&gt;&#xA;        &lt;p&gt;Step into a restored 16th-century Ottoman bath in the historic Császár complex.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&lt;figure class=&#34;attraction&#34;&gt;&#xA;    &lt;img src=&#34;http://localhost:1313/images/rudas-baths.jpg&#34; alt=&#34;Rudas Baths and Gellért Hill in Budapest&#34; loading=&#34;lazy&#34; decoding=&#34;async&#34;&gt;&#xA;    &lt;figcaption class=&#34;attraction-caption&#34;&gt;&#xA;        &lt;h3&gt;Rudas Thermal Bath&lt;/h3&gt;&#xA;        &lt;p&gt;Discover a historic Ottoman bath known for its domed pool and Danube views.&lt;/p&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&lt;/p&gt;&#xA;&lt;/div&gt;</description>
+			</item>
+			<item>
+				<title>Gifts</title>
+				<link>http://localhost:1313/gifts/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/gifts/</guid>
+				<description>&lt;section class=&#34;contact-section&#34;&gt;&#xA;&lt;p&gt;Your presence at our wedding is already a gift. Since we don’t live in Budapest, transporting gifts could get complicated. We’ll gratefully accept a contribution to the costs of the venue.&lt;/p&gt;&#xA;&lt;a class=&#34;paypal-link&#34; href=&#34;https://www.paypal.com/paypalme/clapton79&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/paypal.svg&#34; alt=&#34;&#34;&gt;&lt;span&gt;@clapton79&lt;/span&gt;&lt;/a&gt;&#xA;&lt;/section&gt;</description>
 			</item>
 			<item>
 				<title>Photo Credits</title>

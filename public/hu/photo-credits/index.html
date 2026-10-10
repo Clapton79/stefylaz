@@ -8,6 +8,7 @@
 
 
 
+
 <!DOCTYPE html>
 <html lang="hu" dir="ltr">
 
@@ -19,7 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
     <title>Fotóforrások | Stef &amp; Laz - BodaPest 2027</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <style>
         :root {
             color-scheme: light;
@@ -102,8 +105,17 @@
 
         .brand {
             padding: 32px 20px 26px;
-            border-top: 1px solid var(--line);
+            border-block: 1px solid var(--line);
             text-align: center;
+        }
+
+        .brand::after {
+            display: block;
+            width: 58px;
+            margin: 16px auto 0;
+            border-top: 1px solid var(--rose);
+            box-shadow: 0 3px 0 -1px var(--rose);
+            content: "";
         }
 
         .brand-kicker,
@@ -118,7 +130,7 @@
         .brand h1 {
             margin: 4px 0 0;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(2rem, 5vw, 3.5rem);
             font-weight: 400;
             line-height: 1.15;
@@ -164,7 +176,7 @@
         .page-copy h2 {
             margin: 0 0 20px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(1.8rem, 4vw, 2.6rem);
             font-weight: 400;
             line-height: 1.2;
@@ -346,6 +358,86 @@
             font-weight: 700;
         }
 
+        .story-photo {
+            width: min(100%, 520px);
+            margin: 30px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo {
+            width: min(100%, 920px);
+            margin: 28px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .story-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-section {
+            margin-top: 28px;
+            padding: 20px 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .contact-section h3 {
+            margin: 0 0 10px;
+            color: var(--forest);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.55rem;
+            font-weight: 400;
+        }
+
+        .contact-section p {
+            margin: 0 0 10px;
+        }
+
+        .contact-section a {
+            color: var(--rose);
+        }
+
+        .paypal-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 48px;
+            padding: 8px 14px;
+            border: 1px solid var(--line);
+            background: var(--paper);
+            color: var(--forest) !important;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .paypal-link img {
+            display: block;
+            width: 48px;
+            height: 28px;
+            object-fit: contain;
+        }
+
+        .pending-link {
+            display: inline-block;
+            padding: 7px 10px;
+            border: 1px dashed var(--leaf);
+            color: var(--leaf);
+            font-weight: 700;
+        }
+
         .prose> :first-child {
             margin-top: 0;
         }
@@ -490,12 +582,19 @@
             
             <a href="/hu/menu/">Menü</a>
             
+            <a href="/hu/about/">Rólunk</a>
+            
+            <a href="/hu/contact/">Kapcsolat</a>
+            
+            <a href="/hu/gifts/">Ajándékok</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
             <h2>Fotóforrások</h2>
+            
             <div class="prose"><p>Köszönjük a fotósoknak és a forrásoknak, hogy képeikkel bemutathatjuk vendégeinknek Budapestet.</p>
 <ul>
 <li><strong>Országház:</strong> Pierre Blaché fotója, CC0 licenc alatt közkincs. <a href="https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg">A kép és adatai a Wikimedia Commonson</a>.</li>

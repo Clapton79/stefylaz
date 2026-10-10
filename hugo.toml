@@ -32,6 +32,18 @@ staticDir = ['static', 'res']
         name = "The Menu"
         url = "/menu/"
         weight = 4
+      [[languages.en.menu.main]]
+        name = "About Us"
+        url = "/about/"
+        weight = 5
+      [[languages.en.menu.main]]
+        name = "Contacts"
+        url = "/contact/"
+        weight = 6
+      [[languages.en.menu.main]]
+        name = "Gifts"
+        url = "/gifts/"
+        weight = 7
 
   [languages.es]
     locale = 'es-ES'
@@ -54,6 +66,18 @@ staticDir = ['static', 'res']
         name = "El menú"
         url = "/menu/"
         weight = 4
+      [[languages.es.menu.main]]
+        name = "Sobre nosotros"
+        url = "/about/"
+        weight = 5
+      [[languages.es.menu.main]]
+        name = "Contacto"
+        url = "/contact/"
+        weight = 6
+      [[languages.es.menu.main]]
+        name = "Regalos"
+        url = "/gifts/"
+        weight = 7
 
   [languages.de]
     locale = 'de-DE'
@@ -76,6 +100,18 @@ staticDir = ['static', 'res']
         name = "Das Menü"
         url = "/menu/"
         weight = 4
+      [[languages.de.menu.main]]
+        name = "Über uns"
+        url = "/about/"
+        weight = 5
+      [[languages.de.menu.main]]
+        name = "Kontakt"
+        url = "/contact/"
+        weight = 6
+      [[languages.de.menu.main]]
+        name = "Geschenke"
+        url = "/gifts/"
+        weight = 7
 
   [languages.hu]
     locale = 'hu-HU'
@@ -98,6 +134,18 @@ staticDir = ['static', 'res']
         name = "Menü"
         url = "/menu/"
         weight = 4
+      [[languages.hu.menu.main]]
+        name = "Rólunk"
+        url = "/about/"
+        weight = 5
+      [[languages.hu.menu.main]]
+        name = "Kapcsolat"
+        url = "/contact/"
+        weight = 6
+      [[languages.hu.menu.main]]
+        name = "Ajándékok"
+        url = "/gifts/"
+        weight = 7
 
   [languages.fr]
     locale = 'fr-FR'
@@ -120,6 +168,18 @@ staticDir = ['static', 'res']
         name = "Le menu"
         url = "/menu/"
         weight = 4
+      [[languages.fr.menu.main]]
+        name = "À propos"
+        url = "/about/"
+        weight = 5
+      [[languages.fr.menu.main]]
+        name = "Contacts"
+        url = "/contact/"
+        weight = 6
+      [[languages.fr.menu.main]]
+        name = "Cadeaux"
+        url = "/gifts/"
+        weight = 7
 
   [languages.it]
     locale = 'it-IT'
@@ -142,6 +202,18 @@ staticDir = ['static', 'res']
         name = "Il menu"
         url = "/menu/"
         weight = 4
+      [[languages.it.menu.main]]
+        name = "Chi siamo"
+        url = "/about/"
+        weight = 5
+      [[languages.it.menu.main]]
+        name = "Contatti"
+        url = "/contact/"
+        weight = 6
+      [[languages.it.menu.main]]
+        name = "Regali"
+        url = "/gifts/"
+        weight = 7
 
   [languages.ar]
     locale = 'ar'
@@ -164,6 +236,18 @@ staticDir = ['static', 'res']
         name = "قائمة الطعام"
         url = "/menu/"
         weight = 4
+      [[languages.ar.menu.main]]
+        name = "من نحن"
+        url = "/about/"
+        weight = 5
+      [[languages.ar.menu.main]]
+        name = "تواصلوا معنا"
+        url = "/contact/"
+        weight = 6
+      [[languages.ar.menu.main]]
+        name = "الهدايا"
+        url = "/gifts/"
+        weight = 7
 
   [languages.hi]
     locale = 'hi-IN'
@@ -186,6 +270,18 @@ staticDir = ['static', 'res']
         name = "भोज-सूची"
         url = "/menu/"
         weight = 4
+      [[languages.hi.menu.main]]
+        name = "हमारे बारे में"
+        url = "/about/"
+        weight = 5
+      [[languages.hi.menu.main]]
+        name = "संपर्क"
+        url = "/contact/"
+        weight = 6
+      [[languages.hi.menu.main]]
+        name = "उपहार"
+        url = "/gifts/"
+        weight = 7
 
 [markup]
   [markup.goldmark]

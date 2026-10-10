@@ -7,6 +7,8 @@
 
 
 
+
+
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
@@ -18,7 +20,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
     <title>اكتشفوا بودابست | Stef &amp; Laz - BodaPest 2027</title>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <style>
         :root {
             color-scheme: light;
@@ -101,8 +105,17 @@
 
         .brand {
             padding: 32px 20px 26px;
-            border-top: 1px solid var(--line);
+            border-block: 1px solid var(--line);
             text-align: center;
+        }
+
+        .brand::after {
+            display: block;
+            width: 58px;
+            margin: 16px auto 0;
+            border-top: 1px solid var(--rose);
+            box-shadow: 0 3px 0 -1px var(--rose);
+            content: "";
         }
 
         .brand-kicker,
@@ -117,7 +130,7 @@
         .brand h1 {
             margin: 4px 0 0;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(2rem, 5vw, 3.5rem);
             font-weight: 400;
             line-height: 1.15;
@@ -163,7 +176,7 @@
         .page-copy h2 {
             margin: 0 0 20px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: clamp(1.8rem, 4vw, 2.6rem);
             font-weight: 400;
             line-height: 1.2;
@@ -345,6 +358,86 @@
             font-weight: 700;
         }
 
+        .story-photo {
+            width: min(100%, 520px);
+            margin: 30px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo {
+            width: min(100%, 920px);
+            margin: 28px auto;
+            padding: 10px;
+            border: 5px double var(--forest);
+            background: var(--paper);
+            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+        }
+
+        .home-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .story-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .contact-section {
+            margin-top: 28px;
+            padding: 20px 0;
+            border-top: 1px solid var(--line);
+        }
+
+        .contact-section h3 {
+            margin: 0 0 10px;
+            color: var(--forest);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.55rem;
+            font-weight: 400;
+        }
+
+        .contact-section p {
+            margin: 0 0 10px;
+        }
+
+        .contact-section a {
+            color: var(--rose);
+        }
+
+        .paypal-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            min-height: 48px;
+            padding: 8px 14px;
+            border: 1px solid var(--line);
+            background: var(--paper);
+            color: var(--forest) !important;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .paypal-link img {
+            display: block;
+            width: 48px;
+            height: 28px;
+            object-fit: contain;
+        }
+
+        .pending-link {
+            display: inline-block;
+            padding: 7px 10px;
+            border: 1px dashed var(--leaf);
+            color: var(--leaf);
+            font-weight: 700;
+        }
+
         .prose> :first-child {
             margin-top: 0;
         }
@@ -489,12 +582,19 @@
             
             <a href="/ar/menu/">قائمة الطعام</a>
             
+            <a href="/ar/about/">من نحن</a>
+            
+            <a href="/ar/contact/">تواصلوا معنا</a>
+            
+            <a href="/ar/gifts/">الهدايا</a>
+            
         </nav>
     </header>
     <main id="main-content">
         <article class="page-copy">
             <p class="eyebrow">Stef &amp; Laz - BodaPest 2027</p>
             <h2>اكتشفوا بودابست</h2>
+            
             <div class="prose"><p>إذا كنتم تزورون بودابست لحضور حفل زفافنا، فإليكم بعضًا من أشهر معالم المدينة:</p>
 <div class="attraction-grid">
 <p><figure class="attraction">
@@ -541,8 +641,10 @@
     <h3>جولات مشي مقترحة</h3>
     <div class="walking-route-list">
         <article class="walking-route">
-            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: حي قلعة بودا">
-                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="حي قلعة بودا" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;destination=T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;waypoints=Buda&#43;Castle,&#43;Budapest%7CMatthias&#43;Church,&#43;Budapest%7CFisherman%27s&#43;Bastion,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="افتحوا المسار في خرائط Google: حي قلعة بودا">
+                <iframe src="https://maps.google.com/maps?saddr=Clark&#43;Adam&#43;Square,&#43;Budapest&amp;daddr=Buda&#43;Castle,&#43;Budapest&#43;to:Matthias&#43;Church,&#43;Budapest&#43;to:Fisherman%27s&#43;Bastion,&#43;Budapest&#43;to:T%C3%B3th&#43;%C3%81rp%C3%A1d&#43;promenade,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="حي قلعة بودا" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <span>افتحوا المسار في خرائط Google</span>
             </a>
             <h4>حي قلعة بودا</h4>
@@ -550,8 +652,10 @@
             <p>اكتشفوا القلعة وكنيسة ماتياس وحصن الصيادين.</p>
         </article>
         <article class="walking-route">
-            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: وسط بودابست ومبنى البرلمان">
-                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="وسط بودابست ومبنى البرلمان" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;destination=Central&#43;Market&#43;Hall,&#43;Budapest&amp;waypoints=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest%7CLiberty&#43;Square,&#43;Budapest%7CSt.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="افتحوا المسار في خرائط Google: وسط بودابست ومبنى البرلمان">
+                <iframe src="https://maps.google.com/maps?saddr=Hungarian&#43;Parliament&#43;Building,&#43;Budapest&amp;daddr=Shoes&#43;on&#43;the&#43;Danube&#43;Bank,&#43;Budapest&#43;to:Liberty&#43;Square,&#43;Budapest&#43;to:St.&#43;Stephen%27s&#43;Basilica,&#43;Budapest&#43;to:Central&#43;Market&#43;Hall,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="وسط بودابست ومبنى البرلمان" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <span>افتحوا المسار في خرائط Google</span>
             </a>
             <h4>وسط بودابست ومبنى البرلمان</h4>
@@ -559,8 +663,10 @@
             <p>اتبعوا الدانوب من البرلمان إلى البازيليك والسوق المركزي.</p>
         </article>
         <article class="walking-route">
-            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: فاروشليغيت وحي القصور">
-                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="فاروشليغيت وحي القصور" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Heroes%27&#43;Square,&#43;Budapest&amp;destination=Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;waypoints=Vajdahunyad&#43;Castle,&#43;Budapest%7CSz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest%7CHungarian&#43;State&#43;Opera,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="افتحوا المسار في خرائط Google: فاروشليغيت وحي القصور">
+                <iframe src="https://maps.google.com/maps?saddr=Heroes%27&#43;Square,&#43;Budapest&amp;daddr=Vajdahunyad&#43;Castle,&#43;Budapest&#43;to:Sz%C3%A9chenyi&#43;Thermal&#43;Bath,&#43;Budapest&#43;to:Hungarian&#43;State&#43;Opera,&#43;Budapest&#43;to:Hungarian&#43;National&#43;Museum,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="فاروشليغيت وحي القصور" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <span>افتحوا المسار في خرائط Google</span>
             </a>
             <h4>فاروشليغيت وحي القصور</h4>
@@ -568,8 +674,10 @@
             <p>زوروا ساحة الأبطال وقلعة فاجداهونياد وحمّامات سيتشيني.</p>
         </article>
         <article class="walking-route">
-            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer" aria-label="افتحوا المسار في خرائط Google: الحي اليهودي">
-                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="الحي اليهودي" loading="lazy" tabindex="-1" aria-hidden="true" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <a class="walking-map-preview" href="https://www.google.com/maps/dir/?api=1&amp;origin=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;destination=Szimpla&#43;Kert,&#43;Budapest&amp;waypoints=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest%7CKazinczy&#43;Street&#43;Synagogue,&#43;Budapest%7CGozsdu&#43;Courtyard,&#43;Budapest&amp;travelmode=walking" target="_blank" rel="noopener noreferrer"
+                aria-label="افتحوا المسار في خرائط Google: الحي اليهودي">
+                <iframe src="https://maps.google.com/maps?saddr=Doh%C3%A1ny&#43;Street&#43;Synagogue,&#43;Budapest&amp;daddr=Rumbach&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Kazinczy&#43;Street&#43;Synagogue,&#43;Budapest&#43;to:Gozsdu&#43;Courtyard,&#43;Budapest&#43;to:Szimpla&#43;Kert,&#43;Budapest&amp;output=embed&amp;dirflg=w" title="الحي اليهودي" loading="lazy" tabindex="-1" aria-hidden="true"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <span>افتحوا المسار في خرائط Google</span>
             </a>
             <h4>الحي اليهودي</h4>
@@ -583,7 +691,7 @@
     </main>
     <footer>
         <p>نتطلع بشوق للاحتفال معكم في بودابست.</p>
-        <p><a href="/ar/%20/photo-credits/">اعتمادات الصور</a></p>
+        <p><a href="/ar/photo-credits/">اعتمادات الصور</a></p>
     </footer>
     </body>
 
