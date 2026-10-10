@@ -72,6 +72,21 @@
             padding-bottom: 20px;
         }
 
+        .mobile-language-select,
+        .mobile-navigation {
+            display: none;
+        }
+
+        .mobile-language-select select {
+            min-height: 40px;
+            padding: 6px 32px 6px 12px;
+            border: 1px solid var(--line);
+            border-radius: 3px;
+            color: var(--ink);
+            background: var(--paper);
+            font: inherit;
+        }
+
         .language-link {
             display: inline-flex;
             align-items: center;
@@ -199,13 +214,21 @@
 
         .attraction-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            width: 100%;
+            max-width: 1260px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 18px;
-            margin-block: 28px;
+            margin: 28px auto;
+        }
+
+        .attraction-grid>p:empty {
+            display: none;
         }
 
         .attraction {
+            display: flex;
             min-width: 0;
+            flex-direction: column;
             margin: 0;
             overflow: hidden;
             border: 1px solid var(--line);
@@ -220,20 +243,36 @@
         }
 
         .attraction-caption {
+            display: grid;
+            flex: 1;
+            grid-template-rows: minmax(2.6em, auto) 1fr;
+            gap: 6px;
             padding: 14px 16px 16px;
         }
 
         .attraction-caption h3 {
             margin: 0 0 8px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.25rem;
             font-weight: 400;
             line-height: 1.3;
         }
 
+        .attraction-caption h3 a {
+            color: inherit;
+            text-decoration: none;
+            text-underline-offset: 3px;
+        }
+
+        .attraction-caption h3 a:hover,
+        .attraction-caption h3 a:focus-visible {
+            color: var(--rose);
+            text-decoration: underline;
+        }
+
         .attraction-caption p {
-            margin: 0 0 10px;
+            margin: 0;
         }
 
         .attraction-caption .photo-credit {
@@ -287,7 +326,7 @@
         .walking-routes h3 {
             margin: 0 0 18px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.7rem;
             font-weight: 400;
         }
@@ -475,6 +514,62 @@
             text-underline-offset: 3px;
         }
 
+        @media (max-width: 760px) {
+
+            .language-switcher {
+                display: none;
+            }
+
+            .mobile-language-select {
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 14px;
+            }
+
+            .desktop-navigation {
+                display: none;
+            }
+
+            .mobile-navigation {
+                display: block;
+                border-block: 1px solid var(--line);
+            }
+
+            .mobile-navigation summary {
+                padding: 12px 8px;
+                color: var(--forest);
+                font-size: 0.9rem;
+                font-weight: 700;
+                text-align: center;
+                cursor: pointer;
+                list-style: none;
+            }
+
+            .mobile-navigation summary::-webkit-details-marker {
+                display: none;
+            }
+
+            .mobile-navigation[open] nav {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0 16px;
+                padding: 4px 8px 12px;
+                border: 0;
+            }
+
+            .mobile-navigation nav a {
+                padding: 8px 4px;
+                border-bottom: 1px solid var(--line);
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .attraction-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
@@ -487,12 +582,11 @@
             }
 
             .language-switcher {
-                justify-content: center;
+                display: none;
             }
 
-            .language-link {
-                min-height: 38px;
-                padding-inline: 8px;
+            .mobile-language-select {
+                justify-content: center;
             }
 
             .brand {
@@ -504,7 +598,7 @@
             }
 
             .page-copy {
-                min-height: 1020px;
+                min-height: 0;
                 padding: 28px 22px;
             }
 
@@ -517,6 +611,17 @@
                 align-items: flex-start;
                 flex-direction: column;
                 padding-inline: 16px;
+            }
+
+            .attraction-grid {
+                grid-template-columns: minmax(0, 1fr);
+                gap: 14px;
+            }
+        }
+
+        @media (min-width: 541px) and (max-width: 900px) {
+            .attraction-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
     </style>
@@ -567,12 +672,50 @@
             </a>
             
         </nav>
+        <label class="mobile-language-select">
+            <span class="visually-hidden">भाषा</span>
+            <select aria-label="भाषा" onchange="window.location.href = this.value">
+                
+                
+                
+                <option value="/" lang="en" >English</option>
+                
+                
+                
+                <option value="/es/" lang="es" >Español</option>
+                
+                
+                
+                <option value="/de/" lang="de" >Deutsch</option>
+                
+                
+                
+                <option value="/hu/" lang="hu" >Magyar</option>
+                
+                
+                
+                <option value="/fr/" lang="fr" >Français</option>
+                
+                
+                
+                <option value="/it/" lang="it" >Italiano</option>
+                
+                
+                
+                <option value="/ar/" lang="ar" >العربية</option>
+                
+                
+                
+                <option value="/hi/" lang="hi" selected>हिन्दी</option>
+                
+            </select>
+        </label>
         <div class="brand">
             <p class="brand-kicker">Budapest · 25 June
                 2027</p>
             <h1>Stef &amp; Laz - BodaPest 2027</h1>
         </div>
-        <nav aria-label="मुख्य नेविगेशन">
+        <nav class="desktop-navigation" aria-label="मुख्य नेविगेशन">
             
             <a href="/hi/">मुखपृष्ठ</a>
             
@@ -589,6 +732,26 @@
             <a href="/hi/gifts/">उपहार</a>
             
         </nav>
+        <details class="mobile-navigation">
+            <summary>मेनू</summary>
+            <nav aria-label="मुख्य नेविगेशन">
+                
+                <a href="/hi/">मुखपृष्ठ</a>
+                
+                <a href="/hi/sightseeing/">बुडापेस्ट के दर्शनीय स्थल</a>
+                
+                <a href="/hi/venue/">कार्यक्रम स्थल</a>
+                
+                <a href="/hi/menu/">भोज-सूची</a>
+                
+                <a href="/hi/about/">हमारे बारे में</a>
+                
+                <a href="/hi/contact/">संपर्क</a>
+                
+                <a href="/hi/gifts/">उपहार</a>
+                
+            </nav>
+        </details>
     </header>
     <main id="main-content">
         <article class="page-copy">
@@ -619,7 +782,7 @@
     </figcaption>
 </figure>
 <figure class="attraction">
-    <img src="/images/veli-bej-historic.jpg" alt="वेली बेय से जुड़े क्सासार स्नान परिसर का ऐतिहासिक दृश्य" loading="lazy" decoding="async">
+    <img src="/images/veli-bej-budapestinfo.jpg" alt="बुडापेस्ट के वेली बेय थर्मल बाथ का अंदरूनी दृश्य" loading="lazy" decoding="async">
     <figcaption class="attraction-caption">
         <h3>वेली बेय थर्मल बाथ</h3>
         <p>ऐतिहासिक क्सासार स्नान परिसर में स्थित 16वीं सदी का पुनर्स्थापित उस्मानी स्नानघर।</p>
@@ -630,6 +793,34 @@
     <figcaption class="attraction-caption">
         <h3>रुदाश थर्मल बाथ</h3>
         <p>गुंबददार पूल और डेन्यूब के नज़ारों वाला ऐतिहासिक उस्मानी स्नानघर।</p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/szimpla-kert.jpg" alt="सिम्पला केर्ट का रंगीन आँगन और अंदरूनी हिस्सा" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3><a href="https://szimpla.eu/" target="_blank" rel="noopener noreferrer">सिम्पला केर्ट रुइन बार</a></h3>
+        <p>बुडापेस्ट के मशहूर रुइन बार को देखें, जो अपने अनोखे कमरों, खुले आँगन और जीवंत माहौल के लिए जाना जाता है।</p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/grandio-jungle-bar.webp" alt="ग्रैंडियो जंगल ग्रिल बार का बगीचे वाला आँगन" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3><a href="https://pubcrawlbudapest.hu/ruin-bars/grandio.html" target="_blank" rel="noopener noreferrer">ग्रैंडियो रुइन बार</a></h3>
+        <p>हरे-भरे आँगन वाला आरामदेह बार, जहाँ खाना और शाम का संगीत मिलता है।</p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/hungarian-national-museum.png" alt="हंगेरियन नेशनल म्यूज़ियम का हवाई दृश्य" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3><a href="https://mnm.hu/" target="_blank" rel="noopener noreferrer">हंगेरियन नेशनल म्यूज़ियम</a></h3>
+        <p>इस प्रसिद्ध नवशास्त्रीय संग्रहालय में हंगरी के इतिहास और संस्कृति को जानें।</p>
+    </figcaption>
+</figure>
+<figure class="attraction">
+    <img src="/images/museum-of-fine-arts.jpg" alt="बुडापेस्ट म्यूज़ियम ऑफ़ फाइन आर्ट्स की नवशास्त्रीय इमारत" loading="lazy" decoding="async">
+    <figcaption class="attraction-caption">
+        <h3><a href="https://www.mfab.hu/" target="_blank" rel="noopener noreferrer">बुडापेस्ट म्यूज़ियम ऑफ़ फाइन आर्ट्स</a></h3>
+        <p>हीरोज़ स्क्वायर के पास हंगरी और यूरोप की उत्कृष्ट कलाकृतियाँ देखें।</p>
     </figcaption>
 </figure></p>
 </div>

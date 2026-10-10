@@ -72,6 +72,21 @@
             padding-bottom: 20px;
         }
 
+        .mobile-language-select,
+        .mobile-navigation {
+            display: none;
+        }
+
+        .mobile-language-select select {
+            min-height: 40px;
+            padding: 6px 32px 6px 12px;
+            border: 1px solid var(--line);
+            border-radius: 3px;
+            color: var(--ink);
+            background: var(--paper);
+            font: inherit;
+        }
+
         .language-link {
             display: inline-flex;
             align-items: center;
@@ -199,13 +214,21 @@
 
         .attraction-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+            width: 100%;
+            max-width: 1260px;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 18px;
-            margin-block: 28px;
+            margin: 28px auto;
+        }
+
+        .attraction-grid>p:empty {
+            display: none;
         }
 
         .attraction {
+            display: flex;
             min-width: 0;
+            flex-direction: column;
             margin: 0;
             overflow: hidden;
             border: 1px solid var(--line);
@@ -220,20 +243,36 @@
         }
 
         .attraction-caption {
+            display: grid;
+            flex: 1;
+            grid-template-rows: minmax(2.6em, auto) 1fr;
+            gap: 6px;
             padding: 14px 16px 16px;
         }
 
         .attraction-caption h3 {
             margin: 0 0 8px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.25rem;
             font-weight: 400;
             line-height: 1.3;
         }
 
+        .attraction-caption h3 a {
+            color: inherit;
+            text-decoration: none;
+            text-underline-offset: 3px;
+        }
+
+        .attraction-caption h3 a:hover,
+        .attraction-caption h3 a:focus-visible {
+            color: var(--rose);
+            text-decoration: underline;
+        }
+
         .attraction-caption p {
-            margin: 0 0 10px;
+            margin: 0;
         }
 
         .attraction-caption .photo-credit {
@@ -287,7 +326,7 @@
         .walking-routes h3 {
             margin: 0 0 18px;
             color: var(--forest);
-            font-family: "Bodoni 72", Didot, "Times New Roman", serif;
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
             font-size: 1.7rem;
             font-weight: 400;
         }
@@ -475,6 +514,62 @@
             text-underline-offset: 3px;
         }
 
+        @media (max-width: 760px) {
+
+            .language-switcher {
+                display: none;
+            }
+
+            .mobile-language-select {
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 14px;
+            }
+
+            .desktop-navigation {
+                display: none;
+            }
+
+            .mobile-navigation {
+                display: block;
+                border-block: 1px solid var(--line);
+            }
+
+            .mobile-navigation summary {
+                padding: 12px 8px;
+                color: var(--forest);
+                font-size: 0.9rem;
+                font-weight: 700;
+                text-align: center;
+                cursor: pointer;
+                list-style: none;
+            }
+
+            .mobile-navigation summary::-webkit-details-marker {
+                display: none;
+            }
+
+            .mobile-navigation[open] nav {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 0 16px;
+                padding: 4px 8px 12px;
+                border: 0;
+            }
+
+            .mobile-navigation nav a {
+                padding: 8px 4px;
+                border-bottom: 1px solid var(--line);
+                text-align: center;
+            }
+        }
+
+        @media (max-width: 900px) {
+            .attraction-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+        }
+
         @media (max-width: 540px) {
 
             .site-header,
@@ -487,12 +582,11 @@
             }
 
             .language-switcher {
-                justify-content: center;
+                display: none;
             }
 
-            .language-link {
-                min-height: 38px;
-                padding-inline: 8px;
+            .mobile-language-select {
+                justify-content: center;
             }
 
             .brand {
@@ -504,7 +598,7 @@
             }
 
             .page-copy {
-                min-height: 1020px;
+                min-height: 0;
                 padding: 28px 22px;
             }
 
@@ -517,6 +611,17 @@
                 align-items: flex-start;
                 flex-direction: column;
                 padding-inline: 16px;
+            }
+
+            .attraction-grid {
+                grid-template-columns: minmax(0, 1fr);
+                gap: 14px;
+            }
+        }
+
+        @media (min-width: 541px) and (max-width: 900px) {
+            .attraction-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
             }
         }
     </style>
@@ -567,12 +672,50 @@
             </a>
             
         </nav>
+        <label class="mobile-language-select">
+            <span class="visually-hidden">اللغة</span>
+            <select aria-label="اللغة" onchange="window.location.href = this.value">
+                
+                
+                
+                <option value="/" lang="en" >English</option>
+                
+                
+                
+                <option value="/es/" lang="es" >Español</option>
+                
+                
+                
+                <option value="/de/" lang="de" >Deutsch</option>
+                
+                
+                
+                <option value="/hu/" lang="hu" >Magyar</option>
+                
+                
+                
+                <option value="/fr/" lang="fr" >Français</option>
+                
+                
+                
+                <option value="/it/" lang="it" >Italiano</option>
+                
+                
+                
+                <option value="/ar/" lang="ar" selected>العربية</option>
+                
+                
+                
+                <option value="/hi/" lang="hi" >हिन्दी</option>
+                
+            </select>
+        </label>
         <div class="brand">
             <p class="brand-kicker">Budapest · 25 June
                 2027</p>
             <h1>Stef &amp; Laz - BodaPest 2027</h1>
         </div>
-        <nav aria-label="التنقل الرئيسي">
+        <nav class="desktop-navigation" aria-label="التنقل الرئيسي">
             
             <a href="/ar/">الرئيسية</a>
             
@@ -589,6 +732,26 @@
             <a href="/ar/gifts/">الهدايا</a>
             
         </nav>
+        <details class="mobile-navigation">
+            <summary>القائمة</summary>
+            <nav aria-label="التنقل الرئيسي">
+                
+                <a href="/ar/">الرئيسية</a>
+                
+                <a href="/ar/sightseeing/">معالم بودابست</a>
+                
+                <a href="/ar/venue/">مكان الحفل</a>
+                
+                <a href="/ar/menu/">قائمة الطعام</a>
+                
+                <a href="/ar/about/">من نحن</a>
+                
+                <a href="/ar/contact/">تواصلوا معنا</a>
+                
+                <a href="/ar/gifts/">الهدايا</a>
+                
+            </nav>
+        </details>
     </header>
     <main id="main-content">
         <article class="page-copy">

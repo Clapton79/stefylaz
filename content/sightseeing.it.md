@@ -9,8 +9,12 @@ Se siete a Budapest per il nostro matrimonio, ecco alcuni luoghi imperdibili da 
 {{< attraction title="Il Parlamento ungherese" description="Un imponente edificio neogotico affacciato sul Danubio." image="parliament.jpg" alt="Il Parlamento ungherese riflesso nel Danubio" >}}
 {{< attraction title="Il Castello di Buda e il Bastione dei Pescatori" description="Salite sulla collina del castello per ammirare il panorama sulla città." image="fishermans-bastion-pinterest.jpg" alt="Il Bastione dei Pescatori con vista sul Danubio e su Budapest" >}}
 {{< attraction title="Le Terme Széchenyi" description="Rilassatevi nelle celebri acque termali di Budapest prima dei festeggiamenti." image="szechenyi-baths.jpg" alt="Le piscine all'aperto delle Terme Széchenyi" >}}
-{{< attraction title="Terme Veli Bej" description="Un bagno ottomano del XVI secolo restaurato, nel complesso storico delle terme Császár." image="veli-bej-historic.jpg" alt="Veduta storica del complesso termale Császár, legato a Veli Bej" >}}
+{{< attraction title="Terme Veli Bej" description="Un bagno ottomano del XVI secolo restaurato, nel complesso storico delle terme Császár." image="veli-bej-budapestinfo.jpg" alt="Gli interni delle Terme Veli Bej a Budapest" >}}
 {{< attraction title="Terme Rudas" description="Uno storico bagno ottomano, famoso per la piscina sotto la cupola e la vista sul Danubio." image="rudas-baths.jpg" alt="Le Terme Rudas e la collina Gellért a Budapest" >}}
+{{< attraction title="Szimpla Kert, ruin bar" description="Scoprite il celebre ruin bar di Budapest, con ambienti eclettici, un cortile caratteristico e un’atmosfera vivace." image="szimpla-kert.jpg" alt="Il colorato cortile e gli interni dello Szimpla Kert" url="https://szimpla.eu/" >}}
+{{< attraction title="Grandio, ruin bar" description="Un bar-giardino con cortile verde, cucina informale e musica la sera." image="grandio-jungle-bar.webp" alt="Il cortile-giardino del Grandio Jungle Grill Bar" url="https://pubcrawlbudapest.hu/ruin-bars/grandio.html" >}}
+{{< attraction title="Museo Nazionale Ungherese" description="Scoprite la storia e la cultura ungherese in un importante museo neoclassico." image="hungarian-national-museum.png" alt="Veduta aerea del Museo Nazionale Ungherese" url="https://mnm.hu/" >}}
+{{< attraction title="Museo di Belle Arti di Budapest" description="Ammirate capolavori ungheresi ed europei accanto a Piazza degli Eroi." image="museum-of-fine-arts.jpg" alt="L’edificio neoclassico del Museo di Belle Arti di Budapest" url="https://www.mfab.hu/" >}}
 
 </div>
 
