@@ -6,11 +6,11 @@ If you have time to explore Budapest while you’re here for our wedding, these 
 
 <div class="attraction-grid">
 
-{{< attraction title="Hungarian Parliament Building" description="A striking Gothic Revival landmark on the banks of the Danube." image="parliament.jpg" alt="The Hungarian Parliament reflected in the Danube" >}}
+{{< attraction title="Hungarian Parliament Building" description="A striking Gothic Revival landmark on the banks of the Danube." image="parliament.jpg" alt="The Hungarian Parliament reflected in the Danube" url="https://www.parlament.hu/en/web/visitors" >}}
 {{< attraction title="Buda Castle & Fisherman's Bastion" description="Climb Castle Hill for sweeping views across the city." image="fishermans-bastion-pinterest.jpg" alt="Fisherman's Bastion overlooking the Danube and Budapest" >}}
-{{< attraction title="Széchenyi Thermal Bath" description="Unwind in Budapest's famous thermal waters before the celebration." image="szechenyi-baths.jpg" alt="The outdoor pools at Széchenyi Thermal Bath" >}}
-{{< attraction title="Veli Bej Thermal Bath" description="Step into a restored 16th-century Ottoman bath in the historic Császár complex." image="veli-bej-budapestinfo.jpg" alt="Interior of Veli Bej Thermal Bath in Budapest" >}}
-{{< attraction title="Rudas Thermal Bath" description="Discover a historic Ottoman bath known for its domed pool and Danube views." image="rudas-baths.jpg" alt="Rudas Baths and Gellért Hill in Budapest" >}}
+{{< attraction title="Széchenyi Thermal Bath" description="Unwind in Budapest's famous thermal waters before the celebration." image="szechenyi-baths.jpg" alt="The outdoor pools at Széchenyi Thermal Bath" url="https://www.szechenyibath.hu/" >}}
+{{< attraction title="Veli Bej Thermal Bath" description="Step into a restored 16th-century Ottoman bath in the historic Császár complex." image="veli-bej-budapestinfo.jpg" alt="Interior of Veli Bej Thermal Bath in Budapest" url="http://www.irgalmasrend.hu/site/velibej/home" >}}
+{{< attraction title="Rudas Thermal Bath" description="Discover a historic Ottoman bath known for its domed pool and Danube views." image="rudas-baths.jpg" alt="Rudas Baths and Gellért Hill in Budapest" url="https://www.rudasfurdo.hu/en/" >}}
 {{< attraction title="Szimpla Kert Ruin Bar" description="Explore Budapest's iconic ruin bar, known for its eclectic rooms, courtyard and lively atmosphere." image="szimpla-kert.jpg" alt="The colorful courtyard and interior of Szimpla Kert" url="https://szimpla.eu/" >}}
 {{< attraction title="Grandio Ruin Bar" description="A leafy courtyard bar with relaxed garden seating, food and evening music." image="grandio-jungle-bar.webp" alt="Garden courtyard at Grandio Jungle Grill Bar" url="https://pubcrawlbudapest.hu/ruin-bars/grandio.html" >}}
 {{< attraction title="Hungarian National Museum" description="Discover Hungarian history and culture in a landmark neoclassical museum." image="hungarian-national-museum.png" alt="Aerial view of the Hungarian National Museum" url="https://mnm.hu/" >}}

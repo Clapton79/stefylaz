@@ -6,11 +6,11 @@ Wenn ihr während unserer Hochzeit ein wenig Zeit habt, Budapest zu erkunden, si
 
 <div class="attraction-grid">
 
-{{< attraction title="Ungarisches Parlament" description="Ein beeindruckendes neugotisches Wahrzeichen direkt an der Donau." image="parliament.jpg" alt="Das ungarische Parlament spiegelt sich in der Donau" >}}
+{{< attraction title="Ungarisches Parlament" description="Ein beeindruckendes neugotisches Wahrzeichen direkt an der Donau." image="parliament.jpg" alt="Das ungarische Parlament spiegelt sich in der Donau" url="https://www.parlament.hu/en/web/visitors" >}}
 {{< attraction title="Budaer Burg und Fischerbastei" description="Von der Anhöhe aus genießt ihr einen weiten Blick über die Stadt." image="fishermans-bastion-pinterest.jpg" alt="Die Fischerbastei mit Blick auf die Donau und Budapest" >}}
-{{< attraction title="Széchenyi-Heilbad" description="Entspannt euch vor den Feierlichkeiten im berühmten Thermalwasser von Budapest." image="szechenyi-baths.jpg" alt="Die Außenbecken des Széchenyi-Heilbads" >}}
-{{< attraction title="Veli-Bej-Bad" description="Ein restauriertes osmanisches Bad aus dem 16. Jahrhundert im historischen Császár-Badekomplex." image="veli-bej-budapestinfo.jpg" alt="Innenbereich des Veli-Bej-Bads in Budapest" >}}
-{{< attraction title="Rudas-Bad" description="Ein historisches osmanisches Bad, bekannt für sein Kuppelbecken und den Blick auf die Donau." image="rudas-baths.jpg" alt="Das Rudas-Bad und der Gellértberg in Budapest" >}}
+{{< attraction title="Széchenyi-Heilbad" description="Entspannt euch vor den Feierlichkeiten im berühmten Thermalwasser von Budapest." image="szechenyi-baths.jpg" alt="Die Außenbecken des Széchenyi-Heilbads" url="https://www.szechenyibath.hu/" >}}
+{{< attraction title="Veli-Bej-Bad" description="Ein restauriertes osmanisches Bad aus dem 16. Jahrhundert im historischen Császár-Badekomplex." image="veli-bej-budapestinfo.jpg" alt="Innenbereich des Veli-Bej-Bads in Budapest" url="http://www.irgalmasrend.hu/site/velibej/home" >}}
+{{< attraction title="Rudas-Bad" description="Ein historisches osmanisches Bad, bekannt für sein Kuppelbecken und den Blick auf die Donau." image="rudas-baths.jpg" alt="Das Rudas-Bad und der Gellértberg in Budapest" url="https://www.rudasfurdo.hu/en/" >}}
 {{< attraction title="Szimpla Kert – Ruinenbar" description="Entdeckt Budapests berühmte Ruinenbar mit ihren außergewöhnlichen Räumen, dem Innenhof und ihrer lebhaften Atmosphäre." image="szimpla-kert.jpg" alt="Der farbenfrohe Innenhof und das Interieur des Szimpla Kert" url="https://szimpla.eu/" >}}
 {{< attraction title="Grandio – Ruinenbar" description="Eine grüne Innenhofbar mit entspannter Atmosphäre, Essen und Musik am Abend." image="grandio-jungle-bar.webp" alt="Der Garteninnenhof der Grandio Jungle Grill Bar" url="https://pubcrawlbudapest.hu/ruin-bars/grandio.html" >}}
 {{< attraction title="Ungarisches Nationalmuseum" description="Entdeckt die ungarische Geschichte und Kultur in einem bedeutenden neoklassizistischen Museum." image="hungarian-national-museum.png" alt="Luftaufnahme des Ungarischen Nationalmuseums" url="https://mnm.hu/" >}}

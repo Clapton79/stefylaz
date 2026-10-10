@@ -8,11 +8,9 @@ Nous célébrerons notre mariage à bord de l’**Európa Hajó**, un bateau év
 
 | Heure | Programme |
 | --- | --- |
-| 18 h 00 | Arrivée et amuse-bouches |
-| 18 h 45 | Cérémonie et discours |
-| 19 h 30 | Photos et croisière |
-| 20 h 30 | Présentations et dîner |
-| 21 h 00 | Soirée dansante |
-| 23 h 30 | Menu de minuit |
-| 1 h 00 | Dernières chansons |
-| 1 h 30 | Fin de la soirée |
+| 17 h 30 | Arrivée et accueil. Si possible, nous diffuserons une vidéo de bienvenue et proposerons un verre dans l’espace bar avant d’inviter les convives sur le pont. |
+| 17 h 45–18 h 30 | Cérémonie et discours sur le pont supérieur. Le bateau pourra commencer à naviguer vers la fin de la cérémonie. |
+| 18 h 15–20 h 00 | Croisière et séance photo, avec jambon espagnol, fromages, gildas, banderillas et boissons. |
+| 20 h 00–22 h 00 | Dîner buffet, discours et jeux. |
+| 22 h 00–23 h 30 | Concert du groupe. |
+| 23 h 30–1 h 30 | Dîner de minuit et suite de la soirée dansante. |
