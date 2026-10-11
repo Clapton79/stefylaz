@@ -25,7 +25,7 @@ title: "The Menu"
 
 - Roasted chicken breast with tomatoes and cheddar
 - Beef stew
-- Steak fillet with horseradish velouté
+- Pike-perch with horseradish velouté
 - Thai vegetable curry with rice noodles
 
 ### Sides

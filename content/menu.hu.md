@@ -17,7 +17,7 @@ title: "Menü"
 
 ### Saláták
 
-- Görög saláta
+- Görögsaláta
 - Cukkinisaláta aszalt paradicsommal
 - Friss kerti saláta citromos-olívaolajos vagy citromos-görög joghurtos öntettel
 
@@ -25,7 +25,7 @@ title: "Menü"
 
 - Sült csirkemell paradicsommal és cheddarral
 - Marhapörkölt
-- Marhabélszín tormás velouté-mártással
+- Fogasfilé tormás velouté-mártással
 - Thai zöldségcurry rizstésztával
 
 ### Köretek

@@ -25,7 +25,7 @@ title: "Il menu"
 
 - Petto di pollo arrosto con pomodori e cheddar
 - Spezzatino di manzo
-- Filetto di manzo con vellutata al rafano
+- Filetto di lucioperca con vellutata al rafano
 - Curry thai di verdure con noodles di riso
 
 ### Contorni

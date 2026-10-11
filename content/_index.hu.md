@@ -10,3 +10,4 @@ Készüljetek egy felejthetetlen dunai estére!
 * **Hajó:** Európa Hajó, Budapest
 
 Kérjük, 2027. május 1-jéig jelezzétek, hogy részt tudtok-e venni.
+

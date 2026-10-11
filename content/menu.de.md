@@ -25,7 +25,7 @@ title: "Das Menü"
 
 - Gebratene Hähnchenbrust mit Tomaten und Cheddar
 - Rinderschmorgericht
-- Rinderfilet mit Meerrettich-Velouté
+- Zanderfilet mit Meerrettich-Velouté
 - Thailändisches Gemüsecurry mit Reisnudeln
 
 ### Beilagen

@@ -25,7 +25,7 @@ title: "Le menu"
 
 - Blanc de poulet rôti aux tomates et au cheddar
 - Ragoût de bœuf
-- Filet de bœuf, velouté au raifort
+- Filet de sandre, velouté au raifort
 - Curry thaï de légumes et nouilles de riz
 
 ### Accompagnements

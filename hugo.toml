@@ -1,5 +1,6 @@
-baseURL = 'https://stefylaz.com'
-title = 'Stef & Laz - BodaPest 2027'
+baseURL = 'localhost:1313'
+#baseURL = 'https://stefylaz.com'
+title = 'Stef & Laz'
 
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
@@ -23,7 +24,7 @@ staticDir = ['static', 'res']
       [[languages.en.menu.main]]
         name = "Sightseeing in Budapest"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.en.menu.main]]
         name = "The Venue"
         url = "/venue/"
@@ -44,6 +45,10 @@ staticDir = ['static', 'res']
         name = "Gifts"
         url = "/gifts/"
         weight = 7
+      [[languages.en.menu.main]]
+        name = "Invite"
+        url = "/invite/"
+        weight = 2
 
   [languages.es]
     locale = 'es-ES'
@@ -57,7 +62,7 @@ staticDir = ['static', 'res']
       [[languages.es.menu.main]]
         name = "Qué ver en Budapest"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.es.menu.main]]
         name = "El lugar"
         url = "/venue/"
@@ -78,6 +83,10 @@ staticDir = ['static', 'res']
         name = "Regalos"
         url = "/gifts/"
         weight = 7
+      [[languages.es.menu.main]]
+        name = "Invitación"
+        url = "/invite/"
+        weight = 2
 
   [languages.de]
     locale = 'de-DE'
@@ -91,7 +100,7 @@ staticDir = ['static', 'res']
       [[languages.de.menu.main]]
         name = "Sehenswürdigkeiten in Budapest"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.de.menu.main]]
         name = "Veranstaltungsort"
         url = "/venue/"
@@ -112,6 +121,10 @@ staticDir = ['static', 'res']
         name = "Geschenke"
         url = "/gifts/"
         weight = 7
+      [[languages.de.menu.main]]
+        name = "Einladung"
+        url = "/invite/"
+        weight = 2
 
   [languages.hu]
     locale = 'hu-HU'
@@ -125,7 +138,7 @@ staticDir = ['static', 'res']
       [[languages.hu.menu.main]]
         name = "Budapesti látnivalók"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.hu.menu.main]]
         name = "Helyszín"
         url = "/venue/"
@@ -146,6 +159,10 @@ staticDir = ['static', 'res']
         name = "Ajándékok"
         url = "/gifts/"
         weight = 7
+      [[languages.hu.menu.main]]
+        name = "Meghívó"
+        url = "/invite/"
+        weight = 2
 
   [languages.fr]
     locale = 'fr-FR'
@@ -159,7 +176,7 @@ staticDir = ['static', 'res']
       [[languages.fr.menu.main]]
         name = "Visiter Budapest"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.fr.menu.main]]
         name = "Le lieu"
         url = "/venue/"
@@ -180,6 +197,10 @@ staticDir = ['static', 'res']
         name = "Cadeaux"
         url = "/gifts/"
         weight = 7
+      [[languages.fr.menu.main]]
+        name = "Invitation"
+        url = "/invite/"
+        weight = 2
 
   [languages.it]
     locale = 'it-IT'
@@ -193,7 +214,7 @@ staticDir = ['static', 'res']
       [[languages.it.menu.main]]
         name = "Alla scoperta di Budapest"
         url = "/sightseeing/"
-        weight = 2
+        weight = 8
       [[languages.it.menu.main]]
         name = "La location"
         url = "/venue/"
@@ -214,6 +235,10 @@ staticDir = ['static', 'res']
         name = "Regali"
         url = "/gifts/"
         weight = 7
+      [[languages.it.menu.main]]
+        name = "Invito"
+        url = "/invite/"
+        weight = 2
 
 [markup]
   [markup.goldmark]

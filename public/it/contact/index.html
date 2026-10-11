@@ -14,10 +14,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
-    <title>Contatti | Stef &amp; Laz - BodaPest 2027</title>
+    <title>Contatti | Stef &amp; Laz</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Poiret+One&display=swap" rel="stylesheet">
     <style>
         :root {
             color-scheme: light;
@@ -26,6 +26,7 @@
             --leaf: #66836b;
             --rose: #b65459;
             --paper: #fff9ed;
+            --paper-warm: #fff5e8;
             --mist: #f5ecda;
             --line: #d8e2d8;
         }
@@ -59,9 +60,41 @@
             padding: 22px 0 0;
         }
 
+        .event-masthead {
+            margin: 0 0 18px;
+            padding: 8px;
+            color: var(--rose);
+            font-family: "Limelight", "Bodoni 72", Didot, serif;
+            font-size: 2.25rem;
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .header-divider {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin: 2px 8px 6px;
+            color: #b08d57;
+            font-family: "Bodoni 72", Didot, serif;
+            font-size: 1.05rem;
+            line-height: 1;
+        }
+
+        .header-divider::before,
+        .header-divider::after {
+            flex: 1;
+            border-top: 1px solid #b08d57;
+            content: "";
+        }
+
+        .header-divider span {
+            white-space: nowrap;
+        }
+
         .language-switcher {
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             flex-wrap: wrap;
             gap: 8px;
             padding-bottom: 20px;
@@ -180,7 +213,7 @@
             padding: 36px clamp(22px, 6vw, 68px);
             border-top: 3px solid var(--leaf);
             border-bottom: 1px solid var(--line);
-            background: var(--paper);
+            background: var(--paper-warm);
         }
 
         .page-copy h2 {
@@ -402,18 +435,77 @@
         }
 
         .home-photo {
+            position: relative;
             width: min(100%, 920px);
             margin: 28px auto;
-            padding: 10px;
-            border: 5px double var(--forest);
-            background: var(--paper);
-            box-shadow: 0 5px 16px rgba(32, 55, 47, 0.12);
+            padding: 16px;
+            border: 1px solid #b08d57;
+            border-radius: 44px 44px 12px 12px / 26px 26px 12px 12px;
+            background: linear-gradient(145deg, #f1e4c7, var(--paper) 42%, #e9d9b6);
+            box-shadow: 0 0 0 5px var(--paper-warm), 0 0 0 7px #b08d57, 0 9px 22px rgba(32, 55, 47, 0.16);
+        }
+
+        .home-photo::before,
+        .home-photo::after {
+            position: absolute;
+            z-index: 1;
+            color: var(--forest);
+            font-family: "Bodoni 72", Didot, serif;
+            font-size: 2rem;
+            line-height: 1;
+            text-shadow: 0 1px 2px var(--paper);
+            pointer-events: none;
+        }
+
+        .home-photo::before {
+            top: 4px;
+            left: 8px;
+            content: "❧";
+        }
+
+        .home-photo::after {
+            right: 8px;
+            bottom: 4px;
+            transform: rotate(180deg);
+            content: "❧";
         }
 
         .home-photo img {
             display: block;
             width: 100%;
             height: auto;
+        }
+
+        .home-subframes {
+            display: grid;
+            width: min(100%, 920px);
+            grid-template-columns: minmax(0, 1fr);
+            align-items: start;
+            gap: 18px;
+            margin: 28px auto 0;
+        }
+
+        .home-subframe {
+            min-width: 0;
+            max-width: 420px;
+            padding: 18px;
+            border: 1px solid var(--line);
+            background: var(--paper);
+        }
+
+        .home-subframe h3 {
+            margin: 0 0 14px;
+            color: var(--forest);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.5rem;
+            font-weight: 400;
+        }
+
+        .home-subframe img {
+            display: block;
+            width: min(100%, 520px);
+            height: auto;
+            margin-inline: auto;
         }
 
         .story-photo img {
@@ -511,13 +603,17 @@
 
         @media (max-width: 760px) {
 
+            .home-subframes {
+                grid-template-columns: minmax(0, 1fr);
+            }
+
             .language-switcher {
                 display: none;
             }
 
             .mobile-language-select {
                 display: flex;
-                justify-content: flex-end;
+                justify-content: center;
                 padding-bottom: 14px;
             }
 
@@ -588,6 +684,10 @@
                 padding: 26px 8px 22px;
             }
 
+            .event-masthead {
+                font-size: 1.55rem;
+            }
+
             main {
                 padding: 30px 0 38px;
             }
@@ -629,7 +729,7 @@
             
             
             
-            <a class="language-link" href="https://stefylaz.com/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="en" title="English" >
                 <span class="flag" aria-hidden="true">🇬🇧</span>
                 <span>English</span>
@@ -637,7 +737,7 @@
             
             
             
-            <a class="language-link" href="https://stefylaz.com/es/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="es" title="Español" >
                 <span class="flag" aria-hidden="true">🇪🇸</span>
                 <span>Español</span>
@@ -645,7 +745,7 @@
             
             
             
-            <a class="language-link" href="https://stefylaz.com/de/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="de" title="Deutsch" >
                 <span class="flag" aria-hidden="true">🇩🇪</span>
                 <span>Deutsch</span>
@@ -653,7 +753,7 @@
             
             
             
-            <a class="language-link" href="https://stefylaz.com/hu/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="hu" title="Magyar" >
                 <span class="flag" aria-hidden="true">🇭🇺</span>
                 <span>Magyar</span>
@@ -661,7 +761,7 @@
             
             
             
-            <a class="language-link" href="https://stefylaz.com/fr/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="fr" title="Français" >
                 <span class="flag" aria-hidden="true">🇫🇷</span>
                 <span>Français</span>
@@ -669,7 +769,7 @@
             
             
             
-            <a class="language-link is-current" href="https://stefylaz.com/it/"
+            <a class="language-link is-current" href="#ZgotmplZ"
                 lang="it" title="Italiano" 
                 aria-current="page" >
                 <span class="flag" aria-hidden="true">🇮🇹</span>
@@ -683,39 +783,41 @@
                 
                 
                 
-                <option value="https://stefylaz.com/" lang="en" >English</option>
+                <option value="localhost:1313" lang="en" >English</option>
                 
                 
                 
-                <option value="https://stefylaz.com/es/" lang="es" >Español</option>
+                <option value="localhost:1313es/" lang="es" >Español</option>
                 
                 
                 
-                <option value="https://stefylaz.com/de/" lang="de" >Deutsch</option>
+                <option value="localhost:1313de/" lang="de" >Deutsch</option>
                 
                 
                 
-                <option value="https://stefylaz.com/hu/" lang="hu" >Magyar</option>
+                <option value="localhost:1313hu/" lang="hu" >Magyar</option>
                 
                 
                 
-                <option value="https://stefylaz.com/fr/" lang="fr" >Français</option>
+                <option value="localhost:1313fr/" lang="fr" >Français</option>
                 
                 
                 
-                <option value="https://stefylaz.com/it/" lang="it" selected>Italiano</option>
+                <option value="localhost:1313it/" lang="it" selected>Italiano</option>
                 
             </select>
         </label>
+        <div class="header-divider" aria-hidden="true"><span>❧ ✦ ❧</span></div>
+        <div class="event-masthead">The Grand Bodapest Event</div>
         <div class="brand">
             <p class="brand-kicker">Budapest · 25 giugno 2027</p>
-            <h1>Stef &amp; Laz - BodaPest 2027</h1>
+            <h1>Stef &amp; Laz</h1>
         </div>
         <nav class="desktop-navigation" aria-label="Navigazione principale">
             
             <a href="/it/">Home</a>
             
-            <a href="/it/sightseeing/">Alla scoperta di Budapest</a>
+            <a href="/it/invite/">Invito</a>
             
             <a href="/it/venue/">La location</a>
             
@@ -727,6 +829,8 @@
             
             <a href="/it/gifts/">Regali</a>
             
+            <a href="/it/sightseeing/">Alla scoperta di Budapest</a>
+            
         </nav>
         <details class="mobile-navigation">
             <summary>Menu</summary>
@@ -734,7 +838,7 @@
                 
                 <a href="/it/">Home</a>
                 
-                <a href="/it/sightseeing/">Alla scoperta di Budapest</a>
+                <a href="/it/invite/">Invito</a>
                 
                 <a href="/it/venue/">La location</a>
                 
@@ -745,6 +849,8 @@
                 <a href="/it/contact/">Contatti</a>
                 
                 <a href="/it/gifts/">Regali</a>
+                
+                <a href="/it/sightseeing/">Alla scoperta di Budapest</a>
                 
             </nav>
         </details>

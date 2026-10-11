@@ -25,7 +25,7 @@ title: "El menú"
 
 - Pechuga de pollo asada con tomate y cheddar
 - Estofado de ternera
-- Solomillo de ternera con velouté de rábano picante
+- Filete de lucioperca con velouté de rábano picante
 - Curry tailandés de verduras con fideos de arroz
 
 ### Guarniciones y acompañamientos

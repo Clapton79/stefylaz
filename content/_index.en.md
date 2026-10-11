@@ -1,5 +1,5 @@
 ---
-title: "Our Grand Voyage"
+title: "We are getting married!"
 ---
 
 We're delighted to welcome you aboard as we celebrate our wedding together.
@@ -10,3 +10,4 @@ Join us for an unforgettable evening on the Danube.
 * **Vessel:** Európa Hajó, Budapest, Hungary
 
 Please let us know by **1 May 2027** whether you can join us.
+
