@@ -41,20 +41,6 @@
 "home" "Torna alla home"
 "frame" "Stef sorride davanti al Parlamento ungherese di notte"
 )
-"ar" (dict
-"label" "العربية"
-"title" "الصفحة غير موجودة"
-"message" "لم نعثر على هذه الصفحة. عودوا إلى تفاصيل الزفاف."
-"home" "العودة إلى الصفحة الرئيسية"
-"frame" "ستيف يبتسم أمام مبنى البرلمان المجري ليلًا"
-)
-"hi" (dict
-"label" "हिन्दी"
-"title" "पृष्ठ नहीं मिला"
-"message" "यह पृष्ठ नहीं मिला। शादी की जानकारी पर वापस जाएँ।"
-"home" "मुखपृष्ठ पर वापस जाएँ"
-"frame" "रात में हंगरी की संसद के सामने मुस्कुराते हुए स्टेफ़"
-)
 -}}
 {{- $siteTitle := .Site.Title -}}
 <!DOCTYPE html>
@@ -319,7 +305,6 @@
         const text = translations[language];
 
         document.documentElement.lang = language;
-        document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
         document.title = `${text.title} | {{ $siteTitle }}`;
         document.getElementById("error-title").textContent = text.title;
         document.getElementById("error-message").textContent = text.message;

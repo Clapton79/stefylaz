@@ -1,7 +1,6 @@
 {{ $currentLang := site.Language.Lang }}
 {{ $photoCreditsPage := site.GetPage "/photo-credits" }}
-{{ $languageNames := dict "en" "English" "es" "Español" "de" "Deutsch" "hu" "Magyar" "fr" "Français" "it" "Italiano"
-"ar" "العربية" "hi" "हिन्दी" }}
+{{ $languageNames := dict "en" "English" "es" "Español" "de" "Deutsch" "hu" "Magyar" "fr" "Français" "it" "Italiano" }}
 {{ $homePhotoAlt := dict
 "en" "Stef and Laz together by the sea at sunset"
 "es" "Stef y Laz juntos junto al mar al atardecer"
@@ -9,11 +8,7 @@
 "hu" "Stef és Laz együtt a tengerparton naplementekor"
 "fr" "Stef et Laz ensemble au bord de la mer au coucher du soleil"
 "it" "Stef e Laz insieme al mare al tramonto"
-"ar" "ستيف ولاز معًا عند البحر وقت الغروب"
-"hi" "सूर्यास्त के समय समुद्र किनारे साथ में स्टेफ़ और लाज़"
 }}
-{{ $direction := "ltr" }}
-{{ if eq $currentLang "ar" }}{{ $direction = "rtl" }}{{ end }}
 {{ $flags := dict "en" "🇬🇧" "es" "🇪🇸" "de" "🇩🇪" "hu" "🇭🇺" "fr" "🇫🇷" "it" "🇮🇹" }}
 {{ $languageLabels := dict "en" "Language" "es" "Idioma" "de" "Sprache" "hu" "Nyelv" "fr" "Langue" "it" "Lingua" }}
 {{ $navigationLabels := dict
@@ -31,8 +26,6 @@
 "hu" "Alig várjuk, hogy együtt ünnepelhessünk veletek Budapesten."
 "fr" "Nous avons hâte de célébrer avec vous à Budapest."
 "it" "Non vediamo l'ora di festeggiare con voi a Budapest."
-"ar" "نتطلع بشوق للاحتفال معكم في بودابست."
-"hi" "हम बुडापेस्ट में आपके साथ जश्न मनाने के लिए उत्सुक हैं।"
 }}
 {{ $photoCreditsLabels := dict
 "en" "Photo credits"
@@ -41,16 +34,11 @@
 "hu" "Fotóforrások"
 "fr" "Crédits photo"
 "it" "Crediti fotografici"
-"ar" "اعتمادات الصور"
-"hi" "फ़ोटो श्रेय"
 }}
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" dir="{{ $direction }}">
+<html lang="{{ .Site.Language.Lang }}" dir="ltr">
 
 <head>
-    {{ $flags = merge $flags (dict "ar" "🇸🇦" "hi" "🇮🇳") }}
-    {{ $languageLabels = merge $languageLabels (dict "ar" "اللغة" "hi" "भाषा") }}
-    {{ $navigationLabels = merge $navigationLabels (dict "ar" "التنقل الرئيسي" "hi" "मुख्य नेविगेशन") }}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
@@ -665,8 +653,7 @@
 
 <body{{ if .IsHome }} class="home-page" {{ end }}>
     <header class="site-header">
-        <nav class="language-switcher" aria-label="{{ if eq $currentLang " ar" }}اللغة{{ else if eq $currentLang "hi"
-            }}भाषा{{ else }}{{ index $languageLabels $currentLang }}{{ end }}">
+        <nav class="language-switcher" aria-label="{{ index $languageLabels $currentLang }}">
             {{ range site.Languages }}
             {{ $languageURL := site.BaseURL }}
             {{ if ne .Lang "en" }}{{ $languageURL = printf "%s%s/" site.BaseURL .Lang }}{{ end }}
@@ -701,8 +688,8 @@
         </nav>
         <details class="mobile-navigation">
             <summary>{{ if eq $currentLang "es" }}Menú{{ else if eq $currentLang "de" }}Menü{{ else if eq $currentLang
-                "hu" }}Menü{{ else if eq $currentLang "fr" }}Menu{{ else if eq $currentLang "it" }}Menu{{ else if eq
-                $currentLang "ar" }}القائمة{{ else if eq $currentLang "hi" }}मेनू{{ else }}Menu{{ end }}</summary>
+                "hu" }}Menü{{ else if eq $currentLang "fr" }}Menu{{ else if eq $currentLang "it" }}Menu{{ else }}Menu{{
+                end }}</summary>
             <nav aria-label="{{ index $navigationLabels $currentLang }}">
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
