@@ -6,7 +6,7 @@ Nous remercions les photographes et les sources dont les images nous permettent 
 
 - **Parlement hongrois :** photo de Pierre Blaché, dédiée au domaine public sous CC0. [Voir l’image et ses informations sur Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg).
 - **Bastion des pêcheurs :** image du pin Pinterest fourni pour ce site. [Voir le pin](https://ph.pinterest.com/pin/641059328208145770/).
-- **Thermes Széchenyi :** photo de Slyronit, sous licence [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Voir l’image sur Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg).
+- **Thermes Széchenyi :** image tirée de la [photo de presse des bains Széchenyi](https://szechenyibath.com/wp-content/uploads/2013/06/Szechenyi-Spa-Baths-Press-Photo-Outdoor-Pool.jpg) ; la licence d’utilisation n’est pas précisée.
 - **Veli Bej :** image de BudapestInfo. [Voir l’image d’origine](https://www.budapestinfo.hu/storage/og-images/NbZtAOtS7Gf5a3A61nhBOTjgYRVIHIPq6fsZJ9KV.jpg).
 - **Bains Rudas :** image issue du lien Bing Images fourni par les mariés ; l’auteur et la licence d’origine ne sont pas identifiés.
 - **Szimpla Kert :** image fournie via [Stern](https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg).

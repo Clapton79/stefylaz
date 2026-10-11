@@ -6,7 +6,7 @@ We are grateful to the photographers and sources whose images help us share Buda
 
 - **Hungarian Parliament Building:** Photo by Pierre Blaché, dedicated to the public domain under CC0. [View the image and details on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg).
 - **Fisherman's Bastion:** Image from the Pinterest pin supplied for this site. [View the pin](https://ph.pinterest.com/pin/641059328208145770/).
-- **Széchenyi Thermal Bath:** Photo by Slyronit, licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [View the image on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg).
+- **Széchenyi Thermal Bath:** Image from the [Széchenyi Bath press photo](https://szechenyibath.com/wp-content/uploads/2013/06/Szechenyi-Spa-Baths-Press-Photo-Outdoor-Pool.jpg); usage license not stated.
 - **Veli Bej:** Image via BudapestInfo. [View the source image](https://www.budapestinfo.hu/storage/og-images/NbZtAOtS7Gf5a3A61nhBOTjgYRVIHIPq6fsZJ9KV.jpg).
 - **Rudas Baths:** Image from a Bing Images link supplied by the couple; original author and license are not identified.
 - **Szimpla Kert:** Image provided via [Stern](https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg).

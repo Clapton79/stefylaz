@@ -6,7 +6,7 @@ Köszönjük a fotósoknak és a forrásoknak, hogy képeikkel bemutathatjuk ven
 
 - **Országház:** Pierre Blaché fotója, CC0 licenc alatt közkincs. [A kép és adatai a Wikimedia Commonson](https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg).
 - **Halászbástya:** Az oldalhoz megadott Pinterest-pin képe. [A pin megtekintése](https://ph.pinterest.com/pin/641059328208145770/).
-- **Széchenyi Gyógyfürdő:** Slyronit fotója, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) licenc alatt. [A kép megtekintése a Wikimedia Commonson](https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg).
+- **Széchenyi Gyógyfürdő:** A kép a [Széchenyi Fürdő sajtófotója](https://szechenyibath.com/wp-content/uploads/2013/06/Szechenyi-Spa-Baths-Press-Photo-Outdoor-Pool.jpg); a felhasználási licenc nincs feltüntetve.
 - **Veli Bej:** A kép forrása a BudapestInfo. [Az eredeti kép megtekintése](https://www.budapestinfo.hu/storage/og-images/NbZtAOtS7Gf5a3A61nhBOTjgYRVIHIPq6fsZJ9KV.jpg).
 - **Rudas Gyógyfürdő:** A pár által megadott Bing Képek-linkről származó kép; az eredeti szerző és licenc nem ismert.
 - **Szimpla Kert:** A kép forrása a [Stern](https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg).

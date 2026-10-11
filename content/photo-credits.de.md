@@ -6,7 +6,7 @@ Wir danken den Fotograf:innen und Quellen, deren Bilder uns dabei helfen, unsere
 
 - **Ungarisches Parlament:** Foto von Pierre Blaché, unter CC0 gemeinfrei veröffentlicht. [Bild und Angaben auf Wikimedia Commons ansehen](https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg).
 - **Fischerbastei:** Bild aus dem für diese Website bereitgestellten Pinterest-Pin. [Pin ansehen](https://ph.pinterest.com/pin/641059328208145770/).
-- **Széchenyi-Bad:** Foto von Slyronit, lizenziert unter [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). [Bild auf Wikimedia Commons ansehen](https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_thermal_bath,_Budapest.jpg).
+- **Széchenyi-Bad:** Bild aus dem [Pressefoto der Széchenyi-Thermen](https://szechenyibath.com/wp-content/uploads/2013/06/Szechenyi-Spa-Baths-Press-Photo-Outdoor-Pool.jpg); Lizenzangaben sind nicht aufgeführt.
 - **Veli Bej:** Bild von BudapestInfo. [Originalbild ansehen](https://www.budapestinfo.hu/storage/og-images/NbZtAOtS7Gf5a3A61nhBOTjgYRVIHIPq6fsZJ9KV.jpg).
 - **Rudas-Bad:** Bild aus einem vom Brautpaar bereitgestellten Bing-Images-Link; ursprünglicher Urheber und Lizenz sind nicht bekannt.
 - **Szimpla Kert:** Bild bereitgestellt von [Stern](https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg).
