@@ -2,274 +2,274 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>localhost:1313categories/</loc>
+    <loc>//localhost:1315/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/categories/"
                 />
   </url><url>
-    <loc>localhost:1313contact/</loc>
+    <loc>//localhost:1315/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/contact/"
                 />
   </url><url>
-    <loc>localhost:1313sightseeing/</loc>
+    <loc>//localhost:1315/sightseeing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/sightseeing/"
                 />
   </url><url>
-    <loc>localhost:1313gifts/</loc>
+    <loc>//localhost:1315/gifts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/gifts/"
                 />
   </url><url>
-    <loc>localhost:1313invite/</loc>
+    <loc>//localhost:1315/invite/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/invite/"
                 />
   </url><url>
-    <loc>localhost:1313photo-credits/</loc>
+    <loc>//localhost:1315/photo-credits/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/photo-credits/"
                 />
   </url><url>
-    <loc>localhost:1313tags/</loc>
+    <loc>//localhost:1315/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/tags/"
                 />
   </url><url>
-    <loc>localhost:1313menu/</loc>
+    <loc>//localhost:1315/menu/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/menu/"
                 />
   </url><url>
-    <loc>localhost:1313venue/</loc>
+    <loc>//localhost:1315/venue/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/venue/"
                 />
   </url><url>
-    <loc>localhost:1313</loc>
+    <loc>//localhost:1315/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="#ZgotmplZ"
+                href="//localhost:1315/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="#ZgotmplZ"
+                href="//localhost:1315/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="#ZgotmplZ"
+                href="//localhost:1315/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="#ZgotmplZ"
+                href="//localhost:1315/hu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="#ZgotmplZ"
+                href="//localhost:1315/fr/"
                 />
   </url>
 </urlset>

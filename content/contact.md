@@ -9,7 +9,7 @@ title: "Contacts"
 
 <section class="contact-section">
 <h3>Share your photos</h3>
-<p>If you take photos at the venue, you can send them to us using the form below. We won’t share them; we’ll keep them as memories of this special day.</p>
-<span class="pending-link">Google Forms — upload link coming soon</span>
+<p>If you take photos at the venue, we’d love to see them. We won’t share them; we’ll keep them as memories of this special day.</p>
+<span class="pending-link">Upload link coming soon</span>
 </section>
 

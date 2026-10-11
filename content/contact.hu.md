@@ -9,7 +9,7 @@ title: "Kapcsolat"
 
 <section class="contact-section">
 <h3>Osszátok meg velünk a fotóitokat</h3>
-<p>Ha készítetek képeket a helyszínen, küldjétek el nekünk az alábbi űrlapon. Nem osztjuk meg őket; megőrizzük emlékül erről a szép napról.</p>
-<span class="pending-link">Google Forms — a feltöltési link hamarosan érkezik</span>
+<p>Ha készítetek képeket a helyszínen, örömmel fogadjuk őket. Nem osztjuk meg őket; megőrizzük emlékül erről a szép napról.</p>
+<span class="pending-link">A feltöltési link hamarosan érkezik</span>
 </section>
 

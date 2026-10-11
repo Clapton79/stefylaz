@@ -9,7 +9,7 @@ title: "Kontakt"
 
 <section class="contact-section">
 <h3>Eure Fotos</h3>
-<p>Wenn ihr bei der Feier Fotos macht, könnt ihr sie uns über das Formular unten schicken. Wir teilen sie nicht weiter, sondern bewahren sie als Erinnerung an diesen besonderen Tag auf.</p>
-<span class="pending-link">Google Forms — Upload-Link folgt</span>
+<p>Wenn ihr bei der Feier Fotos macht, freuen wir uns, wenn ihr sie mit uns teilt. Wir teilen sie nicht weiter, sondern bewahren sie als Erinnerung an diesen besonderen Tag auf.</p>
+<span class="pending-link">Upload-Link folgt in Kürze</span>
 </section>
 
