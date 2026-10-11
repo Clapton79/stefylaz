@@ -34,10 +34,6 @@ staticDir = ['static', 'res']
         url = "/menu/"
         weight = 4
       [[languages.en.menu.main]]
-        name = "About Us"
-        url = "/about/"
-        weight = 5
-      [[languages.en.menu.main]]
         name = "Contacts"
         url = "/contact/"
         weight = 6
@@ -71,10 +67,6 @@ staticDir = ['static', 'res']
         name = "El menú"
         url = "/menu/"
         weight = 4
-      [[languages.es.menu.main]]
-        name = "Sobre nosotros"
-        url = "/about/"
-        weight = 5
       [[languages.es.menu.main]]
         name = "Contacto"
         url = "/contact/"
@@ -110,10 +102,6 @@ staticDir = ['static', 'res']
         url = "/menu/"
         weight = 4
       [[languages.de.menu.main]]
-        name = "Über uns"
-        url = "/about/"
-        weight = 5
-      [[languages.de.menu.main]]
         name = "Kontakt"
         url = "/contact/"
         weight = 6
@@ -147,10 +135,6 @@ staticDir = ['static', 'res']
         name = "Menü"
         url = "/menu/"
         weight = 4
-      [[languages.hu.menu.main]]
-        name = "Rólunk"
-        url = "/about/"
-        weight = 5
       [[languages.hu.menu.main]]
         name = "Kapcsolat"
         url = "/contact/"
@@ -186,10 +170,6 @@ staticDir = ['static', 'res']
         url = "/menu/"
         weight = 4
       [[languages.fr.menu.main]]
-        name = "À propos"
-        url = "/about/"
-        weight = 5
-      [[languages.fr.menu.main]]
         name = "Contacts"
         url = "/contact/"
         weight = 6
@@ -199,44 +179,6 @@ staticDir = ['static', 'res']
         weight = 7
       [[languages.fr.menu.main]]
         name = "Invitation"
-        url = "/invite/"
-        weight = 2
-
-  [languages.it]
-    locale = 'it-IT'
-    label = 'Italiano'
-    weight = 6
-    [languages.it.menu]
-      [[languages.it.menu.main]]
-        name = "Home"
-        url = "/"
-        weight = 1
-      [[languages.it.menu.main]]
-        name = "Alla scoperta di Budapest"
-        url = "/sightseeing/"
-        weight = 8
-      [[languages.it.menu.main]]
-        name = "La location"
-        url = "/venue/"
-        weight = 3
-      [[languages.it.menu.main]]
-        name = "Il menu"
-        url = "/menu/"
-        weight = 4
-      [[languages.it.menu.main]]
-        name = "Chi siamo"
-        url = "/about/"
-        weight = 5
-      [[languages.it.menu.main]]
-        name = "Contatti"
-        url = "/contact/"
-        weight = 6
-      [[languages.it.menu.main]]
-        name = "Regali"
-        url = "/gifts/"
-        weight = 7
-      [[languages.it.menu.main]]
-        name = "Invito"
         url = "/invite/"
         weight = 2
 

@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
@@ -214,6 +214,33 @@
             border-top: 3px solid var(--leaf);
             border-bottom: 1px solid var(--line);
             background: var(--paper-warm);
+            text-align: center;
+        }
+
+        .page-copy .prose ul,
+        .page-copy .prose ol {
+            padding-inline-start: 0;
+            list-style-position: inside;
+        }
+
+        .event-schedule {
+            display: grid;
+            width: min(100%, 740px);
+            grid-template-columns: max-content minmax(0, 1fr);
+            gap: 8px 14px;
+            margin: 22px auto;
+            text-align: left;
+        }
+
+        .event-schedule dt {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .event-schedule dd {
+            min-width: 0;
+            margin: 0;
+            text-align: left;
         }
 
         .page-copy h2 {
@@ -729,7 +756,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="en" title="English" >
                 <span class="flag" aria-hidden="true">🇬🇧</span>
                 <span>English</span>
@@ -737,7 +764,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/es/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="es" title="Español" >
                 <span class="flag" aria-hidden="true">🇪🇸</span>
                 <span>Español</span>
@@ -745,7 +772,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/de/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="de" title="Deutsch" >
                 <span class="flag" aria-hidden="true">🇩🇪</span>
                 <span>Deutsch</span>
@@ -753,7 +780,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/hu/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="hu" title="Magyar" >
                 <span class="flag" aria-hidden="true">🇭🇺</span>
                 <span>Magyar</span>
@@ -761,19 +788,11 @@
             
             
             
-            <a class="language-link is-current" href="//localhost:1313/fr/"
+            <a class="language-link is-current" href="#ZgotmplZ"
                 lang="fr" title="Français" 
                 aria-current="page" >
                 <span class="flag" aria-hidden="true">🇫🇷</span>
                 <span>Français</span>
-            </a>
-            
-            
-            
-            <a class="language-link" href="//localhost:1313/it/"
-                lang="it" title="Italiano" >
-                <span class="flag" aria-hidden="true">🇮🇹</span>
-                <span>Italiano</span>
             </a>
             
         </nav>
@@ -783,35 +802,30 @@
                 
                 
                 
-                <option value="//localhost:1313/" lang="en" >English</option>
+                <option value="localhost:1313" lang="en" >English</option>
                 
                 
                 
-                <option value="//localhost:1313/es/" lang="es" >Español</option>
+                <option value="localhost:1313es/" lang="es" >Español</option>
                 
                 
                 
-                <option value="//localhost:1313/de/" lang="de" >Deutsch</option>
+                <option value="localhost:1313de/" lang="de" >Deutsch</option>
                 
                 
                 
-                <option value="//localhost:1313/hu/" lang="hu" >Magyar</option>
+                <option value="localhost:1313hu/" lang="hu" >Magyar</option>
                 
                 
                 
-                <option value="//localhost:1313/fr/" lang="fr" selected>Français</option>
-                
-                
-                
-                <option value="//localhost:1313/it/" lang="it" >Italiano</option>
+                <option value="localhost:1313fr/" lang="fr" selected>Français</option>
                 
             </select>
         </label>
         <div class="header-divider" aria-hidden="true"><span>❧ ✦ ❧</span></div>
         <div class="event-masthead">The Grand Bodapest Event</div>
         <div class="brand">
-            <p class="brand-kicker">Budapest · 25 June
-                2027</p>
+            <p class="brand-kicker">Budapest · 25 June 2027</p>
             <h1>Stef &amp; Laz</h1>
         </div>
         <nav class="desktop-navigation" aria-label="Navigation principale">
@@ -823,8 +837,6 @@
             <a href="/fr/venue/">Le lieu</a>
             
             <a href="/fr/menu/">Le menu</a>
-            
-            <a href="/fr/about/">À propos</a>
             
             <a href="/fr/contact/">Contacts</a>
             
@@ -844,8 +856,6 @@
                 <a href="/fr/venue/">Le lieu</a>
                 
                 <a href="/fr/menu/">Le menu</a>
-                
-                <a href="/fr/about/">À propos</a>
                 
                 <a href="/fr/contact/">Contacts</a>
                 

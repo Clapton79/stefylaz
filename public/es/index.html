@@ -11,7 +11,7 @@
 <html lang="es" dir="ltr">
 
 <head>
-	<meta name="generator" content="Hugo 0.167.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.167.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
@@ -215,6 +215,33 @@
             border-top: 3px solid var(--leaf);
             border-bottom: 1px solid var(--line);
             background: var(--paper-warm);
+            text-align: center;
+        }
+
+        .page-copy .prose ul,
+        .page-copy .prose ol {
+            padding-inline-start: 0;
+            list-style-position: inside;
+        }
+
+        .event-schedule {
+            display: grid;
+            width: min(100%, 740px);
+            grid-template-columns: max-content minmax(0, 1fr);
+            gap: 8px 14px;
+            margin: 22px auto;
+            text-align: left;
+        }
+
+        .event-schedule dt {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .event-schedule dd {
+            min-width: 0;
+            margin: 0;
+            text-align: left;
         }
 
         .page-copy h2 {
@@ -730,7 +757,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="en" title="English" >
                 <span class="flag" aria-hidden="true">🇬🇧</span>
                 <span>English</span>
@@ -738,7 +765,7 @@
             
             
             
-            <a class="language-link is-current" href="//localhost:1313/es/"
+            <a class="language-link is-current" href="#ZgotmplZ"
                 lang="es" title="Español" 
                 aria-current="page" >
                 <span class="flag" aria-hidden="true">🇪🇸</span>
@@ -747,7 +774,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/de/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="de" title="Deutsch" >
                 <span class="flag" aria-hidden="true">🇩🇪</span>
                 <span>Deutsch</span>
@@ -755,7 +782,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/hu/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="hu" title="Magyar" >
                 <span class="flag" aria-hidden="true">🇭🇺</span>
                 <span>Magyar</span>
@@ -763,18 +790,10 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/fr/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="fr" title="Français" >
                 <span class="flag" aria-hidden="true">🇫🇷</span>
                 <span>Français</span>
-            </a>
-            
-            
-            
-            <a class="language-link" href="//localhost:1313/it/"
-                lang="it" title="Italiano" >
-                <span class="flag" aria-hidden="true">🇮🇹</span>
-                <span>Italiano</span>
             </a>
             
         </nav>
@@ -784,35 +803,30 @@
                 
                 
                 
-                <option value="//localhost:1313/" lang="en" >English</option>
+                <option value="localhost:1313" lang="en" >English</option>
                 
                 
                 
-                <option value="//localhost:1313/es/" lang="es" selected>Español</option>
+                <option value="localhost:1313es/" lang="es" selected>Español</option>
                 
                 
                 
-                <option value="//localhost:1313/de/" lang="de" >Deutsch</option>
+                <option value="localhost:1313de/" lang="de" >Deutsch</option>
                 
                 
                 
-                <option value="//localhost:1313/hu/" lang="hu" >Magyar</option>
+                <option value="localhost:1313hu/" lang="hu" >Magyar</option>
                 
                 
                 
-                <option value="//localhost:1313/fr/" lang="fr" >Français</option>
-                
-                
-                
-                <option value="//localhost:1313/it/" lang="it" >Italiano</option>
+                <option value="localhost:1313fr/" lang="fr" >Français</option>
                 
             </select>
         </label>
         <div class="header-divider" aria-hidden="true"><span>❧ ✦ ❧</span></div>
         <div class="event-masthead">The Grand Bodapest Event</div>
         <div class="brand">
-            <p class="brand-kicker">Budapest · 25 June
-                2027</p>
+            <p class="brand-kicker">Budapest · 25 June 2027</p>
             <h1>Stef &amp; Laz</h1>
         </div>
         <nav class="desktop-navigation" aria-label="Navegación principal">
@@ -824,8 +838,6 @@
             <a href="/es/venue/">El lugar</a>
             
             <a href="/es/menu/">El menú</a>
-            
-            <a href="/es/about/">Sobre nosotros</a>
             
             <a href="/es/contact/">Contacto</a>
             
@@ -846,8 +858,6 @@
                 
                 <a href="/es/menu/">El menú</a>
                 
-                <a href="/es/about/">Sobre nosotros</a>
-                
                 <a href="/es/contact/">Contacto</a>
                 
                 <a href="/es/gifts/">Regalos</a>
@@ -865,13 +875,13 @@
                 <img src="/images/StefLazBE.jpeg" alt="Stef y Laz juntos junto al mar al atardecer">
             </figure>
             
-            <div class="prose"><p>¡Nos hace mucha ilusión celebrar nuestro día especial con ustedes a bordo!</p>
-<p>Prepárense para una velada inolvidable en el Danubio.</p>
+            <div class="prose"><p>¡Nos hace mucha ilusión celebrar nuestro día especial con vosotros a bordo!</p>
+<p>Prepararos para una fiesta inolvidable en el Danubio.</p>
 <ul>
-<li><strong>Salida:</strong> 25 de junio de 2027 a las 18:00</li>
-<li><strong>Barco:</strong> Európa Hajó, Budapest, Hungría</li>
+<li><strong>Cuándo:</strong> 25 de junio de 2027 a las 18:00</li>
+<li><strong>Dónde:</strong> Európa Hajó, Budapest, Hungría</li>
 </ul>
-<p>Por favor, confirmen su asistencia antes del <strong>1 de mayo de 2027</strong>.</p>
+<p>Por favor, confirmad vuestra asistencia antes del <strong>15 de mayo de 2027</strong>.</p>
 </div>
         </article>
     </main>

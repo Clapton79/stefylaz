@@ -10,7 +10,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
@@ -214,6 +214,33 @@
             border-top: 3px solid var(--leaf);
             border-bottom: 1px solid var(--line);
             background: var(--paper-warm);
+            text-align: center;
+        }
+
+        .page-copy .prose ul,
+        .page-copy .prose ol {
+            padding-inline-start: 0;
+            list-style-position: inside;
+        }
+
+        .event-schedule {
+            display: grid;
+            width: min(100%, 740px);
+            grid-template-columns: max-content minmax(0, 1fr);
+            gap: 8px 14px;
+            margin: 22px auto;
+            text-align: left;
+        }
+
+        .event-schedule dt {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .event-schedule dd {
+            min-width: 0;
+            margin: 0;
+            text-align: left;
         }
 
         .page-copy h2 {
@@ -729,7 +756,7 @@
             
             
             
-            <a class="language-link is-current" href="//localhost:1313/"
+            <a class="language-link is-current" href="#ZgotmplZ"
                 lang="en" title="English" 
                 aria-current="page" >
                 <span class="flag" aria-hidden="true">🇬🇧</span>
@@ -738,7 +765,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/es/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="es" title="Español" >
                 <span class="flag" aria-hidden="true">🇪🇸</span>
                 <span>Español</span>
@@ -746,7 +773,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/de/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="de" title="Deutsch" >
                 <span class="flag" aria-hidden="true">🇩🇪</span>
                 <span>Deutsch</span>
@@ -754,7 +781,7 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/hu/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="hu" title="Magyar" >
                 <span class="flag" aria-hidden="true">🇭🇺</span>
                 <span>Magyar</span>
@@ -762,18 +789,10 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/fr/"
+            <a class="language-link" href="#ZgotmplZ"
                 lang="fr" title="Français" >
                 <span class="flag" aria-hidden="true">🇫🇷</span>
                 <span>Français</span>
-            </a>
-            
-            
-            
-            <a class="language-link" href="//localhost:1313/it/"
-                lang="it" title="Italiano" >
-                <span class="flag" aria-hidden="true">🇮🇹</span>
-                <span>Italiano</span>
             </a>
             
         </nav>
@@ -783,35 +802,30 @@
                 
                 
                 
-                <option value="//localhost:1313/" lang="en" selected>English</option>
+                <option value="localhost:1313" lang="en" selected>English</option>
                 
                 
                 
-                <option value="//localhost:1313/es/" lang="es" >Español</option>
+                <option value="localhost:1313es/" lang="es" >Español</option>
                 
                 
                 
-                <option value="//localhost:1313/de/" lang="de" >Deutsch</option>
+                <option value="localhost:1313de/" lang="de" >Deutsch</option>
                 
                 
                 
-                <option value="//localhost:1313/hu/" lang="hu" >Magyar</option>
+                <option value="localhost:1313hu/" lang="hu" >Magyar</option>
                 
                 
                 
-                <option value="//localhost:1313/fr/" lang="fr" >Français</option>
-                
-                
-                
-                <option value="//localhost:1313/it/" lang="it" >Italiano</option>
+                <option value="localhost:1313fr/" lang="fr" >Français</option>
                 
             </select>
         </label>
         <div class="header-divider" aria-hidden="true"><span>❧ ✦ ❧</span></div>
         <div class="event-masthead">The Grand Bodapest Event</div>
         <div class="brand">
-            <p class="brand-kicker">Budapest · 25 June
-                2027</p>
+            <p class="brand-kicker">Budapest · 25 June 2027</p>
             <h1>Stef &amp; Laz</h1>
         </div>
         <nav class="desktop-navigation" aria-label="Main navigation">
@@ -823,8 +837,6 @@
             <a href="/venue/">The Venue</a>
             
             <a href="/menu/">The Menu</a>
-            
-            <a href="/about/">About Us</a>
             
             <a href="/contact/">Contacts</a>
             
@@ -845,8 +857,6 @@
                 
                 <a href="/menu/">The Menu</a>
                 
-                <a href="/about/">About Us</a>
-                
                 <a href="/contact/">Contacts</a>
                 
                 <a href="/gifts/">Gifts</a>
@@ -862,41 +872,14 @@
             
             <div class="prose"><p>We’ll celebrate aboard the <strong>Európa Hajó</strong>, a Budapest event boat on the Danube. For more information about the vessel and its facilities, visit the <a href="https://europahajo.hu/en/home/">official Európa Hajó website</a>.</p>
 <h3 id="evening-schedule">Evening schedule</h3>
-<table>
-	<thead>
-			<tr>
-					<th>Time</th>
-					<th>Plan</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>17:30</td>
-					<td>Arrival and welcome.</td>
-			</tr>
-			<tr>
-					<td>17:45</td>
-					<td>Ceremony and speeches.</td>
-			</tr>
-			<tr>
-					<td>18:15</td>
-					<td>Cruising and photos.</td>
-			</tr>
-			<tr>
-					<td>20:00</td>
-					<td>Buffet dinner, speeches and games.</td>
-			</tr>
-			<tr>
-					<td>22:00</td>
-					<td>Live band.</td>
-			</tr>
-			<tr>
-					<td>23:30</td>
-					<td>Late-night dinner and dancing.</td>
-			</tr>
-	</tbody>
-</table>
-</div>
+<dl class="event-schedule">
+<dt>17:30</dt><dd>Arrival and welcome.</dd>
+<dt>17:45</dt><dd>Ceremony and Spanish bites.</dd>
+<dt>18:15</dt><dd>Cruising and photos.</dd>
+<dt>20:00</dt><dd>Dinner</dd>
+<dt>22:00</dt><dd>Live Music and Party</dd>
+<dt>23:30</dt><dd>Late-night dinner and dancing.</dd>
+</dl></div>
         </article>
     </main>
     <footer>

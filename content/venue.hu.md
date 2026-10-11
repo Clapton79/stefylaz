@@ -6,11 +6,11 @@ Az esküvőnket az **Európa Hajó** fedélzetén ünnepeljük, amely Budapestn�
 
 ### Az este programja
 
-| Időpont | Program |
-| --- | --- |
-| 17:30 | Érkezés és köszöntés. |
-| 17:45 | Szertartás és beszédek. |
-| 18:15 | Hajózás és fotózás. |
-| 20:00 | Büfévacsora, beszédek és játékok. |
-| 22:00 | Élő zene. |
-| 23:30 | Éjféli vacsora és tánc. |
+<dl class="event-schedule">
+<dt>17:30</dt><dd>Érkezés és köszöntés.</dd>
+<dt>17:45</dt><dd>Szertartás és spanyol falatok.</dd>
+<dt>18:15</dt><dd>Hajózás és fotózás.</dd>
+<dt>20:00</dt><dd>Vacsora</dd>
+<dt>22:00</dt><dd>Élő zene és buli</dd>
+<dt>23:30</dt><dd>Éjféli vacsora és tánc.</dd>
+</dl>

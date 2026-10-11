@@ -1,23 +1,21 @@
 {{ $currentLang := site.Language.Lang }}
 {{ $photoCreditsPage := site.GetPage "/photo-credits" }}
-{{ $languageNames := dict "en" "English" "es" "Español" "de" "Deutsch" "hu" "Magyar" "fr" "Français" "it" "Italiano" }}
+{{ $languageNames := dict "en" "English" "es" "Español" "de" "Deutsch" "hu" "Magyar" "fr" "Français" }}
 {{ $homePhotoAlt := dict
 "en" "Stef and Laz together by the sea at sunset"
 "es" "Stef y Laz juntos junto al mar al atardecer"
 "de" "Stef und Laz gemeinsam am Meer bei Sonnenuntergang"
 "hu" "Stef és Laz együtt a tengerparton naplementekor"
 "fr" "Stef et Laz ensemble au bord de la mer au coucher du soleil"
-"it" "Stef e Laz insieme al mare al tramonto"
 }}
-{{ $flags := dict "en" "🇬🇧" "es" "🇪🇸" "de" "🇩🇪" "hu" "🇭🇺" "fr" "🇫🇷" "it" "🇮🇹" }}
-{{ $languageLabels := dict "en" "Language" "es" "Idioma" "de" "Sprache" "hu" "Nyelv" "fr" "Langue" "it" "Lingua" }}
+{{ $flags := dict "en" "🇬🇧" "es" "🇪🇸" "de" "🇩🇪" "hu" "🇭🇺" "fr" "🇫🇷" }}
+{{ $languageLabels := dict "en" "Language" "es" "Idioma" "de" "Sprache" "hu" "Nyelv" "fr" "Langue" }}
 {{ $navigationLabels := dict
 "en" "Main navigation"
 "es" "Navegación principal"
 "de" "Hauptnavigation"
 "hu" "Fő navigáció"
 "fr" "Navigation principale"
-"it" "Navigazione principale"
 }}
 {{ $footerMessages := dict
 "en" "We can't wait to celebrate with you in Budapest."
@@ -25,7 +23,6 @@
 "de" "Wir freuen uns darauf, mit euch in Budapest zu feiern."
 "hu" "Alig várjuk, hogy együtt ünnepelhessünk veletek Budapesten."
 "fr" "Nous avons hâte de célébrer avec vous à Budapest."
-"it" "Non vediamo l'ora di festeggiare con voi a Budapest."
 }}
 {{ $photoCreditsLabels := dict
 "en" "Photo credits"
@@ -33,7 +30,6 @@
 "de" "Bildnachweise"
 "hu" "Fotóforrások"
 "fr" "Crédits photo"
-"it" "Crediti fotografici"
 }}
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}" dir="ltr">
@@ -242,6 +238,33 @@
             border-top: 3px solid var(--leaf);
             border-bottom: 1px solid var(--line);
             background: var(--paper-warm);
+            text-align: center;
+        }
+
+        .page-copy .prose ul,
+        .page-copy .prose ol {
+            padding-inline-start: 0;
+            list-style-position: inside;
+        }
+
+        .event-schedule {
+            display: grid;
+            width: min(100%, 740px);
+            grid-template-columns: max-content minmax(0, 1fr);
+            gap: 8px 14px;
+            margin: 22px auto;
+            text-align: left;
+        }
+
+        .event-schedule dt {
+            text-align: right;
+            white-space: nowrap;
+        }
+
+        .event-schedule dd {
+            min-width: 0;
+            margin: 0;
+            text-align: left;
         }
 
         .page-copy h2 {
@@ -779,8 +802,7 @@
         <div class="header-divider" aria-hidden="true"><span>❧ ✦ ❧</span></div>
         <div class="event-masthead">The Grand Bodapest Event</div>
         <div class="brand">
-            <p class="brand-kicker">{{ if eq $currentLang "it" }}Budapest · 25 giugno 2027{{ else }}Budapest · 25 June
-                2027{{ end }}</p>
+            <p class="brand-kicker">Budapest · 25 June 2027</p>
             <h1>{{ .Site.Title }}</h1>
         </div>
         <nav class="desktop-navigation" aria-label="{{ index $navigationLabels $currentLang }}">
@@ -790,8 +812,7 @@
         </nav>
         <details class="mobile-navigation">
             <summary>{{ if eq $currentLang "es" }}Menú{{ else if eq $currentLang "de" }}Menü{{ else if eq $currentLang
-                "hu" }}Menü{{ else if eq $currentLang "fr" }}Menu{{ else if eq $currentLang "it" }}Menu{{ else }}Menu{{
-                end }}</summary>
+                "hu" }}Menü{{ else if eq $currentLang "fr" }}Menu{{ else }}Menu{{ end }}</summary>
             <nav aria-label="{{ index $navigationLabels $currentLang }}">
                 {{ range .Site.Menus.main }}
                 <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>

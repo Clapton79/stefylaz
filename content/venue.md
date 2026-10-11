@@ -6,11 +6,11 @@ We’ll celebrate aboard the **Európa Hajó**, a Budapest event boat on the Dan
 
 ### Evening schedule
 
-| Time | Plan |
-| --- | --- |
-| 17:30 | Arrival and welcome. |
-| 17:45 | Ceremony and speeches. |
-| 18:15 | Cruising and photos. |
-| 20:00 | Buffet dinner, speeches and games. |
-| 22:00 | Live band. |
-| 23:30 | Late-night dinner and dancing. |
+<dl class="event-schedule">
+<dt>17:30</dt><dd>Arrival and welcome.</dd>
+<dt>17:45</dt><dd>Ceremony and Spanish bites.</dd>
+<dt>18:15</dt><dd>Cruising and photos.</dd>
+<dt>20:00</dt><dd>Dinner</dd>
+<dt>22:00</dt><dd>Live Music and Party</dd>
+<dt>23:30</dt><dd>Late-night dinner and dancing.</dd>
+</dl>

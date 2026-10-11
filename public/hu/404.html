@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f5ecda">
@@ -231,32 +231,27 @@
             
             
             
-            <a class="language-link" href="//localhost:1313/" lang="en" data-language="en">English</a>
+            <a class="language-link" href="#ZgotmplZ" lang="en" data-language="en">English</a>
             
             
             
             
-            <a class="language-link" href="//localhost:1313/es/" lang="es" data-language="es">Español</a>
+            <a class="language-link" href="#ZgotmplZ" lang="es" data-language="es">Español</a>
             
             
             
             
-            <a class="language-link" href="//localhost:1313/de/" lang="de" data-language="de">Deutsch</a>
+            <a class="language-link" href="#ZgotmplZ" lang="de" data-language="de">Deutsch</a>
             
             
             
             
-            <a class="language-link" href="//localhost:1313/hu/" lang="hu" data-language="hu">Magyar</a>
+            <a class="language-link" href="#ZgotmplZ" lang="hu" data-language="hu">Magyar</a>
             
             
             
             
-            <a class="language-link" href="//localhost:1313/fr/" lang="fr" data-language="fr">Français</a>
-            
-            
-            
-            
-            <a class="language-link" href="//localhost:1313/it/" lang="it" data-language="it">Italiano</a>
+            <a class="language-link" href="#ZgotmplZ" lang="fr" data-language="fr">Français</a>
             
         </nav>
         <div class="brand">
@@ -278,7 +273,7 @@
     </main>
     <footer>Stef &amp; Laz</footer>
     <script>
-        const translations = {"de":{"frame":"Stef lächelt nachts vor dem ungarischen Parlament","home":"Zur Startseite","label":"Deutsch","message":"Diese Seite gibt es nicht. Zurück zu den Hochzeitsinfos.","title":"Seite nicht gefunden"},"en":{"frame":"Stef smiling in front of the Hungarian Parliament at night","home":"Back to home","label":"English","message":"We couldn't find this page. Return to the wedding details.","title":"Page not found"},"es":{"frame":"Stef sonríe frente al Parlamento de Hungría por la noche","home":"Volver al inicio","label":"Español","message":"No encontramos esta página. Vuelve a los detalles de la boda.","title":"Página no encontrada"},"fr":{"frame":"Stef sourit devant le Parlement hongrois de nuit","home":"Retour à l’accueil","label":"Français","message":"Cette page est introuvable. Retour aux détails du mariage.","title":"Page introuvable"},"hu":{"frame":"Stef éjszaka mosolyog a magyar Parlament előtt","home":"Vissza a főoldalra","label":"Magyar","message":"Ez az oldal nem található. Vissza az esküvő részleteihez.","title":"Az oldal nem található"},"it":{"frame":"Stef sorride davanti al Parlamento ungherese di notte","home":"Torna alla home","label":"Italiano","message":"Questa pagina non esiste. Torna ai dettagli del matrimonio.","title":"Pagina non trovata"}};
+        const translations = {"de":{"frame":"Stef lächelt nachts vor dem ungarischen Parlament","home":"Zur Startseite","label":"Deutsch","message":"Diese Seite gibt es nicht. Zurück zu den Hochzeitsinfos.","title":"Seite nicht gefunden"},"en":{"frame":"Stef smiling in front of the Hungarian Parliament at night","home":"Back to home","label":"English","message":"We couldn't find this page. Return to the wedding details.","title":"Page not found"},"es":{"frame":"Stef sonríe frente al Parlamento de Hungría por la noche","home":"Volver al inicio","label":"Español","message":"No encontramos esta página. Vuelve a los detalles de la boda.","title":"Página no encontrada"},"fr":{"frame":"Stef sourit devant le Parlement hongrois de nuit","home":"Retour à l’accueil","label":"Français","message":"Cette page est introuvable. Retour aux détails du mariage.","title":"Page introuvable"},"hu":{"frame":"Stef éjszaka mosolyog a magyar Parlament előtt","home":"Vissza a főoldalra","label":"Magyar","message":"Ez az oldal nem található. Vissza az esküvő részleteihez.","title":"Az oldal nem található"}};
         const pathLanguage = window.location.pathname.split("/")[1];
         const language = Object.hasOwn(translations, pathLanguage) ? pathLanguage : "en";
         const text = translations[language];

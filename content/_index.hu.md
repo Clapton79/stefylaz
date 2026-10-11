@@ -6,8 +6,8 @@ Nagy örömmel várunk benneteket a fedélzetre, hogy együtt ünnepeljük meg e
 
 Készüljetek egy felejthetetlen dunai estére!
 
-* **Indulás:** 2027. június 25-én 18:00 órakor
-* **Hajó:** Európa Hajó, Budapest
+* **Mikor:** 2027. június 25-én 18:00 órakor
+* **Hol:** Európa Hajó, Budapest
 
-Kérjük, 2027. május 1-jéig jelezzétek, hogy részt tudtok-e venni.
+Kérjük, 2027. május 15-éig jelezzétek, hogy részt tudtok-e venni.
 

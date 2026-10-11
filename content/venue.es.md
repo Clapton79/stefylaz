@@ -6,11 +6,11 @@ Celebraremos nuestra boda a bordo del **Európa Hajó**, un barco para eventos q
 
 ### Programa de la velada
 
-| Hora | Actividad |
-| --- | --- |
-| 17:30 | Llegada y bienvenida. |
-| 17:45 | Ceremonia y discursos. |
-| 18:15 | Paseo en barco y fotos. |
-| 20:00 | Cena tipo bufé, discursos y juegos. |
-| 22:00 | Música en directo. |
-| 23:30 | Cena de medianoche y baile. |
+<dl class="event-schedule">
+<dt>17:30</dt><dd>Llegada y bienvenida.</dd>
+<dt>17:45</dt><dd>Ceremonia y tapas españolas.</dd>
+<dt>18:15</dt><dd>Paseo en barco y fotos.</dd>
+<dt>20:00</dt><dd>Cena</dd>
+<dt>22:00</dt><dd>Música en directo y fiesta</dd>
+<dt>23:30</dt><dd>Cena de medianoche y baile.</dd>
+</dl>

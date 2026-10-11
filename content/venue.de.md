@@ -6,11 +6,11 @@ Wir feiern unsere Hochzeit an Bord der **Európa Hajó**, einem Veranstaltungssc
 
 ### Ablauf des Abends
 
-| Uhrzeit | Programmpunkt |
-| --- | --- |
-| 17:30 | Ankunft und Begrüßung. |
-| 17:45 | Zeremonie und Reden. |
-| 18:15 | Schifffahrt und Fotos. |
-| 20:00 | Abendessen vom Buffet, Reden und Spiele. |
-| 22:00 | Livemusik. |
-| 23:30 | Mitternachtsimbiss und Tanz. |
+<dl class="event-schedule">
+<dt>17:30</dt><dd>Ankunft und Begrüßung.</dd>
+<dt>17:45</dt><dd>Zeremonie und spanische Häppchen.</dd>
+<dt>18:15</dt><dd>Schifffahrt und Fotos.</dd>
+<dt>20:00</dt><dd>Abendessen</dd>
+<dt>22:00</dt><dd>Livemusik und Party</dd>
+<dt>23:30</dt><dd>Mitternachtsimbiss und Tanz.</dd>
+</dl>
