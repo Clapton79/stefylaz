@@ -1,5 +1,5 @@
-baseURL = 'localhost:1313'
-#baseURL = 'https://stefylaz.com'
+#baseURL = 'localhost:1313'
+baseURL = 'https://stefylaz.com'
 title = 'Stef & Laz'
 
 defaultContentLanguage = 'en'

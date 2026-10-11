@@ -2,27 +2,27 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 		<sitemap>
-			<loc>localhost:1313/sitemap.xml</loc>
+			<loc>https://stefylaz.com/en/sitemap.xml</loc>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>localhost:1313/sitemap.xml</loc>
+			<loc>https://stefylaz.com/es/sitemap.xml</loc>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>localhost:1313/sitemap.xml</loc>
+			<loc>https://stefylaz.com/de/sitemap.xml</loc>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>localhost:1313/sitemap.xml</loc>
+			<loc>https://stefylaz.com/hu/sitemap.xml</loc>
 			
 		</sitemap>
 	
 		<sitemap>
-			<loc>localhost:1313/sitemap.xml</loc>
+			<loc>https://stefylaz.com/fr/sitemap.xml</loc>
 			
 		</sitemap>
 	
