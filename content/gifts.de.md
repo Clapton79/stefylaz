@@ -3,5 +3,5 @@ title: "Geschenke"
 ---
 
 <section class="contact-section">
-<p>Dass ihr an unserem Hochzeitstag dabei seid, ist bereits ein Geschenk.<br>Da wir nicht in Budapest leben, könnte der Transport von Geschenken kompliziert werden.<br>Über einen Beitrag zu den Kosten der Location freuen wir uns sehr.</p>
+<p>Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. Da wir außerhalb von Budapest leben, wäre es schwierig, Sachgeschenke mit nach Hause zu nehmen. Wenn ihr uns etwas schenken möchtet, freuen wir uns über einen Beitrag zu unseren Flitterwochen. Weitere Informationen teilen wir über das RSVP-Formular mit euch.</p>
 </section>

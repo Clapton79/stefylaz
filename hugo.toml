@@ -7,7 +7,7 @@ defaultContentLanguageInSubdir = false
 staticDir = ['static', 'res']
 
 [params]
-    weddingDate = "2027-06-25T18:00:00"
+    weddingDate = "2027-06-25T17:15:00"
     venueName = "Európa Hajó, Budapest"
     contactEmail = "stef.laz.wedding@gmail.com"
 
