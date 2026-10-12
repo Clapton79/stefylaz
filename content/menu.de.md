@@ -33,7 +33,7 @@ title: "Das Menü"
 
 ### Desserts
 * Schokoladenmousse
-* Himbeermousse* (vegan)
+* Himbeermousse (vegan)
 * Salz-Karamell-Strudel
 
 ## Getränke

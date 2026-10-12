@@ -33,7 +33,7 @@ title: "The Menu"
 
 ### Desserts
 * Chocolate mousse
-* Raspberry mousse* (vegan)
+* Raspberry mousse (vegan)
 * Salted caramel strudel
 
 # Drinks 
