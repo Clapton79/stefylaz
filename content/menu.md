@@ -20,7 +20,7 @@ title: "The Menu"
 
 ### Main Courses
 * Baked chicken breast with tomato and cheddar cheese
-* Hungarian beef stew* (Pörkölt)
+* Hungarian beef stew *(Pörkölt)*
 * Pike-perch fillet with horseradish velouté
 * Thai vegetable curry with rice noodles
 

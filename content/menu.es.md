@@ -20,7 +20,7 @@ title: "El menú"
 
 ### Platos principales
 * Pechuga de pollo horneada con tomate y queso cheddar
-* Estofado tradicional de ternera** *(Marhapörkölt)*
+* Estofado tradicional de ternera *(Marhapörkölt)*
 * Filete de lucioperca con velouté de rábano picante
 * Curry tailandés de verduras con fideos de arroz
 
