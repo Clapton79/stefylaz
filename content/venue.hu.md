@@ -13,4 +13,6 @@ Az esküvőnket az **Európa Hajó** fedélzetén ünnepeljük, amely Budapestn�
 <dt>20:00</dt><dd>Vacsora</dd>
 <dt>22:00</dt><dd>Élő zene és buli</dd>
 <dt>23:30</dt><dd>Éjféli vacsora és tánc.</dd>
+<dt>01:00</dt><dd>Búcsúzkodás.</dd>
+<dt>01:30</dt><dd>Zárás – elhagyni a hajót! :D</dd>
 </dl>

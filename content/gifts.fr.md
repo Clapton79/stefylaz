@@ -1,7 +1,0 @@
----
-title: "Cadeaux"
----
-
-<section class="contact-section">
-<p>Votre présence à notre mariage est déjà un cadeau.<br>Comme nous n’habitons pas à Budapest, le transport de cadeaux pourrait s’avérer compliqué.<br>Nous accepterons avec gratitude une contribution aux frais du lieu de réception.</p>
-</section>

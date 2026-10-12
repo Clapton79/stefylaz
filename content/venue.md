@@ -13,4 +13,6 @@ We’ll celebrate aboard the **Európa Hajó**, a Budapest event boat on the Dan
 <dt>20:00</dt><dd>Dinner</dd>
 <dt>22:00</dt><dd>Live Music and Party</dd>
 <dt>23:30</dt><dd>Late-night dinner and dancing.</dd>
+<dt>01:00</dt><dd>Saying goodbye.</dd>
+<dt>01:30</dt><dd>Closing – abandon ship! :D</dd>
 </dl>

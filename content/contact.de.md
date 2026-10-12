@@ -13,3 +13,6 @@ title: "Kontakt"
 <span class="pending-link">Upload-Link folgt in Kürze</span>
 </section>
 
+<figure class="story-photo">
+<img src="/images/StefLazCouch.jpg" alt="Stef und Laz entspannen gemeinsam auf einem Sofa">
+</figure>

@@ -13,4 +13,6 @@ Wir feiern unsere Hochzeit an Bord der **Európa Hajó**, einem Veranstaltungssc
 <dt>20:00</dt><dd>Abendessen</dd>
 <dt>22:00</dt><dd>Livemusik und Party</dd>
 <dt>23:30</dt><dd>Mitternachtsimbiss und Tanz.</dd>
+<dt>01:00</dt><dd>Verabschiedung.</dd>
+<dt>01:30</dt><dd>Abschluss – Schiff verlassen! :D</dd>
 </dl>

@@ -122,32 +122,6 @@
         }
       ]
     },
-    "fr": {
-      "heading": "Promenades suggérées",
-      "mapLabel": "Ouvrir l’itinéraire dans Google Maps",
-      "tours": [
-        {
-          "title": "Quartier du château de Buda",
-          "duration": "Environ 1 h 30 à 2 h",
-          "description": "Découvrez le château, l’église Matthias, le Bastion et les ruelles du quartier."
-        },
-        {
-          "title": "Centre-ville et Parlement",
-          "duration": "Environ 1 h 30 à 2 h",
-          "description": "Suivez le Danube depuis le Parlement jusqu’à la basilique et au Grand Marché."
-        },
-        {
-          "title": "Városliget et quartier des palais",
-          "duration": "Environ 2 h",
-          "description": "Visitez la place des Héros, Vajdahunyad et les thermes Széchenyi."
-        },
-        {
-          "title": "Quartier juif",
-          "duration": "Environ 1 h 30",
-          "description": "Découvrez trois synagogues, la cour Gozsdu et le Szimpla Kert."
-        }
-      ]
-    },
     "it": {
       "heading": "Passeggiate consigliate",
       "mapLabel": "Apri il percorso in Google Maps",

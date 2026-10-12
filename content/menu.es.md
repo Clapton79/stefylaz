@@ -3,41 +3,61 @@ title: "El menú"
 ---
 
 ### Sopas
+* Sopa de ternera
+* Crema de brócoli (vegana)
 
-- Caldo de carne
-- Crema de brócoli vegana
-
-### Entrantes fríos en cestitas de hojaldre (selección especial)
-
-- Foie gras con trufas y compota de manzana
-- Trucha ahumada de Szilvásvárad con crema de eneldo y caviar
-- Paté de mangalica con dos tipos de pepinillos
-- Magret de pato marinado, rosado por dentro, con mermelada de higos
-- Crema vegana de castañas y garbanzos
+### Entrantes fríos (en cestillas)
+* Foie de ganso con trufa y compota de manzana
+* Trucha ahumada de Szilvásvárad con queso *zsendice* con eneldo y caviar
+* Paté de cerdo húngaro *Mangalica* con dos tipos de pepinillos
+* Pechuga de pato marinada al punto con mermelada de higo
+* Crema de garbanzos y castañas (vegana)
 
 ### Ensaladas
-
-- Ensalada griega
-- Ensalada de calabacín con tomates secos
-- Ensalada fresca de la huerta con vinagreta de limón y aceite de oliva o aliño de limón y yogur griego
+* Ensalada griega
+* Ensalada de calabacín con tomates secos
+* Ensalada fresca del huerto con dos aliños a elegir *(aderezo de limón y aceite de oliva, aderezo de yogur griego y limón)*
 
 ### Platos principales
+* Pechuga de pollo horneada con tomate y queso cheddar
+* Estofado tradicional de ternera** *(Marhapörkölt)*
+* Filete de lucioperca con velouté de rábano picante
+* Curry tailandés de verduras con fideos de arroz
 
-- Pechuga de pollo asada con tomate y cheddar
-- Estofado de ternera
-- Filete de lucioperca con velouté de rábano picante
-- Curry tailandés de verduras con fideos de arroz
-
-### Guarniciones y acompañamientos
-
-- Arroz jazmín
-- Fideos
-- Patatas para acompañar el bistec
-- Verduras de temporada con mantequilla de albahaca
-- Fruta de temporada
+### Guarniciones
+* Arroz jazmín
+* Ñoquis húngaros al huevo *(Galuska)* 
+* Patatas fritas
+* Verduras de temporada con mantequilla de albahaca
+* Plato de frutas de temporada
 
 ### Postres
+* Mousse de chocolate
+* Mousse de frambuesa (vegana)
+* Strudel de caramelo salado
 
-- Mousse de chocolate
-- Mousse vegana de frambuesa
-- Natillas de manzana con caramelo salado
+## Bebidas
+
+#### Vinos
+- Grand Selection Tokaji Furmint
+- Bárdos Mátrai Pinot Grigio
+- Hilltop Neszmélyi Premium Merlot
+- Bodri Szekszárdi QV
+- Juhász Egri Rosé
+
+#### Espumosos y Refrescos
+- Vino espumoso dulce y seco
+- Refrescos sin gas / Bebidas sin alcohol
+- Refrescos con gas (productos Pepsi)
+- Zumos naturales / Jugos frescos
+- Agua mineral Szentkirályi (con y sin gas)
+
+#### Cerveza
+- Productos Dreher (cerveza de barril)
+- Miller, Peroni
+
+#### Bebidas calientes
+- Variedades de café Segafredo
+- Selección de tés Dilmah
+
+#### Variedad de Cubatas

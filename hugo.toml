@@ -148,40 +148,6 @@ staticDir = ['static', 'res']
         url = "/invite/"
         weight = 2
 
-  [languages.fr]
-    locale = 'fr-FR'
-    label = 'Français'
-    weight = 5
-    [languages.fr.menu]
-      [[languages.fr.menu.main]]
-        name = "Accueil"
-        url = "/"
-        weight = 1
-      [[languages.fr.menu.main]]
-        name = "Visiter Budapest"
-        url = "/sightseeing/"
-        weight = 8
-      [[languages.fr.menu.main]]
-        name = "Le lieu"
-        url = "/venue/"
-        weight = 3
-      [[languages.fr.menu.main]]
-        name = "Le menu"
-        url = "/menu/"
-        weight = 4
-      [[languages.fr.menu.main]]
-        name = "Contacts"
-        url = "/contact/"
-        weight = 6
-      [[languages.fr.menu.main]]
-        name = "Cadeaux"
-        url = "/gifts/"
-        weight = 7
-      [[languages.fr.menu.main]]
-        name = "Invitation"
-        url = "/invite/"
-        weight = 2
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

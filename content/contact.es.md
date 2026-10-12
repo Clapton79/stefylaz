@@ -13,3 +13,6 @@ title: "Contacto"
 <span class="pending-link">El enlace para subir fotos estará disponible pronto</span>
 </section>
 
+<figure class="story-photo">
+<img src="/images/StefLazCouch.jpg" alt="Stef y Laz descansando juntos en un sofá">
+</figure>

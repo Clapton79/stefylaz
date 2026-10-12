@@ -13,4 +13,6 @@ Celebraremos nuestra boda a bordo del **Európa Hajó**, un barco para eventos q
 <dt>20:00</dt><dd>Cena</dd>
 <dt>22:00</dt><dd>Música en directo y fiesta</dd>
 <dt>23:30</dt><dd>Recena de medianoche y baile.</dd>
+<dt>01:00</dt><dd>Despedida.</dd>
+<dt>01:30</dt><dd>Cierre: ¡abandonen el barco! :D</dd>
 </dl>

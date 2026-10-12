@@ -13,3 +13,6 @@ title: "Kapcsolat"
 <span class="pending-link">A feltöltési link hamarosan érkezik</span>
 </section>
 
+<figure class="story-photo">
+<img src="/images/StefLazCouch.jpg" alt="Stef és Laz együtt pihennek a kanapén">
+</figure>

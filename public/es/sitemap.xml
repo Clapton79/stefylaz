@@ -23,11 +23,6 @@
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/"
-                />
   </url><url>
     <loc>https://stefylaz.com/es/categories/</loc>
     <xhtml:link
@@ -49,11 +44,6 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/categories/"
                 />
   </url><url>
     <loc>https://stefylaz.com/es/contact/</loc>
@@ -77,11 +67,6 @@
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/contact/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/contact/"
-                />
   </url><url>
     <loc>https://stefylaz.com/es/photo-credits/</loc>
     <xhtml:link
@@ -103,11 +88,6 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/photo-credits/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/photo-credits/"
                 />
   </url><url>
     <loc>https://stefylaz.com/es/sightseeing/</loc>
@@ -131,11 +111,6 @@
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/sightseeing/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/sightseeing/"
-                />
   </url><url>
     <loc>https://stefylaz.com/es/venue/</loc>
     <xhtml:link
@@ -157,11 +132,6 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/venue/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/venue/"
                 />
   </url><url>
     <loc>https://stefylaz.com/es/menu/</loc>
@@ -185,11 +155,6 @@
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/menu/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/menu/"
-                />
   </url><url>
     <loc>https://stefylaz.com/es/invite/</loc>
     <xhtml:link
@@ -211,11 +176,6 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/invite/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/invite/"
                 />
   </url><url>
     <loc>https://stefylaz.com/es/gifts/</loc>
@@ -239,11 +199,6 @@
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/gifts/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/gifts/"
-                />
   </url><url>
     <loc>https://stefylaz.com/es/tags/</loc>
     <xhtml:link
@@ -265,11 +220,6 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr-FR"
-                href="https://stefylaz.com/fr/tags/"
                 />
   </url>
 </urlset>
