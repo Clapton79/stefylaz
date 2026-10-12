@@ -1,5 +1,5 @@
 ---
-title: "Esküvő Budapesten"
+title: "Összeházasodunk!"
 ---
 
 Nagy örömmel várunk benneteket a fedélzetre, hogy együtt ünnepeljük meg ezt a különleges napot!

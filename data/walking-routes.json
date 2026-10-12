@@ -24,22 +24,22 @@
       "tours": [
         {
           "title": "Buda Castle District",
-          "duration": "About 1.5–2 hours",
+          "duration": "33 min",
           "description": "Explore Buda Castle, Matthias Church and Fisherman's Bastion."
         },
         {
           "title": "Downtown Budapest & Parliament",
-          "duration": "About 1.5–2 hours",
+          "duration": "50 min",
           "description": "Follow the Danube from Parliament to the Central Market."
         },
         {
           "title": "Városliget & Palace Quarter",
-          "duration": "About 2 hours",
+          "duration": "1 hr 11 min",
           "description": "Visit Heroes' Square, Vajdahunyad Castle and Széchenyi Bath."
         },
         {
           "title": "Jewish Quarter",
-          "duration": "About 1.5 hours",
+          "duration": "21 min",
           "description": "Visit three synagogues, Gozsdu Courtyard and Szimpla Kert."
         }
       ]
@@ -50,22 +50,22 @@
       "tours": [
         {
           "title": "Distrito del Castillo de Buda",
-          "duration": "Aproximadamente 1,5–2 horas",
+          "duration": "33 min",
           "description": "Recorran el castillo, la iglesia de Matías, el Bastión y las calles históricas."
         },
         {
           "title": "Centro de Budapest y Parlamento",
-          "duration": "Aproximadamente 1,5–2 horas",
+          "duration": "50 min",
           "description": "Sigan el Danubio desde el Parlamento hasta la basílica y el Mercado Central."
         },
         {
           "title": "Városliget y Barrio de los Palacios",
-          "duration": "Aproximadamente 2 horas",
+          "duration": "1 h 11 min",
           "description": "Visiten la Plaza de los Héroes, Vajdahunyad y los baños Széchenyi."
         },
         {
           "title": "Barrio Judío",
-          "duration": "Aproximadamente 1,5 horas",
+          "duration": "21 min",
           "description": "Visiten tres sinagogas, el patio Gozsdu y Szimpla Kert."
         }
       ]
@@ -76,22 +76,22 @@
       "tours": [
         {
           "title": "Burgviertel von Buda",
-          "duration": "Etwa 1,5–2 Stunden",
+          "duration": "33 Min.",
           "description": "Entdeckt Burg, Matthiaskirche, Fischerbastei und die Gassen des Viertels."
         },
         {
           "title": "Innenstadt und Parlament",
-          "duration": "Etwa 1,5–2 Stunden",
+          "duration": "50 Min.",
           "description": "Folgt der Donau vom Parlament bis zur Großen Markthalle."
         },
         {
           "title": "Városliget und Palastviertel",
-          "duration": "Etwa 2 Stunden",
+          "duration": "1 Std. 11 Min.",
           "description": "Besichtigt Heldenplatz, Vajdahunyad-Burg und das Széchenyi-Bad."
         },
         {
           "title": "Jüdisches Viertel",
-          "duration": "Etwa 1,5 Stunden",
+          "duration": "21 Min.",
           "description": "Besucht drei Synagogen, den Gozsdu-Hof und Szimpla Kert."
         }
       ]
@@ -102,22 +102,22 @@
       "tours": [
         {
           "title": "Budai Várnegyed",
-          "duration": "Körülbelül 1,5–2 óra",
+          "duration": "33 perc",
           "description": "Fedezzétek fel a Budai Várat, a Mátyás-templomot és a Halászbástyát."
         },
         {
           "title": "Belváros és az Országház",
-          "duration": "Körülbelül 1,5–2 óra",
+          "duration": "50 perc",
           "description": "Sétáljatok az Országháztól a Duna-parton át a Nagyvásárcsarnokig."
         },
         {
           "title": "Városliget és Palotanegyed",
-          "duration": "Körülbelül 2 óra",
+          "duration": "1 óra 11 perc",
           "description": "Keressétek fel a Hősök terét, Vajdahunyad várát és a Széchenyi fürdőt."
         },
         {
           "title": "Zsidónegyed",
-          "duration": "Körülbelül 1,5 óra",
+          "duration": "21 perc",
           "description": "Fedezzetek fel három zsinagógát, a Gozsdu-udvart és a Szimpla Kertet."
         }
       ]
@@ -128,22 +128,22 @@
       "tours": [
         {
           "title": "Quartiere del Castello di Buda",
-          "duration": "Circa 1,5–2 ore",
+          "duration": "33 min",
           "description": "Scoprite il Castello, la Chiesa di Mattia, il Bastione e i vicoli storici."
         },
         {
           "title": "Centro e Parlamento",
-          "duration": "Circa 1,5–2 ore",
+          "duration": "50 min",
           "description": "Seguite il Danubio dal Parlamento fino alla Basilica e al Mercato Centrale."
         },
         {
           "title": "Városliget e Quartiere dei Palazzi",
-          "duration": "Circa 2 ore",
+          "duration": "1 h 11 min",
           "description": "Visitate Piazza degli Eroi, il Castello Vajdahunyad e le Terme Széchenyi."
         },
         {
           "title": "Quartiere ebraico",
-          "duration": "Circa 1,5 ore",
+          "duration": "21 min",
           "description": "Scoprite tre sinagoghe, la Corte Gozsdu e lo Szimpla Kert."
         }
       ]
@@ -154,22 +154,22 @@
       "tours": [
         {
           "title": "حي قلعة بودا",
-          "duration": "نحو ساعة ونصف إلى ساعتين",
+          "duration": "٣٣ دقيقة",
           "description": "اكتشفوا القلعة وكنيسة ماتياس وحصن الصيادين."
         },
         {
           "title": "وسط بودابست ومبنى البرلمان",
-          "duration": "نحو ساعة ونصف إلى ساعتين",
+          "duration": "٥٠ دقيقة",
           "description": "اتبعوا الدانوب من البرلمان إلى البازيليك والسوق المركزي."
         },
         {
           "title": "فاروشليغيت وحي القصور",
-          "duration": "نحو ساعتين",
+          "duration": "ساعة و١١ دقيقة",
           "description": "زوروا ساحة الأبطال وقلعة فاجداهونياد وحمّامات سيتشيني."
         },
         {
           "title": "الحي اليهودي",
-          "duration": "نحو ساعة ونصف",
+          "duration": "٢١ دقيقة",
           "description": "اكتشفوا ثلاثة معابد تاريخية وساحة غوزدو وبار سيمبلا كيرت."
         }
       ]
@@ -180,22 +180,22 @@
       "tours": [
         {
           "title": "बुडा कैसल इलाका",
-          "duration": "लगभग 1.5–2 घंटे",
+          "duration": "33 मिनट",
           "description": "बुडा किला, मैथियास चर्च और फिशरमैन्स बैस्टियन देखें."
         },
         {
           "title": "बुडापेस्ट शहर और संसद",
-          "duration": "लगभग 1.5–2 घंटे",
+          "duration": "50 मिनट",
           "description": "संसद से डेन्यूब किनारे चलते हुए बेसिलिका और सेंट्रल मार्केट जाएँ."
         },
         {
           "title": "वरोशलिगेट और पैलेस क्वार्टर",
-          "duration": "लगभग 2 घंटे",
+          "duration": "1 घंटा 11 मिनट",
           "description": "हीरोज़ स्क्वायर, वायडाहुन्याद कैसल और सेचेनी बाथ देखें."
         },
         {
           "title": "यहूदी क्वार्टर",
-          "duration": "लगभग 1.5 घंटे",
+          "duration": "21 मिनट",
           "description": "तीन ऐतिहासिक सिनेगॉग, गोझदू कोर्टयार्ड और सिम्पला केर्ट जाएँ."
         }
       ]

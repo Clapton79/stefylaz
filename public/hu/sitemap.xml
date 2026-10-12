@@ -90,28 +90,6 @@
                 href="https://stefylaz.com/hu/categories/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-GB"
-                href="https://stefylaz.com/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es-ES"
-                href="https://stefylaz.com/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de-DE"
-                href="https://stefylaz.com/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="hu-HU"
-                href="https://stefylaz.com/hu/"
-                />
-  </url><url>
     <loc>https://stefylaz.com/hu/photo-credits/</loc>
     <xhtml:link
                 rel="alternate"
@@ -198,6 +176,28 @@
                 rel="alternate"
                 hreflang="hu-HU"
                 href="https://stefylaz.com/hu/menu/"
+                />
+  </url><url>
+    <loc>https://stefylaz.com/hu/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="https://stefylaz.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="https://stefylaz.com/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="https://stefylaz.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="https://stefylaz.com/hu/"
                 />
   </url><url>
     <loc>https://stefylaz.com/hu/tags/</loc>
