@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="hu" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f9dfb6">
@@ -374,6 +374,52 @@
             background: #e5e8df;
         }
 
+        .hotel-map-panel {
+            margin: 24px auto 34px;
+            text-align: center;
+        }
+
+        .hotel-map-panel h3 {
+            margin: 0 0 12px;
+            color: var(--forest);
+            font-family: "Poiret One", "Bodoni 72", Didot, "Times New Roman", serif;
+            font-size: 1.7rem;
+            font-weight: 400;
+        }
+
+        .hotel-map-preview {
+            position: relative;
+            display: block;
+            width: min(100%, 780px);
+            aspect-ratio: 16 / 7;
+            min-height: 190px;
+            margin: 0 auto;
+            overflow: hidden;
+            border: 1px solid var(--line);
+            background: #e5e8df;
+        }
+
+        .hotel-map-preview iframe {
+            position: absolute;
+            inset: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            pointer-events: none;
+        }
+
+        .hotel-map-preview span {
+            position: absolute;
+            inset-inline-end: 8px;
+            bottom: 8px;
+            padding: 4px 8px;
+            color: var(--paper);
+            background: var(--forest);
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+
         .walking-map-preview iframe {
             display: block;
             width: 100%;
@@ -626,6 +672,11 @@
         }
 
         @media (max-width: 540px) {
+
+            .hotel-map-preview {
+                aspect-ratio: 4 / 3;
+                min-height: 0;
+            }
 
             .site-header,
             footer {

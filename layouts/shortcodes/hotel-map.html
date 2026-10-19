@@ -1,0 +1,15 @@
+{{- $labels := dict
+    "en" (dict "heading" "Hotels & venue map" "link" "Open saved hotel and venue map in Google Maps" "badge" "Open in Google Maps" "alt" "Map screenshot showing hotels and Európa Hajó in Budapest")
+    "es" (dict "heading" "Mapa de hoteles y del lugar de celebración" "link" "Abrir el mapa guardado de hoteles y del lugar en Google Maps" "badge" "Abrir en Google Maps" "alt" "Captura del mapa con hoteles y Európa Hajó en Budapest")
+    "de" (dict "heading" "Karte der Hotels und des Veranstaltungsorts" "link" "Gespeicherte Hotel- und Veranstaltungsortkarte in Google Maps öffnen" "badge" "In Google Maps öffnen" "alt" "Kartenansicht mit Hotels und Európa Hajó in Budapest")
+    "hu" (dict "heading" "Szállodák és rendezvényhelyszín térképe" "link" "A mentett szálloda- és rendezvényhelyszín-térkép megnyitása a Google Térképen" "badge" "Megnyitás a Google Térképen" "alt" "Térkép a budapesti szállodákkal és az Európa Hajóval")
+-}}
+{{- $copy := index $labels site.Language.Lang -}}
+{{- $mapURL := "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2srDw9rxPcrDqmV2lp6Ob6Nw!3e3" -}}
+<section class="hotel-map-panel">
+    <h3>{{ $copy.heading }}</h3>
+    <a class="hotel-map-preview" href="{{ $mapURL }}" target="_blank" rel="noopener noreferrer" aria-label="{{ $copy.link }}">
+        <img src="{{ "/images/hotels-map.png" | relURL }}" alt="{{ $copy.alt }}" loading="lazy" decoding="async">
+        <span>{{ $copy.badge }}</span>
+    </a>
+</section>

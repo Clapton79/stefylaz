@@ -4,6 +4,8 @@ title: "Hoteles"
 
 Estas son algunas opciones de alojamiento en Budapest. Haz clic en el nombre de un hotel para visitar su página:
 
+{{< hotel-map >}}
+
 <div class="attraction-grid">
 
 {{< attraction title="AK7 Boutique Suites" image="hotel-ak7.webp" alt="Foto de AK7 Boutique Suites" url="https://ak7-boutique-suites.hotels-budapest.com/en/" >}}

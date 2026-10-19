@@ -4,6 +4,8 @@ title: "Szállások"
 
 Íme néhány budapesti szálláslehetőség. Kattintsatok a szálloda nevére az oldalának megnyitásához:
 
+{{< hotel-map >}}
+
 <div class="attraction-grid">
 
 {{< attraction title="AK7 Boutique Suites" image="hotel-ak7.webp" alt="AK7 Boutique Suites fotója" url="https://ak7-boutique-suites.hotels-budapest.com/en/" >}}
