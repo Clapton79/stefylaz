@@ -26,6 +26,10 @@ staticDir = ['static', 'res']
         url = "/sightseeing/"
         weight = 8
       [[languages.en.menu.main]]
+        name = "Hotels"
+        url = "/hotels/"
+        weight = 9
+      [[languages.en.menu.main]]
         name = "The Venue"
         url = "/venue/"
         weight = 3
@@ -59,6 +63,10 @@ staticDir = ['static', 'res']
         name = "Qué ver en Budapest"
         url = "/sightseeing/"
         weight = 8
+      [[languages.es.menu.main]]
+        name = "Hoteles"
+        url = "/hotels/"
+        weight = 9
       [[languages.es.menu.main]]
         name = "El lugar"
         url = "/venue/"
@@ -94,6 +102,10 @@ staticDir = ['static', 'res']
         url = "/sightseeing/"
         weight = 8
       [[languages.de.menu.main]]
+        name = "Hotels"
+        url = "/hotels/"
+        weight = 9
+      [[languages.de.menu.main]]
         name = "Veranstaltungsort"
         url = "/venue/"
         weight = 3
@@ -127,6 +139,10 @@ staticDir = ['static', 'res']
         name = "Budapesti látnivalók"
         url = "/sightseeing/"
         weight = 8
+      [[languages.hu.menu.main]]
+        name = "Szállások"
+        url = "/hotels/"
+        weight = 9
       [[languages.hu.menu.main]]
         name = "Helyszín"
         url = "/venue/"

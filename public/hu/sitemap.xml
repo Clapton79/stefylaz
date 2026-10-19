@@ -2,224 +2,246 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://stefylaz.com/hu/gifts/</loc>
+    <loc>http://localhost:1313/hu/gifts/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/gifts/"
+                href="http://localhost:1313/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/gifts/"
+                href="http://localhost:1313/es/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/gifts/"
+                href="http://localhost:1313/de/gifts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/gifts/"
+                href="http://localhost:1313/hu/gifts/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/venue/</loc>
+    <loc>http://localhost:1313/hu/venue/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/venue/"
+                href="http://localhost:1313/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/venue/"
+                href="http://localhost:1313/es/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/venue/"
+                href="http://localhost:1313/de/venue/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/venue/"
+                href="http://localhost:1313/hu/venue/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/sightseeing/</loc>
+    <loc>http://localhost:1313/hu/sightseeing/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/sightseeing/"
+                href="http://localhost:1313/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/sightseeing/"
+                href="http://localhost:1313/es/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/sightseeing/"
+                href="http://localhost:1313/de/sightseeing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/sightseeing/"
+                href="http://localhost:1313/hu/sightseeing/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/categories/</loc>
+    <loc>http://localhost:1313/hu/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/categories/"
+                href="http://localhost:1313/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/categories/"
+                href="http://localhost:1313/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/categories/"
+                href="http://localhost:1313/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/categories/"
+                href="http://localhost:1313/hu/categories/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/photo-credits/</loc>
+    <loc>http://localhost:1313/hu/photo-credits/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/photo-credits/"
+                href="http://localhost:1313/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/photo-credits/"
+                href="http://localhost:1313/es/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/photo-credits/"
+                href="http://localhost:1313/de/photo-credits/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/photo-credits/"
+                href="http://localhost:1313/hu/photo-credits/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/contact/</loc>
+    <loc>http://localhost:1313/hu/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/contact/"
+                href="http://localhost:1313/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/contact/"
+                href="http://localhost:1313/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/contact/"
+                href="http://localhost:1313/de/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/contact/"
+                href="http://localhost:1313/hu/contact/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/invite/</loc>
+    <loc>http://localhost:1313/hu/invite/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/invite/"
+                href="http://localhost:1313/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/invite/"
+                href="http://localhost:1313/es/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/invite/"
+                href="http://localhost:1313/de/invite/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/invite/"
+                href="http://localhost:1313/hu/invite/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/menu/</loc>
+    <loc>http://localhost:1313/hu/menu/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/menu/"
+                href="http://localhost:1313/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/menu/"
+                href="http://localhost:1313/es/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/menu/"
+                href="http://localhost:1313/de/menu/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/menu/"
+                href="http://localhost:1313/hu/menu/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/</loc>
+    <loc>http://localhost:1313/hu/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/"
+                href="http://localhost:1313/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/"
+                href="http://localhost:1313/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/"
+                href="http://localhost:1313/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/"
+                href="http://localhost:1313/hu/"
                 />
   </url><url>
-    <loc>https://stefylaz.com/hu/tags/</loc>
+    <loc>http://localhost:1313/hu/hotels/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-GB"
-                href="https://stefylaz.com/tags/"
+                href="http://localhost:1313/hotels/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es-ES"
-                href="https://stefylaz.com/es/tags/"
+                href="http://localhost:1313/es/hotels/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de-DE"
-                href="https://stefylaz.com/de/tags/"
+                href="http://localhost:1313/de/hotels/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="hu-HU"
-                href="https://stefylaz.com/hu/tags/"
+                href="http://localhost:1313/hu/hotels/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/hu/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-GB"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-ES"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de-DE"
+                href="http://localhost:1313/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="hu-HU"
+                href="http://localhost:1313/hu/tags/"
                 />
   </url>
 </urlset>

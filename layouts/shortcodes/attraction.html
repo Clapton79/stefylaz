@@ -7,6 +7,6 @@
     <figcaption class="attraction-caption">
         <h3>{{ if $url }}<a href="{{ $url }}" target="_blank" rel="noopener noreferrer">{{ .Get "title" }}</a>{{ else
             }}{{ .Get "title" }}{{ end }}</h3>
-        <p>{{ .Get "description" }}</p>
+        {{ with .Get "description" }}<p>{{ . }}</p>{{ end }}
     </figcaption>
 </figure>
