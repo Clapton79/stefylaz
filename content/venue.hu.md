@@ -4,6 +4,9 @@ title: "Az esküvő helyszíne"
 
 Az esküvőnket az **Európa Hajó** fedélzetén ünnepeljük, amely Budapestnél közlekedő rendezvényhajó a Dunán. A hajóról és szolgáltatásairól további információt az [Európa Hajó hivatalos weboldalán](https://europahajo.hu/en/home/) találtok.
 
+A hajó végleges kikötési helye még megerősítésre vár (a Margit híd és a Szabadság híd közötti központi területen), de előre jelezni fogjuk.
+
+
 ### Az este programja
 
 <dl class="event-schedule">
@@ -16,3 +19,5 @@ Az esküvőnket az **Európa Hajó** fedélzetén ünnepeljük, amely Budapestn�
 <dt>01:00</dt><dd>Búcsúzkodás.</dd>
 <dt>01:30</dt><dd>Zárás – elhagyni a hajót! :D</dd>
 </dl>
+
+<img src="/images/EuropaHajo.png" alt="Az Európa Hajó a Dunán, Budapesten">

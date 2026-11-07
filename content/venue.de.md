@@ -4,6 +4,8 @@ title: "Der Veranstaltungsort"
 
 Wir feiern unsere Hochzeit an Bord der **Európa Hajó**, einem Veranstaltungsschiff auf der Donau in Budapest. Weitere Informationen zum Schiff und seiner Ausstattung findet ihr auf der [offiziellen Website der Európa Hajó](https://europahajo.hu/en/home/).
 
+Der genaue Anleger wird noch bestätigt (im zentralen Bereich zwischen der Margaretenbrücke und der Freiheitsbrücke), aber wir geben ihn vorher bekannt.
+
 ### Ablauf des Abends
 
 <dl class="event-schedule">
@@ -16,3 +18,5 @@ Wir feiern unsere Hochzeit an Bord der **Európa Hajó**, einem Veranstaltungssc
 <dt>01:00</dt><dd>Verabschiedung.</dd>
 <dt>01:30</dt><dd>Abschluss – Schiff verlassen! :D</dd>
 </dl>
+
+<img src="/images/EuropaHajo.png" alt="Die Európa Hajó auf der Donau in Budapest">

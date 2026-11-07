@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f9dfb6">
@@ -391,7 +391,7 @@
             position: relative;
             display: block;
             width: min(100%, 780px);
-            aspect-ratio: 16 / 7;
+            aspect-ratio: 17 / 12;
             min-height: 190px;
             margin: 0 auto;
             overflow: hidden;
@@ -399,14 +399,14 @@
             background: #e5e8df;
         }
 
-        .hotel-map-preview iframe {
+        .hotel-map-preview img {
             position: absolute;
             inset: 0;
             display: block;
             width: 100%;
             height: 100%;
             border: 0;
-            pointer-events: none;
+            object-fit: cover;
         }
 
         .hotel-map-preview span {
@@ -673,11 +673,6 @@
 
         @media (max-width: 540px) {
 
-            .hotel-map-preview {
-                aspect-ratio: 4 / 3;
-                min-height: 0;
-            }
-
             .site-header,
             footer {
                 width: min(100% - 28px, 980px);
@@ -850,6 +845,7 @@
             <h2>Der Veranstaltungsort</h2>
             
             <div class="prose"><p>Wir feiern unsere Hochzeit an Bord der <strong>Európa Hajó</strong>, einem Veranstaltungsschiff auf der Donau in Budapest. Weitere Informationen zum Schiff und seiner Ausstattung findet ihr auf der <a href="https://europahajo.hu/en/home/">offiziellen Website der Európa Hajó</a>.</p>
+<p>Der genaue Anleger wird noch bestätigt (im zentralen Bereich zwischen der Margaretenbrücke und der Freiheitsbrücke), aber wir geben ihn vorher bekannt.</p>
 <h3 id="ablauf-des-abends">Ablauf des Abends</h3>
 <dl class="event-schedule">
 <dt>17:30</dt><dd>Ankunft und Begrüßung.</dd>
@@ -860,7 +856,8 @@
 <dt>23:30</dt><dd>Mitternachtsimbiss und Tanz.</dd>
 <dt>01:00</dt><dd>Verabschiedung.</dd>
 <dt>01:30</dt><dd>Abschluss – Schiff verlassen! :D</dd>
-</dl></div>
+</dl>
+<img src="/images/EuropaHajo.png" alt="Die Európa Hajó auf der Donau in Budapest"></div>
         </article>
     </main>
     <footer>

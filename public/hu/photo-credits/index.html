@@ -391,7 +391,7 @@
             position: relative;
             display: block;
             width: min(100%, 780px);
-            aspect-ratio: 16 / 7;
+            aspect-ratio: 17 / 12;
             min-height: 190px;
             margin: 0 auto;
             overflow: hidden;
@@ -399,14 +399,14 @@
             background: #e5e8df;
         }
 
-        .hotel-map-preview iframe {
+        .hotel-map-preview img {
             position: absolute;
             inset: 0;
             display: block;
             width: 100%;
             height: 100%;
             border: 0;
-            pointer-events: none;
+            object-fit: cover;
         }
 
         .hotel-map-preview span {
@@ -672,11 +672,6 @@
         }
 
         @media (max-width: 540px) {
-
-            .hotel-map-preview {
-                aspect-ratio: 4 / 3;
-                min-height: 0;
-            }
 
             .site-header,
             footer {

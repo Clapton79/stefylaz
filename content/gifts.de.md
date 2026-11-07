@@ -3,5 +3,5 @@ title: "Geschenke"
 ---
 
 <section class="contact-section">
-<p>Eure Anwesenheit bei unserer Hochzeit ist das schönste Geschenk. Da wir außerhalb von Budapest leben, wäre es schwierig, Sachgeschenke mit nach Hause zu nehmen. Wenn ihr uns etwas schenken möchtet, freuen wir uns über einen Beitrag zu unseren Flitterwochen. Weitere Informationen teilen wir über das RSVP-Formular mit euch.</p>
+<p> Das Wichtigste für uns ist es, alle unsere Liebsten zu versammeln – ihr seid also unser größtes Geschenk. Wenn du uns dennoch eine Freude machen möchtest, würden wir uns über einen Beitrag zu unseren Flitterwochen sehr freuen, da physische Geschenke für uns etwas schwierig sind, da wir zwischen drei Ländern pendeln.</p>
 </section>

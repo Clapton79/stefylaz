@@ -4,6 +4,8 @@ title: "El lugar de la celebración"
 
 Celebraremos nuestra boda a bordo del **Európa Hajó**, un barco para eventos que navega por el Danubio a su paso por Budapest. Para conocer más sobre el barco y sus instalaciones, visiten el [sitio web oficial de Európa Hajó](https://europahajo.hu/en/home/).
 
+El muelle exacto está por confirmar (en la zona céntrica entre el Puente Margarita y el Puente de la Libertad), pero lo anunciaremos con antelación.
+
 ### Programa de la velada
 
 <dl class="event-schedule">
@@ -16,3 +18,5 @@ Celebraremos nuestra boda a bordo del **Európa Hajó**, un barco para eventos q
 <dt>01:00</dt><dd>Despedida.</dd>
 <dt>01:30</dt><dd>Cierre: ¡abandonad el barco! :D</dd>
 </dl>
+
+<img src="/images/EuropaHajo.png" alt="El Európa Hajó en el Danubio en Budapest">

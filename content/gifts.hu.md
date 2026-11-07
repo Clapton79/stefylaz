@@ -3,5 +3,5 @@ title: "Ajándékok"
 ---
 
 <section class="contact-section">
-<p>A jelenlétetek a legnagyobb ajándék számunkra. Mivel Budapesttől távol élünk, a tárgyi ajándékokat nehéz lenne hazavinnünk. Ha szeretnétek megajándékozni minket, hálásak lennénk, ha hozzájárulnátok a nászutunkhoz. A részleteket az RSVP űrlapon osztjuk meg.</p>
+<p>A jelenlétetek a legnagyobb ajándék számunkra. Ha mégis szeretnél meglepni minket valamivel, a nászúthoz való hozzájárulásnak örülnénk a legjobban; a fizikai ajándékok szállítása nehezebb számunkra, hiszen három ország között ingázunk.</p>
 </section>

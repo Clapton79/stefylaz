@@ -4,6 +4,8 @@ title: "The Venue"
 
 We’ll celebrate aboard the **Európa Hajó**, a Budapest event boat on the Danube. For more information about the vessel and its facilities, visit the [official Európa Hajó website](https://europahajo.hu/en/home/).
 
+The exact location where the boat will be docked is yet to be confirmed (in the central area between Margaret Bridge and Liberty Bridge), but we will announce it in advance.
+
 ### Evening schedule
 
 <dl class="event-schedule">
@@ -16,3 +18,5 @@ We’ll celebrate aboard the **Európa Hajó**, a Budapest event boat on the Dan
 <dt>01:00</dt><dd>Saying goodbye.</dd>
 <dt>01:30</dt><dd>Closing – abandon ship! :D</dd>
 </dl>
+
+<img src="/images/EuropaHajo.png" alt="The Európa Hajó on the Danube in Budapest">

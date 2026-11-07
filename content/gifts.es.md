@@ -3,5 +3,5 @@ title: "Regalos"
 ---
 
 <section class="contact-section">
-<p>Su presencia en nuestra boda es el mejor regalo. Como vivimos fuera de Budapest, nos resultaría difícil llevarnos regalos físicos a casa. Si desean hacernos un regalo, agradeceríamos una contribución para nuestra luna de miel. Les enviaremos más detalles en el formulario de confirmación de asistencia (RSVP).</p>
+<p>Lo más importante para nosotros es reunir a todos nuestros seres queridos, así que vosotros sois nuestro mayor regalo. Si aun así deseas hacernos un detalle, una contribución para nuestra luna de miel nos haría muchísima ilusión, ya que los regalos físicos son más complicados al estar entre tres países.</p>
 </section>

@@ -9,7 +9,7 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f9dfb6">
@@ -391,7 +391,7 @@
             position: relative;
             display: block;
             width: min(100%, 780px);
-            aspect-ratio: 16 / 7;
+            aspect-ratio: 17 / 12;
             min-height: 190px;
             margin: 0 auto;
             overflow: hidden;
@@ -399,14 +399,14 @@
             background: #e5e8df;
         }
 
-        .hotel-map-preview iframe {
+        .hotel-map-preview img {
             position: absolute;
             inset: 0;
             display: block;
             width: 100%;
             height: 100%;
             border: 0;
-            pointer-events: none;
+            object-fit: cover;
         }
 
         .hotel-map-preview span {
@@ -673,11 +673,6 @@
 
         @media (max-width: 540px) {
 
-            .hotel-map-preview {
-                aspect-ratio: 4 / 3;
-                min-height: 0;
-            }
-
             .site-header,
             footer {
                 width: min(100% - 28px, 980px);
@@ -850,6 +845,7 @@
             <h2>El lugar de la celebración</h2>
             
             <div class="prose"><p>Celebraremos nuestra boda a bordo del <strong>Európa Hajó</strong>, un barco para eventos que navega por el Danubio a su paso por Budapest. Para conocer más sobre el barco y sus instalaciones, visiten el <a href="https://europahajo.hu/en/home/">sitio web oficial de Európa Hajó</a>.</p>
+<p>El muelle exacto está por confirmar (en la zona céntrica entre el Puente Margarita y el Puente de la Libertad), pero lo anunciaremos con antelación.</p>
 <h3 id="programa-de-la-velada">Programa de la velada</h3>
 <dl class="event-schedule">
 <dt>17:30</dt><dd>Llegada y bienvenida.</dd>
@@ -860,7 +856,8 @@
 <dt>23:30</dt><dd>Recena de medianoche y baile.</dd>
 <dt>01:00</dt><dd>Despedida.</dd>
 <dt>01:30</dt><dd>Cierre: ¡abandonad el barco! :D</dd>
-</dl></div>
+</dl>
+<img src="/images/EuropaHajo.png" alt="El Európa Hajó en el Danubio en Budapest"></div>
         </article>
     </main>
     <footer>
