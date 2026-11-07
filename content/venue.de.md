@@ -19,4 +19,4 @@ Der genaue Anleger wird noch bestätigt (im zentralen Bereich zwischen der Marga
 <dt>01:30</dt><dd>Abschluss – Schiff verlassen! :D</dd>
 </dl>
 
-<img src="/images/EuropaHajo.png" alt="Die Európa Hajó auf der Donau in Budapest">
+<img class="venue-photo" src="/images/EuropaHajo.png" alt="Die Európa Hajó auf der Donau in Budapest">

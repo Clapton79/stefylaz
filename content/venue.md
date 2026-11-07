@@ -19,4 +19,4 @@ The exact location where the boat will be docked is yet to be confirmed (in the 
 <dt>01:30</dt><dd>Closing – abandon ship! :D</dd>
 </dl>
 
-<img src="/images/EuropaHajo.png" alt="The Európa Hajó on the Danube in Budapest">
+<img class="venue-photo" src="/images/EuropaHajo.png" alt="The Európa Hajó on the Danube in Budapest">

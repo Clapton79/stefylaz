@@ -20,4 +20,4 @@ A hajó végleges kikötési helye még megerősítésre vár (a Margit híd és
 <dt>01:30</dt><dd>Zárás – elhagyni a hajót! :D</dd>
 </dl>
 
-<img src="/images/EuropaHajo.png" alt="Az Európa Hajó a Dunán, Budapesten">
+<img class="venue-photo" src="/images/EuropaHajo.png" alt="Az Európa Hajó a Dunán, Budapesten">

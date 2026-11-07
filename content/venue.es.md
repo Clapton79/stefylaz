@@ -19,4 +19,4 @@ El muelle exacto está por confirmar (en la zona céntrica entre el Puente Marga
 <dt>01:30</dt><dd>Cierre: ¡abandonad el barco! :D</dd>
 </dl>
 
-<img src="/images/EuropaHajo.png" alt="El Európa Hajó en el Danubio en Budapest">
+<img class="venue-photo" src="/images/EuropaHajo.png" alt="El Európa Hajó en el Danubio en Budapest">
