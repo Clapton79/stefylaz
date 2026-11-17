@@ -491,6 +491,7 @@ rmSync(OUT, { recursive: true, force: true });
 mkdirSync(join(OUT, "assets/img"), { recursive: true });
 cpSync(join(ROOT, "src/images"), join(OUT, "assets/img"), { recursive: true });
 for (const f of ["styles.css", "main.js", "favicon.svg"]) cpSync(join(ROOT, "src", f), join(OUT, "assets", f));
+writeFileSync(join(OUT, ".nojekyll"), "");
 if (existsSync(join(ROOT, "src/static"))) cpSync(join(ROOT, "src/static"), OUT, { recursive: true });
 
 let count = 0;

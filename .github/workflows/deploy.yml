@@ -1,12 +1,9 @@
 name: Deploy to GitHub Pages
 
-# Runs only when started by hand (Actions tab -> Deploy to GitHub Pages -> Run workflow),
-# so pushes don't fail while GitHub Pages is switched off. To deploy on every push,
-# enable Pages (Settings -> Pages -> Source: GitHub Actions) and add:
-#   push:
-#     branches: [main]
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
 
 permissions:
   contents: read
@@ -21,20 +18,38 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node build.mjs
-      - uses: actions/upload-pages-artifact@v3
+      
+      - name: Build site
+        run: node build.mjs
+      
+      - name: Verify build output
+        run: |
+          if [ ! -d "dist" ]; then
+            echo "ERROR: dist folder not found!"
+            exit 1
+          fi
+          echo "Build successful, dist folder contains:"
+          ls -la dist/ | head -10
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
+
   deploy:
-    needs: build
-    runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
     steps:
-      - id: deployment
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
