@@ -1,0 +1,446 @@
+{
+  "lang": "de",
+  "title": "Stef & Laz",
+  "masthead": "The Grand Bodapest Event",
+  "kicker": "Budapest · 25 June 2027",
+  "brand": "Stef & Laz",
+  "navLabel": "Hauptnavigation",
+  "nav": [
+    {
+      "href": "/de/",
+      "label": "Startseite"
+    },
+    {
+      "href": "/de/invite/",
+      "label": "Einladung"
+    },
+    {
+      "href": "/de/venue/",
+      "label": "Veranstaltungsort"
+    },
+    {
+      "href": "/de/menu/",
+      "label": "Das Menü"
+    },
+    {
+      "href": "/de/contact/",
+      "label": "Kontakt"
+    },
+    {
+      "href": "/de/gifts/",
+      "label": "Geschenke"
+    },
+    {
+      "href": "/de/sightseeing/",
+      "label": "Sehenswürdigkeiten in Budapest"
+    },
+    {
+      "href": "/de/hotels/",
+      "label": "Hotels"
+    }
+  ],
+  "langLabel": "Sprache",
+  "menuLabel": "Menü",
+  "languages": [
+    {
+      "href": "/",
+      "lang": "en",
+      "label": "English"
+    },
+    {
+      "href": "/es/",
+      "lang": "es",
+      "label": "Español"
+    },
+    {
+      "href": "/de/",
+      "lang": "de",
+      "label": "Deutsch"
+    },
+    {
+      "href": "/hu/",
+      "lang": "hu",
+      "label": "Magyar"
+    }
+  ],
+  "creditsLabel": "Bildnachweise",
+  "pageTitles": {
+    "home": "Stef & Laz",
+    "invite": "Einladung | Stef & Laz",
+    "venue": "Der Veranstaltungsort | Stef & Laz",
+    "menu": "Das Menü | Stef & Laz",
+    "contact": "Kontakt | Stef & Laz",
+    "gifts": "Geschenke | Stef & Laz",
+    "sightseeing": "Budapest entdecken | Stef & Laz",
+    "hotels": "Hotels | Stef & Laz",
+    "photo-credits": "Bildnachweise | Stef & Laz"
+  },
+  "home": {
+    "heading": "Unsere Hochzeit in Budapest",
+    "photoAlt": "Stef und Laz gemeinsam am Meer bei Sonnenuntergang",
+    "paragraphs": [
+      "Wir freuen uns riesig darauf, unseren großen Tag mit euch an Bord zu feiern!",
+      "Macht euch bereit für eine unvergessliche Party auf der Donau.",
+      "Bitte gebt uns vor dem <strong>15. Mai 2027</strong> Bescheid, ob ihr dabei seid."
+    ],
+    "facts": [
+      "<strong>Wann:</strong> 25. Juni 2027 um 17:15 Uhr",
+      "<strong>Wo:</strong> Európa Hajó, Budapest, Ungarn"
+    ]
+  },
+  "invite": {
+    "heading": "Einladung",
+    "alt": "Hochzeitseinladung von Stef und Laz"
+  },
+  "venue": {
+    "heading": "Der Veranstaltungsort",
+    "paragraphs": [
+      "Wir feiern unsere Hochzeit an Bord der <strong>Európa Hajó</strong>, einem Veranstaltungsschiff auf der Donau in Budapest. Weitere Informationen zum Schiff und seiner Ausstattung findet ihr auf der <a href=\"https://europahajo.hu/en/home/\">offiziellen Website der Európa Hajó</a>.",
+      "Der genaue Anleger wird noch bestätigt (im zentralen Bereich zwischen der Margaretenbrücke und der Freiheitsbrücke), aber wir geben ihn vorher bekannt."
+    ],
+    "scheduleTitle": "Ablauf des Abends",
+    "schedule": [
+      {
+        "time": "17:30",
+        "text": "Ankunft und Begrüßung."
+      },
+      {
+        "time": "17:45",
+        "text": "Zeremonie und spanische Häppchen."
+      },
+      {
+        "time": "18:15",
+        "text": "Schifffahrt und Fotos."
+      },
+      {
+        "time": "20:00",
+        "text": "Abendessen"
+      },
+      {
+        "time": "22:00",
+        "text": "Livemusik und Party"
+      },
+      {
+        "time": "23:30",
+        "text": "Mitternachtsimbiss und Tanz."
+      },
+      {
+        "time": "01:00",
+        "text": "Verabschiedung."
+      },
+      {
+        "time": "01:30",
+        "text": "Abschluss – Schiff verlassen! :D"
+      }
+    ],
+    "photoAlt": "Die Európa Hajó auf der Donau in Budapest"
+  },
+  "menu": {
+    "heading": "Das Menü",
+    "groups": [
+      {
+        "title": null,
+        "sections": [
+          {
+            "title": "Suppen",
+            "items": [
+              "Rindersuppe",
+              "Brokkolicremesuppe (vegan)"
+            ]
+          },
+          {
+            "title": "Kalte Vorspeisen (in Teigkörbchen)",
+            "items": [
+              "Gänseleberpastete mit Trüffel und Apfelkompott",
+              "Geräucherte Forelle aus Szilvásvárad mit Dill-Topfen (<em>Zsendice</em>) und Kaviar",
+              "Mangalitza-Schweinemaisel/Pastete mit zweierlei Gurken",
+              "Marinierte Entenbrust (rosa gebraten) mit Feigenmarmelade",
+              "Kastanien-Kichererbsen-Creme (vegan)"
+            ]
+          },
+          {
+            "title": "Salate",
+            "items": [
+              "Griechischer Salat",
+              "Zucchinisalat mit getrockneten Tomaten",
+              "Frischer Gartensalat mit zwei Dressings zur Auswahl (Zitronen-Olivenöl-Dressing, Zitronen-Griechisches-Joghurt-Dressing)"
+            ]
+          },
+          {
+            "title": "Hauptspeisen",
+            "items": [
+              "Überbackene Hähnchenbrust mit Tomaten und Cheddar",
+              "Ungarisches Rindergulasch* (Pörkölt)",
+              "Zanderfilet mit Meerrettich-Velouté",
+              "Thailändisches Gemüse-Curry mit Reisnudeln"
+            ]
+          },
+          {
+            "title": "Beilagen",
+            "items": [
+              "Jasminreis",
+              "Galuska* (Ungarische Nockerln)",
+              "Steakhaus-Kartoffelecken",
+              "Saisongemüse in Basilikumbutter",
+              "Saisonaler Früchteteller"
+            ]
+          },
+          {
+            "title": "Desserts",
+            "items": [
+              "Schokoladenmousse",
+              "Himbeermousse (vegan)",
+              "Salz-Karamell-Strudel"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Getränke",
+        "sections": [
+          {
+            "title": "Weine",
+            "items": [
+              "Grand Selection Tokaji Furmint",
+              "Bárdos Mátrai Pinot Grigio (Grauburgunder)",
+              "Hilltop Neszmélyi Premium Merlot",
+              "Bodri Szekszárdi QV",
+              "Juhász Egri Rosé"
+            ]
+          },
+          {
+            "title": "Schaumwein &amp; Erfrischungsgetränke",
+            "items": [
+              "Süßer und trockener Schaumwein / Sekt",
+              "Alkoholfreie Erfrischungsgetränke",
+              "Kohlensäurehaltige Erfrischungsgetränke (Pepsi-Produkte)",
+              "Frische Säfte",
+              "Szentkirályi Mineralwasser (mit und ohne Kohlensäure)"
+            ]
+          },
+          {
+            "title": "Bier",
+            "items": [
+              "Dreher-Produkte (Fassbier)",
+              "Miller, Peroni"
+            ]
+          },
+          {
+            "title": "Heißgetränke",
+            "items": [
+              "Segafredo Kaffeespezialitäten",
+              "Dilmah Teeauswahl"
+            ]
+          },
+          {
+            "title": "Longdrinks",
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Kontakt",
+    "sections": [
+      {
+        "title": "Fragen?",
+        "paragraphs": [
+          "Habt ihr eine Frage zur Hochzeit? Schreibt uns an <a href=\"mailto:stef.laz.wedding@gmail.com\">stef.laz.wedding@gmail.com</a>."
+        ],
+        "pending": null
+      },
+      {
+        "title": "Eure Fotos",
+        "paragraphs": [
+          "Wenn ihr bei der Feier Fotos macht, freuen wir uns, wenn ihr sie mit uns teilt. Wir teilen sie nicht weiter, sondern bewahren sie als Erinnerung an diesen besonderen Tag auf."
+        ],
+        "pending": "Upload-Link folgt in Kürze"
+      }
+    ],
+    "photoAlt": "Stef und Laz entspannen gemeinsam auf einem Sofa"
+  },
+  "gifts": {
+    "heading": "Geschenke",
+    "paragraphs": [
+      "Das Wichtigste für uns ist es, alle unsere Liebsten zu versammeln – ihr seid also unser größtes Geschenk. Wenn du uns dennoch eine Freude machen möchtest, würden wir uns über einen Beitrag zu unseren Flitterwochen sehr freuen, da physische Geschenke für uns etwas schwierig sind, da wir zwischen drei Ländern pendeln."
+    ]
+  },
+  "sightseeing": {
+    "heading": "Budapest entdecken",
+    "intro": "Wenn ihr während unserer Hochzeit ein wenig Zeit habt, Budapest zu erkunden, sind diese bekannten Sehenswürdigkeiten ein guter Anfang:",
+    "attractions": [
+      {
+        "img": "parliament.jpg",
+        "alt": "Das ungarische Parlament spiegelt sich in der Donau",
+        "title": "Ungarisches Parlament",
+        "href": "https://www.parlament.hu/en/web/visitors",
+        "text": "Ein beeindruckendes neugotisches Wahrzeichen direkt an der Donau."
+      },
+      {
+        "img": "fishermans-bastion-pinterest.jpg",
+        "alt": "Die Fischerbastei mit Blick auf die Donau und Budapest",
+        "title": "Budaer Burg und Fischerbastei",
+        "href": null,
+        "text": "Von der Anhöhe aus genießt ihr einen weiten Blick über die Stadt."
+      },
+      {
+        "img": "szechenyi-baths.jpg",
+        "alt": "Die Außenbecken des Széchenyi-Heilbads",
+        "title": "Széchenyi-Heilbad",
+        "href": "https://www.szechenyibath.hu/",
+        "text": "Entspannt euch vor den Feierlichkeiten im berühmten Thermalwasser von Budapest."
+      },
+      {
+        "img": "veli-bej-budapestinfo.jpg",
+        "alt": "Innenbereich des Veli-Bej-Bads in Budapest",
+        "title": "Veli-Bej-Bad",
+        "href": "http://www.irgalmasrend.hu/site/velibej/home",
+        "text": "Ein restauriertes osmanisches Bad aus dem 16. Jahrhundert im historischen Császár-Badekomplex."
+      },
+      {
+        "img": "rudas-baths.jpg",
+        "alt": "Das Kuppelbecken im Rudas-Bad",
+        "title": "Rudas-Bad",
+        "href": "https://www.rudasfurdo.hu/en/",
+        "text": "Ein historisches osmanisches Bad, bekannt für sein Kuppelbecken und den Blick auf die Donau."
+      },
+      {
+        "img": "szimpla-kert.jpg",
+        "alt": "Der farbenfrohe Innenhof und das Interieur des Szimpla Kert",
+        "title": "Szimpla Kert – Ruinenbar",
+        "href": "https://szimpla.eu/",
+        "text": "Entdeckt Budapests berühmte Ruinenbar mit ihren außergewöhnlichen Räumen, dem Innenhof und ihrer lebhaften Atmosphäre."
+      },
+      {
+        "img": "grandio-jungle-bar.webp",
+        "alt": "Der Garteninnenhof der Grandio Jungle Grill Bar",
+        "title": "Grandio – Ruinenbar",
+        "href": "https://pubcrawlbudapest.hu/ruin-bars/grandio.html",
+        "text": "Eine grüne Innenhofbar mit entspannter Atmosphäre, Essen und Musik am Abend."
+      },
+      {
+        "img": "hungarian-national-museum.png",
+        "alt": "Luftaufnahme des Ungarischen Nationalmuseums",
+        "title": "Ungarisches Nationalmuseum",
+        "href": "https://mnm.hu/",
+        "text": "Entdeckt die ungarische Geschichte und Kultur in einem bedeutenden neoklassizistischen Museum."
+      },
+      {
+        "img": "museum-of-fine-arts.jpg",
+        "alt": "Das neoklassizistische Gebäude des Museums der Bildenden Künste Budapest",
+        "title": "Museum der Bildenden Künste Budapest",
+        "href": "https://www.mfab.hu/",
+        "text": "Bewundert ungarische und europäische Meisterwerke am Heldenplatz."
+      }
+    ],
+    "tripLabel": "Weitere Sehenswürdigkeiten in Budapest",
+    "tripText": "Lust auf weitere Ideen? Auf TripAdvisor findet ihr noch mehr beliebte Sehenswürdigkeiten in Budapest.",
+    "tripHref": "https://www.tripadvisor.com/Attractions-g274887-Activities-Budapest_Central_Hungary.html",
+    "walkTitle": "Empfohlene Spaziergänge",
+    "routes": [
+      {
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Clark+Adam+Square,+Budapest&destination=T%C3%B3th+%C3%81rp%C3%A1d+promenade,+Budapest&waypoints=Buda+Castle,+Budapest%7CMatthias+Church,+Budapest%7CFisherman%27s+Bastion,+Budapest&travelmode=walking",
+        "aria": "Route in Google Maps öffnen: Burgviertel von Buda",
+        "embed": "https://maps.google.com/maps?saddr=Clark+Adam+Square,+Budapest&daddr=Buda+Castle,+Budapest+to:Matthias+Church,+Budapest+to:Fisherman%27s+Bastion,+Budapest+to:T%C3%B3th+%C3%81rp%C3%A1d+promenade,+Budapest&output=embed&dirflg=w",
+        "open": "Route in Google Maps öffnen",
+        "title": "Burgviertel von Buda",
+        "duration": "33 Min.",
+        "text": "Entdeckt Burg, Matthiaskirche, Fischerbastei und die Gassen des Viertels."
+      },
+      {
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Hungarian+Parliament+Building,+Budapest&destination=Central+Market+Hall,+Budapest&waypoints=Shoes+on+the+Danube+Bank,+Budapest%7CLiberty+Square,+Budapest%7CSt.+Stephen%27s+Basilica,+Budapest&travelmode=walking",
+        "aria": "Route in Google Maps öffnen: Innenstadt und Parlament",
+        "embed": "https://maps.google.com/maps?saddr=Hungarian+Parliament+Building,+Budapest&daddr=Shoes+on+the+Danube+Bank,+Budapest+to:Liberty+Square,+Budapest+to:St.+Stephen%27s+Basilica,+Budapest+to:Central+Market+Hall,+Budapest&output=embed&dirflg=w",
+        "open": "Route in Google Maps öffnen",
+        "title": "Innenstadt und Parlament",
+        "duration": "50 Min.",
+        "text": "Folgt der Donau vom Parlament bis zur Großen Markthalle."
+      },
+      {
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Heroes%27+Square,+Budapest&destination=Hungarian+National+Museum,+Budapest&waypoints=Vajdahunyad+Castle,+Budapest%7CSz%C3%A9chenyi+Thermal+Bath,+Budapest%7CHungarian+State+Opera,+Budapest&travelmode=walking",
+        "aria": "Route in Google Maps öffnen: Városliget und Palastviertel",
+        "embed": "https://maps.google.com/maps?saddr=Heroes%27+Square,+Budapest&daddr=Vajdahunyad+Castle,+Budapest+to:Sz%C3%A9chenyi+Thermal+Bath,+Budapest+to:Hungarian+State+Opera,+Budapest+to:Hungarian+National+Museum,+Budapest&output=embed&dirflg=w",
+        "open": "Route in Google Maps öffnen",
+        "title": "Városliget und Palastviertel",
+        "duration": "1 Std. 11 Min.",
+        "text": "Besichtigt Heldenplatz, Vajdahunyad-Burg und das Széchenyi-Bad."
+      },
+      {
+        "href": "https://www.google.com/maps/dir/?api=1&origin=Doh%C3%A1ny+Street+Synagogue,+Budapest&destination=Szimpla+Kert,+Budapest&waypoints=Rumbach+Street+Synagogue,+Budapest%7CKazinczy+Street+Synagogue,+Budapest%7CGozsdu+Courtyard,+Budapest&travelmode=walking",
+        "aria": "Route in Google Maps öffnen: Jüdisches Viertel",
+        "embed": "https://maps.google.com/maps?saddr=Doh%C3%A1ny+Street+Synagogue,+Budapest&daddr=Rumbach+Street+Synagogue,+Budapest+to:Kazinczy+Street+Synagogue,+Budapest+to:Gozsdu+Courtyard,+Budapest+to:Szimpla+Kert,+Budapest&output=embed&dirflg=w",
+        "open": "Route in Google Maps öffnen",
+        "title": "Jüdisches Viertel",
+        "duration": "21 Min.",
+        "text": "Besucht drei Synagogen, den Gozsdu-Hof und Szimpla Kert."
+      }
+    ]
+  },
+  "hotels": {
+    "heading": "Hotels",
+    "intro": "Hier findet ihr einige Übernachtungsmöglichkeiten in Budapest. Klickt auf den Namen eines Hotels, um dessen Seite zu besuchen:",
+    "mapTitle": "Karte der Hotels und des Veranstaltungsorts",
+    "mapHref": "https://www.google.com/maps/@/data=!3m1!4b1!4m3!11m2!2srDw9rxPcrDqmV2lp6Ob6Nw!3e3",
+    "mapAria": "Gespeicherte Hotel- und Veranstaltungsortkarte in Google Maps öffnen",
+    "mapAlt": "Kartenansicht mit Hotels und Európa Hajó in Budapest",
+    "mapOpen": "In Google Maps öffnen",
+    "list": [
+      {
+        "img": "hotel-ak7.webp",
+        "alt": "Foto von AK7 Boutique Suites",
+        "name": "AK7 Boutique Suites",
+        "href": "https://ak7-boutique-suites.hotels-budapest.com/en/"
+      },
+      {
+        "img": "hotel-panorama-central.jpg",
+        "alt": "Foto von Budapest Panorama Central",
+        "name": "Budapest Panorama Central",
+        "href": "https://www.ohb.hu/panoramacentral/index.en.html"
+      },
+      {
+        "img": "hotel-meininger-budapest.jpg",
+        "alt": "Gästezimmer im MEININGER Budapest Great Market Hall",
+        "name": "MEININGER Budapest Great Market Hall",
+        "href": "https://www.meininger-hotels.com/en/hotels/budapest/"
+      },
+      {
+        "img": "hotel-charles.jpg",
+        "alt": "Foto von Hotel Charles",
+        "name": "Hotel Charles",
+        "href": "https://www.charleshotel.hu/"
+      },
+      {
+        "img": "hotel-dormero.jpg",
+        "alt": "Foto von DORMERO Hotel Budapest",
+        "name": "DORMERO Hotel Budapest",
+        "href": "https://www.dormero.de/hotel-budapest/"
+      },
+      {
+        "img": "hotel-exe-budapest.jpg",
+        "alt": "Foto von Exe Budapest Center",
+        "name": "Exe Budapest Center",
+        "href": "https://www.eurostarshotels.com/exe-budapest-center.html"
+      }
+    ]
+  },
+  "credits": {
+    "heading": "Bildnachweise",
+    "intro": "Wir danken den Fotograf:innen und Quellen, deren Bilder uns dabei helfen, unseren Gästen Budapest näherzubringen.",
+    "items": [
+      "<strong>Ungarisches Parlament:</strong> Foto von Pierre Blaché, unter CC0 gemeinfrei veröffentlicht. <a href=\"https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_2023-9.jpg\">Bild und Angaben auf Wikimedia Commons ansehen</a>.",
+      "<strong>Fischerbastei:</strong> Bild aus dem für diese Website bereitgestellten Pinterest-Pin. <a href=\"https://ph.pinterest.com/pin/641059328208145770/\">Pin ansehen</a>.",
+      "<strong>Széchenyi-Bad:</strong> Bild aus dem <a href=\"https://szechenyibath.com/wp-content/uploads/2013/06/Szechenyi-Spa-Baths-Press-Photo-Outdoor-Pool.jpg\">Pressefoto der Széchenyi-Thermen</a>; Lizenzangaben sind nicht aufgeführt.",
+      "<strong>Veli Bej:</strong> Bild von BudapestInfo. <a href=\"https://www.budapestinfo.hu/storage/og-images/NbZtAOtS7Gf5a3A61nhBOTjgYRVIHIPq6fsZJ9KV.jpg\">Originalbild ansehen</a>.",
+      "<strong>Rudas-Bad:</strong> Bild aus einem vom Brautpaar bereitgestellten Bing-Images-Link; ursprünglicher Urheber und Lizenz sind nicht bekannt.",
+      "<strong>Szimpla Kert:</strong> Bild bereitgestellt von <a href=\"https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg\">Stern</a>.",
+      "<strong>Grandio Jungle Grill Bar:</strong> Bild bereitgestellt von <a href=\"https://www.nomadicmick.com/wp-content/uploads/2023/06/Ruin-Bars-Budapest-Grandio-Jungle-Grill-Bar-Hostel.jpg\">Nomadic Mick</a>.",
+      "<strong>Ungarisches Nationalmuseum:</strong> Bild von der Ticketseite des Museums; <a href=\"https://mnm.hu/\">offizielle Website</a>.",
+      "<strong>Museum der Bildenden Künste Budapest:</strong> Bild bereitgestellt von <a href=\"https://www.knykk.hu/hirek/wp-content/uploads/2025/03/Ahol-a-mult-talalkozik-a-jovovel-uj-kiallitasok-a-2048x1155.jpg\">KNYKK</a>; <a href=\"https://www.mfab.hu/\">offizielle Museumswebsite</a>.",
+      "<strong>Szimpla Kert:</strong> Bild bereitgestellt von <a href=\"https://image.stern.de/33776650/t/kY/v2/w1440/r1.7778/-/budapest-szimpla-kert.jpg\">Stern</a>.",
+      "<strong>Grandio Jungle Grill Bar:</strong> Bild bereitgestellt von <a href=\"https://www.nomadicmick.com/wp-content/uploads/2023/06/Ruin-Bars-Budapest-Grandio-Jungle-Grill-Bar-Hostel.jpg\">Nomadic Mick</a>.",
+      "<strong>Ungarisches Nationalmuseum:</strong> Bild von der Ticketseite des Museums; <a href=\"https://mnm.hu/\">offizielle Website</a>.",
+      "<strong>Museum der Bildenden Künste:</strong> Bild bereitgestellt von <a href=\"https://www.knykk.hu/hirek/wp-content/uploads/2025/03/Ahol-a-mult-talalkozik-a-jovovel-uj-kiallitasok-a-2048x1155.jpg\">KNYKK</a>."
+    ]
+  }
+}
